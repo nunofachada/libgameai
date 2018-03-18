@@ -6,8 +6,7 @@ namespace PathFinding
     public class Graph : IGraph
     {
 
-        private IConnection[][] connections;
-        private int numberOfNodes;
+        private IEnumerable<IConnection>[] connections;
 
         private class NodeRecord : IComparable<NodeRecord>
         {
@@ -28,9 +27,37 @@ namespace PathFinding
             }
         }
 
-        public Graph(IConnection[][] connections)
+        public int NumberOfNodes { get => connections.Length; }
+
+        public Graph(IEnumerable<IConnection>[] connections)
         {
             this.connections = connections;
+        }
+
+        public Graph(float[,] adjMatrix)
+        {
+            if (adjMatrix.GetLength(0) != adjMatrix.GetLength(1))
+            {
+                throw new Exception("Adjacency matrix must be square!");
+            }
+
+            connections = new IEnumerable<IConnection>[adjMatrix.GetLength(0)];
+
+            for (int i = 0; i < adjMatrix.GetLength(0); i++)
+            {
+                List<Connection> currList = new List<Connection>();
+
+                for (int j = 0; j < adjMatrix.GetLength(1); j++)
+                {
+                    if (adjMatrix[i, j] > 0.0f)
+                    {
+                        currList.Add(new Connection(adjMatrix[i, j], i, j));
+                    }
+                }
+
+                connections[i] = currList;
+
+            }
         }
 
         public IEnumerable<IConnection> GetConnections(int fromNode)
@@ -43,13 +70,13 @@ namespace PathFinding
 
             int current; 
             List<NodeRecord> open, closed;
-            NodeRecord[] nodeRecords = new NodeRecord[numberOfNodes];
+            NodeRecord[] nodeRecords = new NodeRecord[NumberOfNodes];
 
             // Initialize the record for the start node
             nodeRecords[start] = new NodeRecord(start);
 
             // There is no "current" node, set it to -1
-            current = -1; 
+            current = start; 
 
             // Initialize the open and closed lists
             open = new List<NodeRecord>() { nodeRecords[start] };

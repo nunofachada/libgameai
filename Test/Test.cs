@@ -8,7 +8,54 @@ namespace PathFinding
     {
         static void Main()
         {
-            IGraph graph = new Graph(
+            IGraph g = TestAM();
+            //ShowConns(g);
+            ShowPath(g.PathfindDijkstra(0, 7));
+
+        }
+
+        static void ShowConns(IGraph g)
+        {
+            for (int i = 0; i < g.NumberOfNodes; i++)
+            {
+                Console.WriteLine($"** Node {i} **");
+                foreach (Connection c in g.GetConnections(i))
+                {
+                    Console.WriteLine($"- from {c.FromNode} to {c.ToNode}: " +
+                    c.Cost);
+                }
+            }
+        }
+
+        static void ShowPath(IEnumerable<IConnection> conns)
+        {
+            foreach (IConnection c in conns)
+            {
+                Console.WriteLine($"Node {c.FromNode} to {c.ToNode}: " +
+                    c.Cost);
+            }
+        }
+
+        static IGraph TestAM()
+        {
+            return new Graph(
+                new float[,]
+                {
+                    { 0.0f, 0.2f, 0.0f, 1.2f, 0.0f, 0.0f, 9.5f, 0.0f},
+                    { 0.1f, 0.0f, 0.0f, 0.0f, 3.1f, 0.0f, 0.0f, 0.0f},
+                    { 0.0f, 2.3f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0f, 0.0f},
+                    { 4.5f, 0.0f, 0.0f, 0.0f, 3.5f, 0.0f, 0.0f, 0.0f},
+                    { 0.0f, 0.0f, 2.1f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f},
+                    { 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.1f},
+                    { 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.7f, 0.0f, 5.2f},
+                    { 0.0f, 0.0f, 0.0f, 0.0f, 0.3f, 0.0f, 0.0f, 0.0f}
+                }
+            );
+        }
+
+        static IGraph TestAL()
+        {
+            return new Graph(
                 new IConnection[][] {
                 new IConnection[]
                 {
@@ -41,11 +88,6 @@ namespace PathFinding
                 }
             );
 
-            foreach (Connection c in graph.PathfindDijkstra(0, 6))
-            {
-                Console.WriteLine($"Node {c.FromNode} to {c.ToNode}: " +
-                    c.Cost);
-            }
         }
 
     }
