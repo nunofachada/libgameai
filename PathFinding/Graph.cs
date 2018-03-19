@@ -168,18 +168,15 @@ namespace PathFinding
                         // a record for it
                         nodeRec = new NodeRecord(conn.ToNode);
                         nodeRecords[conn.ToNode] = nodeRec;
+
+                        // And add it to the open list
+                        open.Add(nodeRec);
                     }
 
                     // We're here if we need to update the node
                     // Update the cost and connection
                     nodeRec.CostSoFar = toNodeCost;
                     nodeRec.Connection = conn;
-
-                    // And add it to the open list, if it's not already there
-                    if (nrIndex < 0)
-                    {
-                        open.Add(nodeRec);
-                    }
                 }
 
                 // We've finished looking at the connections for the current
