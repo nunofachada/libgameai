@@ -8,9 +8,17 @@ namespace PathFinding
     {
         static void Main()
         {
-            IGraph g = TestAM();
+            IGraph g;
+
+            Console.WriteLine("=== Graph initialized with Adj. Matrix ===");
+            g = TestAM();
             //ShowConns(g);
             ShowPath(g.PathfindDijkstra(0, 7));
+
+            Console.WriteLine("=== Graph initialized with Adj. List ===");
+            g = TestAL();
+            //ShowConns(g);
+            ShowPath(g.PathfindDijkstra(0, 6));
 
         }
 
@@ -56,39 +64,38 @@ namespace PathFinding
         static IGraph TestAL()
         {
             return new Graph(
-                new IConnection[][] {
-                new IConnection[]
+                new IConnection[][]
                 {
-                    new Connection(1.3f, 0, 1),
-                    new Connection(1.6f, 0, 2),
-                    new Connection(3.3f, 0, 3)
-                },
-                new IConnection[]
-                {
-                    new Connection(1.5f, 1, 4),
-                    new Connection(1.9f, 1, 5)
-                },
-                new IConnection[]
-                {
-                    new Connection(1.3f, 2, 3)
-                },
-                new IConnection[]
-                {
-                },
-                new IConnection[]
-                {
-                },
-                new IConnection[]
-                {
-                    new Connection(1.4f, 5, 6)
-                },
-                new IConnection[]
-                {
-                }
+                    new IConnection[]
+                    {
+                        new Connection(1.3f, 0, 1),
+                        new Connection(1.6f, 0, 2),
+                        new Connection(3.3f, 0, 3)
+                    },
+                    new IConnection[]
+                    {
+                        new Connection(1.5f, 1, 4),
+                        new Connection(1.9f, 1, 5)
+                    },
+                    new IConnection[]
+                    {
+                        new Connection(1.3f, 2, 3)
+                    },
+                    new IConnection[]
+                    {
+                    },
+                    new IConnection[]
+                    {
+                    },
+                    new IConnection[]
+                    {
+                        new Connection(1.4f, 5, 6)
+                    },
+                    new IConnection[]
+                    {
+                    }
                 }
             );
-
         }
-
     }
 }
