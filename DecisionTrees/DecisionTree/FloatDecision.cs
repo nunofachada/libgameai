@@ -4,12 +4,17 @@
     {
         private float minValue, maxValue;
 
-        protected override IDecisionTreeNode GetBranch()
+        public FloatDecision(IDecisionTreeNode trueNode, IDecisionTreeNode falseNode, float minValue, float maxValue)
+            : base(trueNode, falseNode)
         {
-            if (maxValue >= (float)testObject)
-                return TrueNode;
-            else
-                return FalseNode;
+            this.minValue = minValue;
+            this.maxValue = maxValue;
+
+        }
+
+        protected override bool Test()
+        {
+            return (maxValue >= (float)testObject);
         }
     }
 }

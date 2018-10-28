@@ -2,14 +2,20 @@
 {
     public abstract class Decision : IDecisionTreeNode
     {
-        protected IDecisionTreeNode TrueNode, FalseNode;
-        protected object testObject;
 
-        protected abstract IDecisionTreeNode GetBranch();
+        private IDecisionTreeNode trueNode, falseNode;
+
+        protected abstract bool Test();
+
+        public Decision(IDecisionTreeNode trueNode, IDecisionTreeNode falseNode)
+        {
+            this.trueNode = trueNode;
+            this.falseNode = falseNode;
+        }
 
         public IDecisionTreeNode MakeDecision()
         {
-            IDecisionTreeNode branch = GetBranch();
+            IDecisionTreeNode branch = Test() ? trueNode : falseNode;
             return branch.MakeDecision();
         }
     }
