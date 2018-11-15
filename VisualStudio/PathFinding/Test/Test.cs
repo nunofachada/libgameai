@@ -13,12 +13,12 @@ namespace PathFinding
             Console.WriteLine("=== Graph initialized with Adj. Matrix ===");
             g = TestAM();
             //ShowConns(g);
-            ShowPath(g.PathfindDijkstra(0, 7));
+            ShowPath(Dijkstra.GetShortestPath(g, 0, 7));
 
             Console.WriteLine("=== Graph initialized with Adj. List ===");
             g = TestAL();
             //ShowConns(g);
-            ShowPath(g.PathfindDijkstra(0, 6));
+            ShowPath(Dijkstra.GetShortestPath(g, 0, 6));
 
         }
 

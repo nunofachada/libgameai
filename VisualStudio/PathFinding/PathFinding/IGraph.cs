@@ -7,6 +7,5 @@ namespace PathFinding
     {
         int NumberOfNodes { get;  }
         IEnumerable<IConnection> GetConnections(int fromNode);
-        IEnumerable<IConnection> PathfindDijkstra(int start, int goal);
     }
 }
