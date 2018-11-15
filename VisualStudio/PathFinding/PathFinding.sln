@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.27428.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PathFinding", "PathFinding\PathFinding.csproj", "{CBDE13E9-A5B2-4E51-A9DF-DD79A9745A38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{A894FABC-F333-464D-8722-1F2764F8A375}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDijkstra", "Test\TestDijkstra.csproj", "{A894FABC-F333-464D-8722-1F2764F8A375}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAStar", "TestAStar\TestAStar.csproj", "{1A6FE147-BEDD-4973-922D-AEAF0543338C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A894FABC-F333-464D-8722-1F2764F8A375}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A894FABC-F333-464D-8722-1F2764F8A375}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A894FABC-F333-464D-8722-1F2764F8A375}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A6FE147-BEDD-4973-922D-AEAF0543338C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A6FE147-BEDD-4973-922D-AEAF0543338C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A6FE147-BEDD-4973-922D-AEAF0543338C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A6FE147-BEDD-4973-922D-AEAF0543338C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
