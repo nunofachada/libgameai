@@ -1,20 +1,30 @@
-﻿namespace DecisionTree
+﻿using System;
+
+public class FloatDecision : Decision
 {
-    public class FloatDecision : Decision
+    private float minValue, maxValue;
+
+    private Func<float> getValueToTest;
+
+    public FloatDecision(IDTNode trueNode, IDTNode falseNode,
+        float minValue, float maxValue, Func<float> getValueToTest)
+        : base(trueNode, falseNode)
     {
-        private float minValue, maxValue;
+        this.minValue = minValue;
+        this.maxValue = maxValue;
+        this.getValueToTest = getValueToTest;
+    }
 
-        public FloatDecision(IDecisionTreeNode trueNode, IDecisionTreeNode falseNode, float minValue, float maxValue)
-            : base(trueNode, falseNode)
+    protected override bool Test()
+    {
+        float valueToTest = getValueToTest();
+        if (valueToTest >= minValue && valueToTest <= maxValue)
         {
-            this.minValue = minValue;
-            this.maxValue = maxValue;
-
+            return true;
         }
-
-        protected override bool Test()
+        else
         {
-            return (maxValue >= (float)testObject);
+            return false;
         }
     }
 }

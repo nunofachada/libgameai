@@ -1,5 +1,4 @@
 ﻿using System;
-using DecisionTree;
 
 namespace TestDT
 {
@@ -7,7 +6,7 @@ namespace TestDT
     {
         static void Main(string[] args)
         {
-            GameAction a1 = new GameAction("lala");
+           
         }
     }
 }

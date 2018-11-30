@@ -1,22 +1,18 @@
-﻿namespace DecisionTree
+﻿using System;
+
+public class BooleanDecision : Decision
 {
-    class BooleanDecision : Decision
+    private Func<bool> getValueToTest;
+
+    public BooleanDecision(
+        IDTNode trueNode, IDTNode falseNode, Func<bool> getValueToTest)
+        : base(trueNode, falseNode)
     {
-        private bool decision;
+        this.getValueToTest = getValueToTest;
+    }
 
-        public BooleanDecision(IDecisionTreeNode trueNode, IDecisionTreeNode falseNode, bool decision)
-            : base(trueNode, falseNode)
-        {
-            this.decision = decision;
-
-        }
-
-        protected override IDecisionTreeNode GetBranch()
-        {
-            if (decision)
-                return trueNode;
-            else
-                return falseNode;
-        }
+    protected override bool Test()
+    {
+        return getValueToTest();
     }
 }

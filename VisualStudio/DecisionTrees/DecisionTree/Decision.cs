@@ -1,22 +1,17 @@
-﻿namespace DecisionTree
+﻿public abstract class Decision : IDTNode
 {
-    public abstract class Decision : IDecisionTreeNode
+    private IDTNode trueNode, falseNode;
+    protected abstract bool Test();
+
+    public Decision(
+      IDTNode trueNode, IDTNode falseNode)
     {
-
-        private IDecisionTreeNode trueNode, falseNode;
-
-        protected abstract bool Test();
-
-        public Decision(IDecisionTreeNode trueNode, IDecisionTreeNode falseNode)
-        {
-            this.trueNode = trueNode;
-            this.falseNode = falseNode;
-        }
-
-        public IDecisionTreeNode MakeDecision()
-        {
-            IDecisionTreeNode branch = Test() ? trueNode : falseNode;
-            return branch.MakeDecision();
-        }
+        this.trueNode = trueNode;
+        this.falseNode = falseNode;
+    }
+    public IDTNode MakeDecision()
+    {
+        IDTNode branch = Test() ? trueNode : falseNode;
+        return branch.MakeDecision();
     }
 }
