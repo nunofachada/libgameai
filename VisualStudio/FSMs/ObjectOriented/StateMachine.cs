@@ -3,7 +3,6 @@ using System.Collections.Generic;
 
 public class StateMachine
 {
-    //private IList<State> states;
 
     private State currentState;
 
@@ -48,6 +47,8 @@ public class StateMachine
             return actions;
 
         }
+
+        // Return the action for the current state
         return currentState.StateAction;
     }
 
