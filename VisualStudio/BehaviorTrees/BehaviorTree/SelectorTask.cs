@@ -15,11 +15,12 @@ namespace BehaviorTree
         public SelectorTask(params ITask[] tasks) : base(tasks) {}
 
         // Invokes the child tasks and returns as soon as one them returns true
-        public override bool Run() {
+        public override TaskResult Run() {
             foreach (ITask child in Children) {
-                if (child.Run()) return true;
+                TaskResult result = child.Run();
+                if (result != TaskResult.Failure) return result;
             }
-            return false;
+            return TaskResult.Failure;
         }
     }
 }

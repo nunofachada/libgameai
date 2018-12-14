@@ -15,13 +15,14 @@ namespace BehaviorTree
         public SequenceTask(params ITask[] tasks) : base(tasks) { }
 
         // Invokes the child tasks and returns as soon as one them returns false
-        public override bool Run()
+        public override TaskResult Run()
         {
             foreach (ITask child in Children)
             {
-                if (!child.Run()) return false;
+                TaskResult result = child.Run();
+                if (result != TaskResult.Success) return result;
             }
-            return true;
+            return TaskResult.Success;
         }
     }
 }

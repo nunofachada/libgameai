@@ -10,6 +10,6 @@ namespace BehaviorTree
     // All behavior tree tasks are represented by this interface
     public interface ITask
     {
-        bool Run();
+        TaskResult Run();
     }
 }

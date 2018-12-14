@@ -15,23 +15,26 @@ namespace BehaviorTree
             Random rnd = new Random();
 
             ITask getMatches = new LeafTask(
-                () => { Console.WriteLine("Get matches"); return true; });
+                () => { Console.WriteLine("Get matches"); return TaskResult.Success; });
             ITask getGasoline = new LeafTask(
-                () => { Console.WriteLine("Get gasoline"); return true; });
+                () => { Console.WriteLine("Get gasoline"); return TaskResult.Success; });
             CompositeTask ndSeq = new NonDeterministicSequenceTask(
                 rnd.Next, getMatches, getGasoline);
             ITask douseDoor = new LeafTask(
-                () => { Console.WriteLine("Douse Door"); return true; });
+                () => { Console.WriteLine("Douse Door"); return TaskResult.Success; });
             ITask igniteDoor = new LeafTask(
-                () => { Console.WriteLine("Ignite Door"); return true; });
+                () => { Console.WriteLine("Ignite Door"); return TaskResult.Success; });
             CompositeTask dSeq = new SequenceTask(ndSeq, douseDoor, igniteDoor);
             ITask bargeDoor = new LeafTask(
-                () => { if (rnd.NextDouble() < 0.3) { Console.WriteLine("Barge Door"); return true; } return false; });
+                () => { if (rnd.NextDouble() < 0.3) {
+                    Console.WriteLine("Barge Door"); return TaskResult.Success; } return TaskResult.Failure; });
             CompositeTask ndSel = new NonDeterministicSelectorTask(rnd.Next, bargeDoor, dSeq);
             ITask entering = new LeafTask(
-                () => { if (rnd.NextDouble() < 0.3) { Console.WriteLine("Entering..."); return true; } return false; });
+                () => { if (rnd.NextDouble() < 0.3) {
+                    Console.WriteLine("Entering..."); return TaskResult.Success; } return TaskResult.Failure; });
             ITask openDoor = new LeafTask(
-                () => { if (rnd.NextDouble() < 0.3) { Console.WriteLine("Open door..."); return true; } return false; });
+                () => { if (rnd.NextDouble() < 0.3) {
+                    Console.WriteLine("Open door..."); return TaskResult.Success; } return TaskResult.Failure; });
             CompositeTask dSel = new SelectorTask(entering, openDoor, ndSel);
             ITask bt = dSel;
 

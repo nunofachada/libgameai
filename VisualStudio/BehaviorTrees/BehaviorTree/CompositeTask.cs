@@ -24,6 +24,6 @@ namespace BehaviorTree
         }
 
         // Subclasses should implement this method
-        public abstract bool Run();
+        public abstract TaskResult Run();
     }
 }

@@ -24,9 +24,9 @@ namespace BehaviorTree
 
         // Run the decorated task if number of runs is not higher than the run
         // limit
-        public override bool Run()
+        public override TaskResult Run()
         {
-            if (runSoFar >= runLimit) return false;
+            if (runSoFar >= runLimit) return TaskResult.Failure;
             runSoFar++;
             return DecoratedTask.Run();
         }

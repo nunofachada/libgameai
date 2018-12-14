@@ -26,16 +26,17 @@ namespace BehaviorTree
 
         // Invokes the child tasks in random order and returns as soon as one
         // them returns true
-        public override bool Run()
+        public override TaskResult Run()
         {
             ITask[] tasks = new ITask[Children.Count];
             Children.CopyTo(tasks, 0);
             tasks.Shuffle(nextInt);
             foreach (ITask child in tasks)
             {
-                if (child.Run()) return true;
+                TaskResult result = child.Run();
+                if (result != TaskResult.Failure) return result;
             }
-            return false;
+            return TaskResult.Failure;
         }
 
     }

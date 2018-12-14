@@ -19,9 +19,18 @@ namespace BehaviorTree
         }
 
         // Run the decorated task and return the opposite execution result
-        public override bool Run()
+        public override TaskResult Run()
         {
-            return !DecoratedTask.Run();
+            TaskResult result = DecoratedTask.Run();
+            switch (result)
+            {
+                case TaskResult.Success:
+                    return TaskResult.Failure;
+                case TaskResult.Failure:
+                    return TaskResult.Success;
+                default:
+                    return TaskResult.Running;
+            }
         }
     }
 }

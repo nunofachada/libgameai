@@ -15,16 +15,16 @@ namespace BehaviorTree
     {
         // The task to perform
 
-        private readonly Func<bool> task;
+        private readonly Func<TaskResult> task;
 
         // Constructor, requires the task to perform
-        public LeafTask(Func<bool> task)
+        public LeafTask(Func<TaskResult> task)
         {
             this.task = task;
         }
 
         // Execute the task
-        public bool Run()
+        public TaskResult Run()
         {
             return task();
         }

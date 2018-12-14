@@ -20,10 +20,10 @@ namespace BehaviorTree
         }
 
         // Run the decorated task until it fails
-        public override bool Run()
+        public override TaskResult Run()
         {
-            while (DecoratedTask.Run());
-            return true;
+            while (DecoratedTask.Run() == TaskResult.Success);
+            return TaskResult.Success;
         }
 
     }
