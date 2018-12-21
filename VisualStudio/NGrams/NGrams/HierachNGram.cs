@@ -13,14 +13,14 @@ namespace NGrams
         // Array of N-Grams
         private NGram<T>[] predictors;
 
-        // The N in N-Gram
-        private int nValue;
+        // The N in N-Gram (window size + 1)
+        public int NValue { get; }
 
         // Constructor
-        public HierarchNGram(int windowSize, int threshold)
+        public HierarchNGram(int nValue, int threshold)
         {
             // Keep the N value
-            nValue = windowSize + 1;
+            NValue = nValue;
             // Keep the threshold
             this.threshold = threshold;
             // Instantiate the array of N-Grams
@@ -35,14 +35,14 @@ namespace NGrams
         public void RegisterSequence(T[] actions)
         {
             // Register the sequence of actions in each Ni-Gram
-            for (int i = 0; i < nValue; i++)
+            for (int i = 0; i < NValue; i++)
             {
                 if (actions.Length >= i + 1)
                 {
                     // Create array of actions for the current Ni-Gram
                     T[] subactions = new T[i + 1];
                     // Copy the actions to the array of actions for the current Ni-Gram
-                    Array.Copy(actions, nValue - i - 1, subactions, 0, i + 1);
+                    Array.Copy(actions, NValue - i - 1, subactions, 0, i + 1);
                     // Register the sequence of actions in the current Ni-Gram
                     predictors[i].RegisterSequence(subactions);
                 }
@@ -58,22 +58,23 @@ namespace NGrams
             T bestAction = default(T);
 
             // Go through the various Ni-Grams
-            for (int i = 0; i < nValue; i++)
+            for (int i = 0; i < NValue; i++)
             {
                 // Get current Ni-Gram
-                NGram<T> p = predictors[nValue - i - 1];
+                NGram<T> p = predictors[NValue - i - 1];
                 // Create array of actions for the current Ni-Gram
-                T[] subactions = new T[nValue - i - 1];
+                T[] subactions = new T[NValue - i - 1];
                 // Copy the actions to the array of actions for the current
                 // Ni-Gram
-                Array.Copy(actions, i, subactions, 0, nValue - i - 1);
+                Array.Copy(actions, i, subactions, 0, NValue - i - 1);
                 // Get frequency of action sequence in the current Ni-Gram
                 int numActions = p.GetActionsNum(subactions);
+
                 // Is that frequency larger than the threshold?
                 if (numActions > threshold)
                 {
                     // Then use this action
-                    bestAction = p.GetMostLikely(actions);
+                    bestAction = p.GetMostLikely(subactions);
                     break;
                 }
             }

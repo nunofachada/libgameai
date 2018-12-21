@@ -43,6 +43,7 @@ namespace NGrams
         public ActionFrequency()
         {
             actionFrequencies = new Dictionary<T, int>();
+            Total = 0;
         }
 
         public void IncrementAction(T action)

@@ -2,6 +2,9 @@ namespace NGrams
 {
     public interface INGram<T>
     {
+        // The N in N-Gram (window size + 1)
+        int NValue { get; }
+
         // Register a sequence of actions
         void RegisterSequence(T[] actions);
 

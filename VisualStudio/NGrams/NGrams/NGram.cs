@@ -8,15 +8,16 @@ namespace NGrams
     public class NGram<T> : INGram<T>
     {
         // The N in N-Gram (window size + 1)
-        private int nValue;
+        public int NValue { get; }
+
         // Dictionary which relates a sequence to a set of actions and
         // probabilities
         private Dictionary<string, ActionFrequency<T>> data;
 
-        // Constructor, accepts the window size
-        public NGram(int windowSize)
+        // Constructor, accepts the N in N-Gram
+        public NGram(int nValue)
         {
-            nValue = windowSize + 1;
+            NValue = nValue;
             data = new Dictionary<string, ActionFrequency<T>>();
         }
 
@@ -36,11 +37,11 @@ namespace NGrams
         {
 
             // Can only register sequence if its size N
-            if (actions.Length == nValue)
+            if (actions.Length == NValue)
             {
 
                 // Previous actions
-                T[] prevActions = new T[nValue - 1];
+                T[] prevActions = new T[NValue - 1];
 
                 // Previous actions in key form
                 string prevActionsKey;
@@ -49,8 +50,8 @@ namespace NGrams
                 T actionPerformed;
 
                 // Split the sequence into a key and value
-                Array.ConstrainedCopy(actions, 0, prevActions, 0, nValue - 1);
-                actionPerformed = actions[nValue - 1];
+                Array.ConstrainedCopy(actions, 0, prevActions, 0, NValue - 1);
+                actionPerformed = actions[NValue - 1];
                 prevActionsKey = ArrayToStringKey(prevActions);
 
                 // Check if our data contains the key (i.e. sequence of actions)
@@ -59,11 +60,11 @@ namespace NGrams
                     data[prevActionsKey] = new ActionFrequency<T>();
 
                 // Get the data record for this sequence of actions
-                ActionFrequency<T> af = data[prevActionsKey];
+                ActionFrequency<T> actionFrequency = data[prevActionsKey];
 
                 // Increment the number of times this action was performed
                 // after the given sequence of actions
-                af.IncrementAction(actionPerformed);
+                actionFrequency.IncrementAction(actionPerformed);
             }
         }
 
@@ -75,19 +76,20 @@ namespace NGrams
             T bestAction = default(T);
 
             // The actions array must have the window size
-            if (actions.Length == nValue - 1)
+            if (actions.Length == NValue - 1)
             {
                 // First, convert sequence of actions to string (i.e. the key)
                 string key = ArrayToStringKey(actions);
 
                 // The data record for this sequence of actions
-                ActionFrequency<T> af;
+                ActionFrequency<T> actionFrequency;
 
                 // Try to get the best action for the given sequence of actions
-                if (data.TryGetValue(key, out af))
+                if (data.TryGetValue(key, out actionFrequency))
                 {
-                    bestAction = af.BestAction;
+                    bestAction = actionFrequency.BestAction;
                 }
+                Console.WriteLine(bestAction.ToString());
             }
 
             // Return the most likely/most frequent action
@@ -101,7 +103,7 @@ namespace NGrams
             // Number of times this sequence of actions has been seen
             int actionCount = 0;
 
-            if (actions.Length == nValue - 1)
+            if (actions.Length == NValue - 1)
             {
                 // First, convert sequence of actions to string (i.e. the key)
                 string key = ArrayToStringKey(actions);
