@@ -1,3 +1,9 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * Author: Nuno Fachada
+ * */
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
@@ -33,6 +39,7 @@ namespace NGrams
         }
 
         // Register a sequence of actions
+        // The actions array should be of size N
         public void RegisterSequence(T[] actions)
         {
 
@@ -69,7 +76,7 @@ namespace NGrams
         }
 
         // Get the most likely action given a sequence of actions
-        // actions should be of size N-1
+        // The actions array should be of size N-1
         public T GetMostLikely(T[] actions)
         {
             // The most likely action, initially set to its default value
