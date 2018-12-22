@@ -8,8 +8,9 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            //INGram<char> predictor = new HierarchNGram<char>(5, 3);
-            INGram<char> predictor = new NGram<char>(5);
+            int nValue = 5;
+            //INGram<char> predictor = new HierarchNGram<char>(nValue, 3);
+            INGram<char> predictor = new NGram<char>(nValue);
             List<char> listOfChars = new List<char>();
             ConsoleKey k;
             int yes = 0, no = 0;
@@ -28,10 +29,10 @@ namespace Test
                         break;
                 }
 
-                if (listOfChars.Count == 6)
+                if (listOfChars.Count == nValue)
                 {
-                    Console.WriteLine($"You entered '{listOfChars[5]}', I predicted '{prediction}'");
-                    if (listOfChars[5] == prediction) yes++; else no++;
+                    Console.WriteLine($"You entered '{listOfChars[nValue-1]}', I predicted '{prediction}'");
+                    if (listOfChars[nValue-1] == prediction) yes++; else no++;
                     predictor.RegisterSequence(listOfChars.ToArray());
                     listOfChars.RemoveAt(0);
                     prediction = predictor.GetMostLikely(listOfChars.ToArray());

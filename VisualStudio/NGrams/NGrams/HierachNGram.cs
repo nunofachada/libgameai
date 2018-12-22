@@ -41,7 +41,8 @@ namespace NGrams
                 {
                     // Create array of actions for the current Ni-Gram
                     T[] subactions = new T[i + 1];
-                    // Copy the actions to the array of actions for the current Ni-Gram
+                    // Copy the actions to the array of actions for the current
+                    // Ni-Gram
                     Array.Copy(actions, NValue - i - 1, subactions, 0, i + 1);
                     // Register the sequence of actions in the current Ni-Gram
                     predictors[i].RegisterSequence(subactions);
@@ -68,7 +69,7 @@ namespace NGrams
                 // Ni-Gram
                 Array.Copy(actions, i, subactions, 0, NValue - i - 1);
                 // Get frequency of action sequence in the current Ni-Gram
-                int numActions = p.GetActionsNum(subactions);
+                int numActions = p.GetActionsFrequency(subactions);
 
                 // Is that frequency larger than the threshold?
                 if (numActions > threshold)

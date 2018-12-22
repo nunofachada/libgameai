@@ -64,7 +64,7 @@ namespace NGrams
 
                 // Increment the number of times this action was performed
                 // after the given sequence of actions
-                actionFrequency.IncrementAction(actionPerformed);
+                actionFrequency.IncrementFrequency(actionPerformed);
             }
         }
 
@@ -89,7 +89,6 @@ namespace NGrams
                 {
                     bestAction = actionFrequency.BestAction;
                 }
-                Console.WriteLine(bestAction.ToString());
             }
 
             // Return the most likely/most frequent action
@@ -97,8 +96,8 @@ namespace NGrams
         }
 
         // Return the number of times this sequence has been seen
-        // actions should be of size N-1
-        public int GetActionsNum(T[] actions)
+        // The actions array should be of size N-1
+        public int GetActionsFrequency(T[] actions)
         {
             // Number of times this sequence of actions has been seen
             int actionCount = 0;

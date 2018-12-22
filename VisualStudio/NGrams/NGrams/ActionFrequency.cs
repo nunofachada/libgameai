@@ -9,19 +9,19 @@ namespace NGrams
         // This dictionary relates actions and their frequencies
         private Dictionary<T, int> actionFrequencies;
 
-        // Number of times the sequence associated to this action has been
+        // Number of times the sequence associated to these actions has been
         // executed
         public int Total { get; private set; }
 
-        // More likely action
+        // Property which represents the most likely/frequent action
         public T BestAction
         {
             get
             {
                 // The highest frequency of an action
                 int highestFreq = 0;
-                // The best action
-                T bestAction = default(T);
+                // The most likely action
+                T likelyAction = default(T);
 
                 // Cycle through action-frequency pairs
                 foreach (KeyValuePair<T, int> kvp in actionFrequencies)
@@ -29,13 +29,13 @@ namespace NGrams
                     // If current action is the most frequent so far, keep it
                     if (kvp.Value > highestFreq)
                     {
-                        bestAction = kvp.Key;
+                        likelyAction = kvp.Key;
                         highestFreq = kvp.Value;
                     }
                 }
 
-                // Return the best action
-                return bestAction;
+                // Return the more likely/frequent action
+                return likelyAction;
             }
         }
 
@@ -46,13 +46,19 @@ namespace NGrams
             Total = 0;
         }
 
-        public void IncrementAction(T action)
+        // Increment the frequency of the specified action
+        public void IncrementFrequency(T action)
         {
+            // If the current action is not in the action-frequency dictionary
+            // add it with frequency equal to zero
             if (!actionFrequencies.ContainsKey(action))
                 actionFrequencies[action] = 0;
+
+            // Increment frequency associated with this action
             actionFrequencies[action]++;
+
+            // Increment the total frequency for this set of actions
             Total++;
         }
-
     }
 }
