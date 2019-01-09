@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 namespace NaiveBayes
 {
-    public class AttribCount
+    internal class AttribCount
     {
         private IDictionary<string, int> counts;
 

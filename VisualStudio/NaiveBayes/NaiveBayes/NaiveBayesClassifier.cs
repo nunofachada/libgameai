@@ -64,9 +64,11 @@ namespace NaiveBayes
             {
                 int labelCount = labelsCount[label];
                 double p = NaiveProbabilities(
-                    label,
-                    attribValues, attribValueCounts[label],
-                    labelCount, totalCounts);
+                    attribValues,
+                    attribValueCounts[label],
+                    labelCount,
+                    totalCounts);
+
                 if (p > bestP)
                 {
                     bestP = p;
@@ -78,8 +80,7 @@ namespace NaiveBayes
             return bestLabel;
         }
 
-        public double NaiveProbabilities(
-            string label,
+        private double NaiveProbabilities(
             IDictionary<Attrib, string> attribValues,
             IDictionary<Attrib, AttribCount> counts,
             double labelCount,
@@ -94,10 +95,7 @@ namespace NaiveBayes
             foreach (Attrib attribute in attribValues.Keys)
             {
                 p /= labelCount;
-                if (attribValues[attribute] == label)
-                    p *= counts[attribute].GetCount(label);
-                else
-                    p *= labelCount - counts[attribute].GetCount(label);
+                p *= counts[attribute].GetCount(attribValues[attribute]);
             }
 
             return prior * p;
