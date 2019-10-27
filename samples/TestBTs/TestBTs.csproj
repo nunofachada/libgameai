@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\BehaviorTrees\BehaviorTrees.csproj" />
+    <ProjectReference Include="..\..\lib\BehaviorTrees\BehaviorTrees.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

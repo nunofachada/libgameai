@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\NaiveBayes\NaiveBayes.csproj" />
+    <ProjectReference Include="..\..\lib\NaiveBayes\NaiveBayes.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

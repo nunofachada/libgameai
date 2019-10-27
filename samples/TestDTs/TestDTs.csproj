@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\DecisionTrees\DecisionTrees.csproj" />
+    <ProjectReference Include="..\..\lib\DecisionTrees\DecisionTrees.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

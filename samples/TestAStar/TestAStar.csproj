@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\PathFinding\PathFinding.csproj" />
+    <ProjectReference Include="..\..\lib\PathFinding\PathFinding.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
