@@ -13,9 +13,9 @@ namespace LibGameAI.Samples.TestAStar
 {
     class Program
     {
-        static void Main()
+        private static void Main()
         {
-            IGraph g;
+            //IGraph g;
 
             Tuple<IGraph, float[]> data = GetData1();
             //ShowConns(g);
@@ -25,7 +25,7 @@ namespace LibGameAI.Samples.TestAStar
 
         }
 
-        static void ShowConns(IGraph g)
+        private static void ShowConns(IGraph g)
         {
             for (int i = 0; i < g.NumberOfNodes; i++)
             {
@@ -38,7 +38,7 @@ namespace LibGameAI.Samples.TestAStar
             }
         }
 
-        static void ShowPath(IEnumerable<IConnection> conns)
+        private static void ShowPath(IEnumerable<IConnection> conns)
         {
             foreach (IConnection c in conns)
             {
@@ -47,7 +47,7 @@ namespace LibGameAI.Samples.TestAStar
             }
         }
 
-        static Tuple<IGraph, float[]> GetData1()
+        private static Tuple<IGraph, float[]> GetData1()
         {
             return new Tuple<IGraph, float[]>(
                 new Graph(
@@ -84,8 +84,7 @@ namespace LibGameAI.Samples.TestAStar
              );
         }
 
-
-        static Tuple<IGraph, float[]> GetData2()
+        private static Tuple<IGraph, float[]> GetData2()
         {
             return new Tuple<IGraph, float[]>(
                 new Graph(

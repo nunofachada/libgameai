@@ -15,7 +15,6 @@ namespace LibGameAI.PathFinding
         // The graph is internally represented using an adjacency list
         private IEnumerable<IConnection>[] connections;
 
-
         /// <summary>
         /// Number of nodes in this graph.
         /// </summary>
@@ -41,18 +40,18 @@ namespace LibGameAI.PathFinding
             // Adjacency matrix must be square
             if (adjMatrix.GetLength(0) != adjMatrix.GetLength(1))
             {
-                throw new Exception("Adjacency matrix must be square!");
+                throw new ArgumentException("Adjacency matrix must be square!");
             }
 
             // Initialize the internal adjacency list which defines this graph
             connections = new IEnumerable<IConnection>[adjMatrix.GetLength(0)];
 
-            // Cycle through the adjaceny matrix and build the internal
+            // Cycle through the adjacency matrix and build the internal
             // adjacency list
             for (int i = 0; i < adjMatrix.GetLength(0); i++)
             {
                 // Create list for current node
-                List<Connection> currList = new List<Connection>();
+                List<IConnection> currList = new List<IConnection>();
 
                 // Populate list for current node
                 for (int j = 0; j < adjMatrix.GetLength(1); j++)
