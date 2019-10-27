@@ -4,6 +4,7 @@
  *
  * Author: Nuno Fachada
  * */
+
 namespace LibGameAI.NGrams
 {
     public interface INGram<T>
