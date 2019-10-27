@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestNaiveBayes", "TestNaive
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestNGrams", "TestNGrams\TestNGrams.csproj", "{AAC9574C-9221-4579-A226-7221E546CA35}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFSMs", "TestFSMs\TestFSMs.csproj", "{26D4E40C-A730-4F80-B791-C08559E4B1A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -100,5 +102,17 @@ Global
 		{AAC9574C-9221-4579-A226-7221E546CA35}.Release|x64.Build.0 = Release|Any CPU
 		{AAC9574C-9221-4579-A226-7221E546CA35}.Release|x86.ActiveCfg = Release|Any CPU
 		{AAC9574C-9221-4579-A226-7221E546CA35}.Release|x86.Build.0 = Release|Any CPU
+		{26D4E40C-A730-4F80-B791-C08559E4B1A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26D4E40C-A730-4F80-B791-C08559E4B1A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26D4E40C-A730-4F80-B791-C08559E4B1A1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{26D4E40C-A730-4F80-B791-C08559E4B1A1}.Debug|x64.Build.0 = Debug|Any CPU
+		{26D4E40C-A730-4F80-B791-C08559E4B1A1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{26D4E40C-A730-4F80-B791-C08559E4B1A1}.Debug|x86.Build.0 = Debug|Any CPU
+		{26D4E40C-A730-4F80-B791-C08559E4B1A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26D4E40C-A730-4F80-B791-C08559E4B1A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26D4E40C-A730-4F80-B791-C08559E4B1A1}.Release|x64.ActiveCfg = Release|Any CPU
+		{26D4E40C-A730-4F80-B791-C08559E4B1A1}.Release|x64.Build.0 = Release|Any CPU
+		{26D4E40C-A730-4F80-B791-C08559E4B1A1}.Release|x86.ActiveCfg = Release|Any CPU
+		{26D4E40C-A730-4F80-B791-C08559E4B1A1}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
