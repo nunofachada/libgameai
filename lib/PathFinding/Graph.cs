@@ -13,19 +13,19 @@ namespace LibGameAI.PathFinding
     public class Graph : IGraph
     {
         // The graph is internally represented using an adjacency list
-        private IEnumerable<IConnection>[] connections;
+        private IList<IEnumerable<IConnection>> connections;
 
         /// <summary>
         /// Number of nodes in this graph.
         /// </summary>
-        public int NumberOfNodes { get => connections.Length; }
+        public int NumberOfNodes { get => connections.Count; }
 
         /// <summary>
         /// Create new graph using an adjacency list.
         /// </summary>
         /// <param name="connections">Adjacency list with which to create
         /// graph.</param>
-        public Graph(IEnumerable<IConnection>[] connections)
+        public Graph(IList<IEnumerable<IConnection>> connections)
         {
             this.connections = connections;
         }
