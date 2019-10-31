@@ -13,17 +13,19 @@ namespace LibGameAI.Samples.TestAStar
 {
     class Program
     {
+        private static Tuple<IGraph, float[]> data;
+
         private static void Main()
         {
-            //IGraph g;
 
-            Tuple<IGraph, float[]> data = GetData1();
-            //ShowConns(g);
+            data = GetData1();
             IEnumerable<IConnection> conns =
-                AStar.GetPath(data.Item1, 0, 5, data.Item2);
+                AStar.GetPath(data.Item1, 0, 5, HeuristicFunc);
             ShowPath(conns);
 
         }
+
+        private static float HeuristicFunc(int node) => data.Item2[node];
 
         private static void ShowConns(IGraph g)
         {
