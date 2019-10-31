@@ -27,11 +27,13 @@ namespace LibGameAI.Samples.TestAStar
 
         private static void ShowConns(IGraph g)
         {
-            for (int i = 0; i < g.NumberOfNodes; i++)
+            int maxNode = 0;
+            for (int i = 0; i <= maxNode; i++)
             {
                 Console.WriteLine($"** Node {i} **");
                 foreach (Connection c in g.GetConnections(i))
                 {
+                    if (c.ToNode > maxNode) maxNode = c.ToNode;
                     Console.WriteLine($"- from {c.FromNode} to {c.ToNode}: " +
                     c.Cost);
                 }
