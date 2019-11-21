@@ -66,7 +66,7 @@ namespace LibGameAI.DecisionTrees
                 || getFrameFunc() > timeoutFrame)
             {
                 // Make a new decision and store it
-                lastDecision = nextRandValFunc() > trueProb;
+                lastDecision = nextRandValFunc() < trueProb;
 
                 // Schedule the next new decision
                 timeoutFrame = getFrameFunc() + timeout;
