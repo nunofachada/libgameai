@@ -9,6 +9,9 @@ namespace LibGameAI.DecisionTrees
 {
     public interface IGameAction
     {
-        void DoGameAction();
+        /// <summary>
+        /// Execute the game action.
+        /// </summary>
+        void Execute();
     }
 }

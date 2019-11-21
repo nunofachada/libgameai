@@ -7,8 +7,14 @@
 
 namespace LibGameAI.DecisionTrees
 {
-    public interface IDTNode
+    public interface IDecisionTreeNode
     {
-        IDTNode MakeDecision();
+        /// <summary>
+        /// Make a decision.
+        /// </summary>
+        /// <returns>
+        /// A DT node, which will depend wether the decision was true or false.
+        /// </returns>
+        IDecisionTreeNode MakeDecision();
     }
 }
