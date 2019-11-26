@@ -9,24 +9,32 @@ using System;
 
 namespace LibGameAI.FSMs
 {
+    /// <summary>
+    /// A transition between states.
+    /// </summary>
     public class Transition
     {
 
-        public Action TransAction { get; }
+        // Actions associated with this transition
+        public Action Actions { get; }
+        // Target state for this transition
         public State TargetState { get; }
 
+        // The condition for triggering this transition
         private Func<bool> condition;
 
+        // Is this transition triggered?
         public bool IsTriggered()
         {
             return condition();
         }
 
+        // Create a new transition
         public Transition(
-            Func<bool> condition, Action transAction, State targetState)
+            Func<bool> condition, Action actions, State targetState)
         {
             this.condition = condition;
-            TransAction = transAction;
+            Actions = actions;
             TargetState = targetState;
         }
     }
