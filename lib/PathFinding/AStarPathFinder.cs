@@ -12,6 +12,12 @@ namespace LibGameAI.PathFinding
 {
     public class AStarPathFinder : IPathFinder
     {
+        // Auxiliary collections
+        private List<NodeRecord> open, closed;
+        private IDictionary<int, NodeRecord> nodeRecords;
+        private Stack<IConnection> path;
+
+        // Heuristic in use
         private Func<int, float> heuristics;
 
         /// <summary>
@@ -40,9 +46,21 @@ namespace LibGameAI.PathFinding
             }
         }
 
+        /// <summary>
+        /// Create a new A* path finder.
+        /// </summary>
+        /// <param name="heuristics">Heuristic function to use.</param>
         public AStarPathFinder(Func<int, float> heuristics)
         {
+            // Keep reference to the heuristic function
             this.heuristics = heuristics;
+
+            // Initialize the auxiliary collections
+            open = new List<NodeRecord>();
+            closed = new List<NodeRecord>();
+            nodeRecords = new Dictionary<int, NodeRecord>();
+            path = new Stack<IConnection>();
+
         }
 
         /// <summary>
@@ -59,11 +77,13 @@ namespace LibGameAI.PathFinding
         public IEnumerable<IConnection> FindPath(
             IGraph graph, int start, int goal)
         {
-
+            // Current node
             int current;
-            List<NodeRecord> open, closed;
-            IDictionary<int, NodeRecord> nodeRecords =
-                new Dictionary<int, NodeRecord>();
+
+            // Clear collections
+            open.Clear();
+            closed.Clear();
+            nodeRecords.Clear();
 
             // Initialize the record for the start node
             nodeRecords[start] = new NodeRecord(start);
@@ -72,9 +92,8 @@ namespace LibGameAI.PathFinding
             // "Current" node is start node
             current = start;
 
-            // Initialize the open and closed lists
-            open = new List<NodeRecord>() { nodeRecords[start] };
-            closed = new List<NodeRecord>();
+            // Initialize the open list by adding the starting node
+            open.Add(nodeRecords[start]);
 
             // Iterate through processing each node
             while (open.Count > 0)
@@ -156,12 +175,12 @@ namespace LibGameAI.PathFinding
             else
             {
                 // Compile the list of connections in the path
-                LinkedList<IConnection> path = new LinkedList<IConnection>();
+                path.Clear();
 
                 // Work back along the path, accumulating connections
                 while (current != start)
                 {
-                    path.AddFirst(nodeRecords[current].Connection);
+                    path.Push(nodeRecords[current].Connection);
                     current = nodeRecords[current].Connection.FromNode;
                 }
 
@@ -169,6 +188,5 @@ namespace LibGameAI.PathFinding
                 return path;
             }
         }
-
     }
 }
