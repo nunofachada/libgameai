@@ -17,10 +17,11 @@ namespace LibGameAI.Samples.TestAStar
 
         private static void Main()
         {
+            IPathFinder pathFinder = new AStarPathFinder(HeuristicFunc);
 
             data = GetData1();
             IEnumerable<IConnection> conns =
-                AStar.GetPath(data.Item1, 0, 5, HeuristicFunc);
+                pathFinder.FindPath(data.Item1, 0, 5);
             ShowPath(conns);
 
         }

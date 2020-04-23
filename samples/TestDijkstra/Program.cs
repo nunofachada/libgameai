@@ -16,16 +16,17 @@ namespace LibGameAI.Samples.TestDijkstra
         static void Main()
         {
             IGraph g;
+            IPathFinder pathFinder = new DijkstraPathFinder();
 
             Console.WriteLine("=== Graph initialized with Adj. Matrix ===");
             g = TestAM();
             //ShowConns(g);
-            ShowPath(Dijkstra.GetShortestPath(g, 0, 7));
+            ShowPath(pathFinder.FindPath(g, 0, 7));
 
             Console.WriteLine("=== Graph initialized with Adj. List ===");
             g = TestAL();
             //ShowConns(g);
-            ShowPath(Dijkstra.GetShortestPath(g, 0, 6));
+            ShowPath(pathFinder.FindPath(g, 0, 6));
 
         }
 
