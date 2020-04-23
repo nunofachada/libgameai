@@ -10,8 +10,9 @@ using System.Collections.Generic;
 
 namespace LibGameAI.PathFinding
 {
-    public static class AStar
+    public class AStarPathFinder : IPathFinder
     {
+        private Func<int, float> heuristics;
 
         /// <summary>
         /// This private class is used to keep node records for the path
@@ -39,6 +40,11 @@ namespace LibGameAI.PathFinding
             }
         }
 
+        public AStarPathFinder(Func<int, float> heuristics)
+        {
+            this.heuristics = heuristics;
+        }
+
         /// <summary>
         /// Find a path between start and goal nodes.
         /// </summary>
@@ -50,8 +56,8 @@ namespace LibGameAI.PathFinding
         /// An enumerable containing the connections that constitute
         /// a path from start to goal.
         /// </returns>
-        public static IEnumerable<IConnection> GetPath(
-            IGraph graph, int start, int goal, Func<int, float> heuristics)
+        public IEnumerable<IConnection> FindPath(
+            IGraph graph, int start, int goal)
         {
 
             int current;
