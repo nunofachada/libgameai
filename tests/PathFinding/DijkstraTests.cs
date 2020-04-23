@@ -112,7 +112,7 @@ namespace Tests.PathFinding
             IGraph graph, (int from, int to)[] sPath)
         {
             // Instantiate a Dijkstra path finder
-            DijkstraPathFinder pathFinder = new DijkstraPathFinder();
+            IPathFinder pathFinder = new DijkstraPathFinder();
 
             // Get shortest path
             IEnumerable<IConnection> sPathToTest =
@@ -130,7 +130,7 @@ namespace Tests.PathFinding
         public void TestGetShortestPath_Find_No(IGraph graph, int from, int to)
         {
             // Instantiate a Dijkstra path finder
-            DijkstraPathFinder pathFinder = new DijkstraPathFinder();
+            IPathFinder pathFinder = new DijkstraPathFinder();
 
             // Get shortest path
             IEnumerable<IConnection> sPathToTest =
