@@ -15,7 +15,7 @@ namespace Tests.PathFinding
     public class DijkstraTests
     {
         // Returns a collection of (graph, shortest path) pairs
-        public static IEnumerable<object[]> GetAdjMatricesAndShortestPaths()
+        public static IEnumerable<object[]> GetGraphsAndShortestPaths()
         {
             // A graph represented by an adjacency matrix and its shortest path
             yield return new object[]
@@ -67,9 +67,47 @@ namespace Tests.PathFinding
             };
         }
 
+        // Returns a collection of (graph, start, end) tuples without a path
+        // between start and end nodes
+        public static IEnumerable<object[]> GetGraphsNoPath()
+        {
+            // A graph represented by an adjacency matrix
+            yield return new object[]
+            {
+                // Graph represented by an adjacency matrix
+                new Graph(new float[,]
+                {
+                    { 0.0f, 1.5f, 0.0f },
+                    { 0.5f, 0.0f, 0.0f },
+                    { 2.1f, 1.7f, 0.0f }
+                }),
+                0,
+                2
+            };
+            // A graph represented by an adjacency list
+            yield return new object[]
+            {
+                // Graph represented by an adjacency matrix
+                new Graph(
+                    new IConnection[][]
+                    {
+                        new IConnection[] { new Connection(1.5f, 0, 1) },
+                        new IConnection[] { new Connection(0.5f, 1, 0) },
+                        new IConnection[]
+                        {
+                            new Connection(2.1f, 2, 0),
+                            new Connection(1.7f, 2, 1)
+                        }
+                    }
+                ),
+                0,
+                2
+            };
+        }
+
         // Check if shortest path is found with Dijkstra algorithm
         [Theory]
-        [MemberData(nameof(GetAdjMatricesAndShortestPaths))]
+        [MemberData(nameof(GetGraphsAndShortestPaths))]
         public void TestGetShortestPath_Find_Yes(
             IGraph graph, (int from, int to)[] sPath)
         {
@@ -81,6 +119,19 @@ namespace Tests.PathFinding
             // Check if actual shortest path was found
             Assert.Equal(
                 sPath, sPathToTest.Select((c) => (c.FromNode, c.ToNode)));
+        }
+
+        // Check if shortest path is found with Dijkstra algorithm
+        [Theory]
+        [MemberData(nameof(GetGraphsNoPath))]
+        public void TestGetShortestPath_Find_No(IGraph graph, int from, int to)
+        {
+            // Get shortest path
+            IEnumerable<IConnection> sPathToTest =
+                Dijkstra.GetShortestPath(graph, from, to);
+
+            // Check if actual shortest path was found
+            Assert.Null(sPathToTest);
         }
     }
 }
