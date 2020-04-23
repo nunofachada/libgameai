@@ -10,13 +10,14 @@ using System.Collections.Generic;
 
 namespace LibGameAI.PathFinding
 {
-    public static class Dijkstra
+    /// <summary>
+    /// A path finder implemented with the Dijkstra algorithm. Always finds
+    /// the shortest path.
+    /// </summary>
+    public class DijkstraPathFinder : IPathFinder
     {
-
-        /// <summary>
-        /// This private class is used to keep node records for the shortest
-        /// path algorithm.
-        /// </summary>
+        // This private class is used to keep node records for the shortest
+        // path algorithm.
         private class NodeRecord : IComparable<NodeRecord>
         {
             public int Node { get; }
@@ -46,10 +47,9 @@ namespace LibGameAI.PathFinding
         /// An enumerable containing the connections that constitute
         /// the shortest path from start to goal.
         /// </returns>
-        public static IEnumerable<IConnection> GetShortestPath(
+        public IEnumerable<IConnection> FindPath(
             IGraph graph, int start, int goal)
         {
-
             int current;
             List<NodeRecord> open, closed;
             IDictionary<int, NodeRecord> nodeRecords =
@@ -156,6 +156,5 @@ namespace LibGameAI.PathFinding
                 return path;
             }
         }
-
     }
 }

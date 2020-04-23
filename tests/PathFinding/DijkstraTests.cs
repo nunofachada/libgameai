@@ -111,9 +111,12 @@ namespace Tests.PathFinding
         public void TestGetShortestPath_Find_Yes(
             IGraph graph, (int from, int to)[] sPath)
         {
+            // Instantiate a Dijkstra path finder
+            DijkstraPathFinder pathFinder = new DijkstraPathFinder();
+
             // Get shortest path
             IEnumerable<IConnection> sPathToTest =
-                Dijkstra.GetShortestPath(
+                pathFinder.FindPath(
                     graph, sPath[0].from, sPath[sPath.Length - 1].to);
 
             // Check if actual shortest path was found
@@ -126,9 +129,12 @@ namespace Tests.PathFinding
         [MemberData(nameof(GetGraphsNoPath))]
         public void TestGetShortestPath_Find_No(IGraph graph, int from, int to)
         {
+            // Instantiate a Dijkstra path finder
+            DijkstraPathFinder pathFinder = new DijkstraPathFinder();
+
             // Get shortest path
             IEnumerable<IConnection> sPathToTest =
-                Dijkstra.GetShortestPath(graph, from, to);
+                pathFinder.FindPath(graph, from, to);
 
             // Check if actual shortest path was found
             Assert.Null(sPathToTest);
