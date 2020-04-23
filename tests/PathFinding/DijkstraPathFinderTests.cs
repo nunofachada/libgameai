@@ -12,7 +12,7 @@ using LibGameAI.PathFinding;
 
 namespace Tests.PathFinding
 {
-    public class DijkstraTests
+    public class DijkstraPathFinderTests
     {
         // Returns a collection of (graph, shortest path) pairs
         public static IEnumerable<object[]> GetGraphsAndShortestPaths()
@@ -108,7 +108,7 @@ namespace Tests.PathFinding
         // Check if shortest path is found with Dijkstra algorithm
         [Theory]
         [MemberData(nameof(GetGraphsAndShortestPaths))]
-        public void TestGetShortestPath_Find_Yes(
+        public void TestFindPath_Find_Yes(
             IGraph graph, (int from, int to)[] sPath)
         {
             // Instantiate a Dijkstra path finder
@@ -127,7 +127,7 @@ namespace Tests.PathFinding
         // Check if shortest path is found with Dijkstra algorithm
         [Theory]
         [MemberData(nameof(GetGraphsNoPath))]
-        public void TestGetShortestPath_Find_No(IGraph graph, int from, int to)
+        public void TestFindPath_Find_No(IGraph graph, int from, int to)
         {
             // Instantiate a Dijkstra path finder
             IPathFinder pathFinder = new DijkstraPathFinder();
