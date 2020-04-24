@@ -121,7 +121,7 @@ namespace LibGameAI.PathFinding
 
                     // Function to find specific node in a list
                     Predicate<NodeRecord> findNodePred =
-                        new Predicate<NodeRecord>(nr => nr.Node == conn.ToNode);
+                        nr => nr.Node == conn.ToNode;
 
                     // Get cost estimate for the "to node"
                     float toNodeCost =
