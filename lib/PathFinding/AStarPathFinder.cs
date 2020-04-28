@@ -91,19 +91,25 @@ namespace LibGameAI.PathFinding
             path = new Stack<IConnection>();
         }
 
-        public IEnumerable<int> FillOpen()
+        public IEnumerable<int> OpenNodes
         {
-            foreach (NodeRecord nr in open)
+            get
             {
-                yield return nr.Node;
+                foreach (NodeRecord nr in open)
+                {
+                    yield return nr.Node;
+                }
             }
         }
 
-        public IEnumerable<int> FillClosed()
+        public IEnumerable<int> ClosedNodes
         {
-            foreach (NodeRecord nr in closed)
+            get
             {
-                yield return nr.Node;
+                foreach (NodeRecord nr in closed)
+                {
+                    yield return nr.Node;
+                }
             }
         }
 
