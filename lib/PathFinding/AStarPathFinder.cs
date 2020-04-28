@@ -17,6 +17,12 @@ namespace LibGameAI.PathFinding
         private IDictionary<int, NodeRecord> nodeRecords;
         private Stack<IConnection> path;
 
+        // Current goal node
+        private int currentGoal;
+
+        // Node comparer
+        private Comparison<NodeRecord> comparer;
+
         // Heuristic in use
         private Func<int, float> heuristics;
 
@@ -46,12 +52,35 @@ namespace LibGameAI.PathFinding
             }
         }
 
+        private int CompareByETC(NodeRecord nr1, NodeRecord nr2)
+        {
+            return nr1.EstimatedTotalCost.CompareTo(nr2.EstimatedTotalCost);
+        }
+
+        private int CompareByGoalAndThenETC(NodeRecord nr1, NodeRecord nr2)
+        {
+            if (nr1.Node == currentGoal) return -1;
+            if (nr2.Node == currentGoal) return 1;
+            return nr1.EstimatedTotalCost.CompareTo(nr2.EstimatedTotalCost);
+        }
+
         /// <summary>
         /// Create a new A* path finder.
         /// </summary>
         /// <param name="heuristics">Heuristic function to use.</param>
-        public AStarPathFinder(Func<int, float> heuristics)
+        /// <param name="earlyExit">
+        /// Stop as soon as goal is found in open list with the possibility of
+        /// getting a costlier path?
+        /// </param>
+        public AStarPathFinder(
+            Func<int, float> heuristics, bool earlyExit = false)
         {
+            // Node comparer to use
+            if (earlyExit)
+                comparer = CompareByGoalAndThenETC;
+            else
+                comparer = CompareByETC;
+
             // Keep reference to the heuristic function
             this.heuristics = heuristics;
 
@@ -60,7 +89,6 @@ namespace LibGameAI.PathFinding
             closed = new List<NodeRecord>();
             nodeRecords = new Dictionary<int, NodeRecord>();
             path = new Stack<IConnection>();
-
         }
 
         public IEnumerable<int> FillOpen()
@@ -96,6 +124,9 @@ namespace LibGameAI.PathFinding
             // Current node
             int current;
 
+            // Keep global reference to the current goal
+            currentGoal = goal;
+
             // Clear collections
             open.Clear();
             closed.Clear();
@@ -117,7 +148,7 @@ namespace LibGameAI.PathFinding
 
                 // Find element with smallest estimated total cost so far in
                 // the open list
-                open.Sort();
+                open.Sort(comparer);
                 current = open[0].Node;
 
                 // If it is end node, break out of node processing loop
