@@ -14,10 +14,14 @@ namespace LibGameAI.PathFinding
     /// A path finder implemented with the A* algorithm.
     /// </summary>
     /// <remarks>
+    /// Optimizations to be done (some are code-related with others):
     /// TODO Use a heap/priority queue (priority heap) data structure for the
     /// open and closed nodes.
     /// TODO Either make NodeRecord structs (and update surrounding code
     /// appropriately) or use an object pool of NodeRecords.
+    /// TODO Avoid always getting node record from the dictionary, just pull
+    /// it once onto a local variable and use that.
+    /// TODO Reuse the heuristic value from previously existing node records.
     /// </remarks>
     public class AStarPathFinder : IPathFinder
     {
