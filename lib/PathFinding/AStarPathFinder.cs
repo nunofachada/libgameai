@@ -10,6 +10,15 @@ using System.Collections.Generic;
 
 namespace LibGameAI.PathFinding
 {
+    /// <summary>
+    /// A path finder implemented with the A* algorithm.
+    /// </summary>
+    /// <remarks>
+    /// TODO Use a heap/priority queue (priority heap) data structure for the
+    /// open and closed nodes.
+    /// TODO Either make NodeRecord structs (and update surrounding code
+    /// appropriately) or use an object pool of NodeRecords.
+    /// </remarks>
     public class AStarPathFinder : IPathFinder
     {
         // Auxiliary collections
@@ -119,7 +128,6 @@ namespace LibGameAI.PathFinding
         /// <param name="graph">Graph where to perform search.</param>
         /// <param name="start">Start node.</param>
         /// <param name="goal">Goal node.</param>
-        /// <param name="heuristics">Heuristics for each node.</param>
         /// <returns>
         /// An enumerable containing the connections that constitute
         /// a path from start to goal.

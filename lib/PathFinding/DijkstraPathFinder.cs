@@ -14,6 +14,12 @@ namespace LibGameAI.PathFinding
     /// A path finder implemented with the Dijkstra algorithm. Always finds
     /// the shortest path.
     /// </summary>
+    /// <remarks>
+    /// TODO Use a heap/priority queue (priority heap) data structure for the
+    /// open and closed nodes.
+    /// TODO Either make NodeRecord structs (and update surrounding code
+    /// appropriately) or use an object pool of NodeRecords.
+    /// </remarks>
     public class DijkstraPathFinder : IPathFinder
     {
         // Auxiliary collections
