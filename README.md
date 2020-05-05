@@ -29,4 +29,4 @@ Again, note this is very much a work in progress.
 
 ## License
 
-[MIT License](LICENSE)
+[Mozilla Public License 2.0](LICENSE)
