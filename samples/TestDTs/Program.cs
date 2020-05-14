@@ -14,8 +14,8 @@ namespace LibGameAI.Samples.TestDTs
     {
         static void Main(string[] args)
         {
-            GameAction ga = new GameAction(TestAction);
-            ga.DoGameAction();
+            ActionNode an = new ActionNode(TestAction);
+            an.Execute();
         }
 
         private static void TestAction()
