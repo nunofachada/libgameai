@@ -10,8 +10,6 @@ namespace LibGameAI.BehaviorTrees
     // Decorator which repeats decorated task until it fails
     public class UntilFailDecoratorTask : DecoratorTask
     {
-
-
         // Constructor, requires the decorated task which it passes on to the
         // base class constructor
         public UntilFailDecoratorTask(ITask decoratedTask)

@@ -5,6 +5,7 @@
  * Author: Nuno Fachada
  * */
 
+using System;
 using System.Collections.Generic;
 
 namespace LibGameAI.BehaviorTrees
@@ -12,15 +13,23 @@ namespace LibGameAI.BehaviorTrees
     // Base class for composite tasks
     public abstract class CompositeTask : ITask
     {
-        // We keep the list of tasks here
-        private readonly List<ITask> children;
-        // Subclasses can only access a readonly version of this list
-        protected IList<ITask> Children => children.AsReadOnly();
+        // Task order strategy
+        private readonly ITaskOrderStrategy taskOrderStrategy;
+
+        // Child tasks
+        private readonly ITask[] tasks;
+
+        // Subclass accessor for child tasks
+        protected IEnumerable<ITask> Tasks =>
+            taskOrderStrategy.GetTasks(tasks);
 
         // Constructor, should be called from base classes
-        public CompositeTask(params ITask[] tasks)
+        public CompositeTask(
+            ITaskOrderStrategy taskOrderStrategy, params ITask[] tasks)
         {
-            children = new List<ITask>(tasks);
+            this.taskOrderStrategy = taskOrderStrategy;
+            this.tasks = new ITask[tasks.Length];
+            Array.Copy(this.tasks, tasks, tasks.Length);
         }
 
         // Subclasses should implement this method
