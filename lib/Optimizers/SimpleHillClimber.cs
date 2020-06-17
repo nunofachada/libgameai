@@ -92,7 +92,7 @@ namespace LibGameAI.Optimizers
         /// The best solution found, its evaluation and number of evaluations
         /// required to find it.
         /// </returns>
-        public Result Optimize(
+        public (ISolution, float, int) Optimize(
             int maxSteps,
             float criteria,
             Func<ISolution> initialSolution,
@@ -160,7 +160,7 @@ namespace LibGameAI.Optimizers
 
             // Return best solution found, its evaluation and number of
             // evaluations performed
-            return new Result(BestSolution, BestEvaluation, evaluations);
+            return (BestSolution, BestEvaluation, evaluations);
         }
     }
 }
