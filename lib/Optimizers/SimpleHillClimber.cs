@@ -9,7 +9,7 @@ using System;
 
 namespace LibGameAI.Optimizers
 {
-    public class HillClimber
+    public class SimpleHillClimber
     {
         // Function for finding neighbors of a given solution
         private Func<ISolution, ISolution> findNeighbor;
