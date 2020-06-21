@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathFinding", "PathFinding\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Optimizers", "Optimizers\Optimizers.csproj", "{F3EAB367-47C1-4A01-993C-CC2DA84B20D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RNG", "RNG\RNG.csproj", "{EFEEC4D1-7DBB-489E-B692-8F44DEA5F286}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -114,5 +116,17 @@ Global
 		{F3EAB367-47C1-4A01-993C-CC2DA84B20D0}.Release|x64.Build.0 = Release|Any CPU
 		{F3EAB367-47C1-4A01-993C-CC2DA84B20D0}.Release|x86.ActiveCfg = Release|Any CPU
 		{F3EAB367-47C1-4A01-993C-CC2DA84B20D0}.Release|x86.Build.0 = Release|Any CPU
+		{EFEEC4D1-7DBB-489E-B692-8F44DEA5F286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFEEC4D1-7DBB-489E-B692-8F44DEA5F286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFEEC4D1-7DBB-489E-B692-8F44DEA5F286}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EFEEC4D1-7DBB-489E-B692-8F44DEA5F286}.Debug|x64.Build.0 = Debug|Any CPU
+		{EFEEC4D1-7DBB-489E-B692-8F44DEA5F286}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EFEEC4D1-7DBB-489E-B692-8F44DEA5F286}.Debug|x86.Build.0 = Debug|Any CPU
+		{EFEEC4D1-7DBB-489E-B692-8F44DEA5F286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFEEC4D1-7DBB-489E-B692-8F44DEA5F286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFEEC4D1-7DBB-489E-B692-8F44DEA5F286}.Release|x64.ActiveCfg = Release|Any CPU
+		{EFEEC4D1-7DBB-489E-B692-8F44DEA5F286}.Release|x64.Build.0 = Release|Any CPU
+		{EFEEC4D1-7DBB-489E-B692-8F44DEA5F286}.Release|x86.ActiveCfg = Release|Any CPU
+		{EFEEC4D1-7DBB-489E-B692-8F44DEA5F286}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
