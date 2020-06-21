@@ -58,7 +58,7 @@ namespace LibGameAI.Optimizers
         /// Function for selecting between two solutions based on their
         /// evaluation.
         /// </param>
-        public HillClimber(
+        public SimpleHillClimber(
             Func<ISolution, ISolution> findNeighbor,
             Func<ISolution, float> evaluate,
             Func<float, float, bool> compare,
