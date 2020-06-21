@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Optimizers", "Optimizers\Op
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RNG", "RNG\RNG.csproj", "{EFEEC4D1-7DBB-489E-B692-8F44DEA5F286}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcGen", "ProcGen\ProcGen.csproj", "{6E6C9062-04E6-478D-8240-EAA6C0893BEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -128,5 +130,17 @@ Global
 		{EFEEC4D1-7DBB-489E-B692-8F44DEA5F286}.Release|x64.Build.0 = Release|Any CPU
 		{EFEEC4D1-7DBB-489E-B692-8F44DEA5F286}.Release|x86.ActiveCfg = Release|Any CPU
 		{EFEEC4D1-7DBB-489E-B692-8F44DEA5F286}.Release|x86.Build.0 = Release|Any CPU
+		{6E6C9062-04E6-478D-8240-EAA6C0893BEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E6C9062-04E6-478D-8240-EAA6C0893BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E6C9062-04E6-478D-8240-EAA6C0893BEE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6E6C9062-04E6-478D-8240-EAA6C0893BEE}.Debug|x64.Build.0 = Debug|Any CPU
+		{6E6C9062-04E6-478D-8240-EAA6C0893BEE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6E6C9062-04E6-478D-8240-EAA6C0893BEE}.Debug|x86.Build.0 = Debug|Any CPU
+		{6E6C9062-04E6-478D-8240-EAA6C0893BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E6C9062-04E6-478D-8240-EAA6C0893BEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E6C9062-04E6-478D-8240-EAA6C0893BEE}.Release|x64.ActiveCfg = Release|Any CPU
+		{6E6C9062-04E6-478D-8240-EAA6C0893BEE}.Release|x64.Build.0 = Release|Any CPU
+		{6E6C9062-04E6-478D-8240-EAA6C0893BEE}.Release|x86.ActiveCfg = Release|Any CPU
+		{6E6C9062-04E6-478D-8240-EAA6C0893BEE}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
