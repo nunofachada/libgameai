@@ -1,6 +1,6 @@
 using System;
 
-namespace LibGameAI.PRNGs
+namespace LibGameAI.RNG
 {
     public class LCG : Random
     {

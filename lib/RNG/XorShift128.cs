@@ -1,6 +1,6 @@
 using System;
 
-namespace LibGameAI.PRNGs
+namespace LibGameAI.RNG
 {
     public class XorShift128 : Random
     {
