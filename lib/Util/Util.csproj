@@ -2,6 +2,21 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>LibGameAI.Util</AssemblyName>
+    <RootNamespace>LibGameAI.Util</RootNamespace>
+    <Authors>Nuno Fachada</Authors>
+    <Description>Utility classes</Description>
+    <Copyright>Copyright (c) 2018-2023 Nuno Fachada and Contributors</Copyright>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/nunofachada/libgameai</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/nunofachada/libgameai</RepositoryUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
