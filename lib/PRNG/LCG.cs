@@ -6,7 +6,14 @@ namespace LibGameAI.PRNG
     {
         private long state;
 
-        public LCG() : this(System.DateTime.Now.Ticks)
+        private const long multiplier = 0x5DEECE66DL;
+        private const long addend = 0xBL;
+        private const long mask = (1L << 48) - 1;
+
+        private const double DOUBLE_UNIT = 1.0 / (1L << 53);
+
+
+        public LCG() : this(Environment.TickCount)
         {
         }
 
@@ -16,22 +23,39 @@ namespace LibGameAI.PRNG
         }
         public LCG(long seed)
         {
-            state = seed;
+            state = (seed ^ multiplier) & mask;
         }
 
         protected override double Sample()
         {
-            return (((long)Next(0, 26) << 27) + Next(0, 27))
-                / (double)(1L << 53);
+            return (((long)(InternalSample(26)) << 27) + InternalSample(27)) * DOUBLE_UNIT;
+        }
+
+        private int InternalSample(int bits)
+        {
+            state = (state * multiplier + addend) & mask;
+            return (int)(state >> (48 - bits));
         }
 
         public override int Next()
         {
-            int bits = 32;
-            state = (state * 0x5DEECE66DL + 0xBL) & ((1L << 48) - 1);
-            long next = state >> (48 - bits);
-            return (int)(next & 0x7FFFFFFF);
+            return InternalSample(31);
         }
+
+        private double GetSampleForLargeRange()
+        {
+            int result = InternalSample(31);
+            bool negative = (InternalSample(31) % 2 == 0) ? true : false;
+            if (negative)
+            {
+                result = -result;
+            }
+            double d = result;
+            d += int.MaxValue - 1;
+            d /= 2 * (uint)int.MaxValue - 1;
+            return d;
+        }
+
 
         public override int Next(int minValue, int maxValue)
         {
@@ -41,21 +65,18 @@ namespace LibGameAI.PRNG
                     $"{nameof(minValue)} cannot be larger than ${nameof(maxValue)}");
             }
 
-
             long range = (long)maxValue - minValue;
 
-            if (range <= int.MaxValue)
+            if (range <= (long)int.MaxValue)
             {
-                // Bug! Stackoverflow!
-                return (int)(Sample() * range) + minValue;
+                return ((int)(Sample() * range) + minValue);
             }
             else
             {
-                // Bug! Stackoverflow!
-                return (int)(Sample() * range / 2.0 + Sample() * range / 2.0)
-                    + minValue;
+                return (int)((long)(GetSampleForLargeRange() * range) + minValue);
             }
         }
+
 
         public override void NextBytes(byte[] buffer)
         {
@@ -64,7 +85,7 @@ namespace LibGameAI.PRNG
                     $"{nameof(buffer)} cannot be null");
             for (int i = 0; i < buffer.Length; i++)
             {
-                buffer[i] = (byte)Next();
+                buffer[i] = (byte)(InternalSample(31) % (byte.MaxValue + 1));
             }
         }
     }
