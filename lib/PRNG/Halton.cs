@@ -1,6 +1,13 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * Author: Nuno Fachada
+ * */
+
 using System;
 
-namespace LibGameAI.RNG
+namespace LibGameAI.PRNG
 {
     public class Halton : Random
     {
@@ -9,11 +16,11 @@ namespace LibGameAI.RNG
 
         public Halton(int basePrime, bool skipFirstN = true)
         {
-            if (!IsPrime(basePrime))
-            {
-                throw new ArgumentException(
-                    $"{nameof(basePrime)} must be a prime number.");
-            }
+            // if (!IsPrime(basePrime))
+            // {
+            //     throw new ArgumentException(
+            //         $"{nameof(basePrime)} must be a prime number.");
+            // }
             this.basePrime = basePrime;
 
             if (skipFirstN)
@@ -22,33 +29,33 @@ namespace LibGameAI.RNG
                 index = 0;
         }
 
-        // https://en.wikipedia.org/wiki/Primality_test
-        private static bool IsPrime(int n)
-        {
-            if (n <= 3)
-                return n > 1;
-            else if (n % 2 == 0 || n % 3 == 0)
-                return false;
+        // // https://en.wikipedia.org/wiki/Primality_test
+        // private static bool IsPrime(int n)
+        // {
+        //     if (n <= 3)
+        //         return n > 1;
+        //     else if (n % 2 == 0 || n % 3 == 0)
+        //         return false;
 
-            int i = 5;
+        //     int i = 5;
 
-            while (i * i <= n)
-            {
-                if (n % i == 0 || n % (i + 2) == 0)
-                    return false;
-                i += 6;
-            }
+        //     while (i * i <= n)
+        //     {
+        //         if (n % i == 0 || n % (i + 2) == 0)
+        //             return false;
+        //         i += 6;
+        //     }
 
-            return true;
-        }
+        //     return true;
+        // }
 
         public static double Sequence(int basePrime, int index)
         {
-            if (!IsPrime(basePrime))
-            {
-                throw new ArgumentException(
-                    $"{nameof(basePrime)} must be a prime number.");
-            }
+            // if (!IsPrime(basePrime))
+            // {
+            //     throw new ArgumentException(
+            //         $"{nameof(basePrime)} must be a prime number.");
+            // }
             double result = 0;
             int denominator = 1;
 
