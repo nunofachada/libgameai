@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace LibGameAI.HFSMs
 {
-    public class HierachicalStateMachine : HFSMBase
+    public class HierarchicalStateMachine : HFSMBase
     {
         // List of states at this level of the hierarchy
         private IEnumerable<State> states;
@@ -24,10 +24,13 @@ namespace LibGameAI.HFSMs
         /// Recursively updates the machine.
         /// </summary>
         /// <returns></returns>
-        public async Action Update()
+        public new Action Update()
         {
             // The triggered transition, if any
             Transition triggeredTransition = null;
+
+            // The update result
+            UpdateResult updateResult = null;
 
             // If we're in no strate, use the initial state
             if (currentState is null)
@@ -46,7 +49,12 @@ namespace LibGameAI.HFSMs
                 }
             }
 
-
+            // Did we found a transition?
+            if (triggeredTransition != null)
+            {
+                updateResult = new UpdateResult(
+                    null, triggeredTransition, triggeredTransition.GetLevel());
+            }
 
             return null;
         }
