@@ -7,7 +7,7 @@ namespace LibGameAI.Samples.PRNGs
     {
         static void Main(string[] args)
         {
-            Random r = new LCG(123);
+            Random r = new LCG48(123);
             Console.WriteLine(r.Next(100));
         }
     }
