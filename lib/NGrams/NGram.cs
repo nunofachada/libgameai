@@ -1,66 +1,80 @@
-/* This Source Code Form is subject to the terms of the Mozilla Public
- * License, v. 2.0. If a copy of the MPL was not distributed with this
- * file, You can obtain one at http://mozilla.org/MPL/2.0/.
- *
- * Author: Nuno Fachada
- * */
+// Copyright (c) 2022 Nuno Fachada
+// Distributed under the MIT License (See accompanying file LICENSE or copy
+// at http://opensource.org/licenses/MIT)
 
-using System.Collections;
 using System.Collections.Generic;
 using System.Text;
-using System;
+using LibGameAI.Util;
 
 namespace LibGameAI.NGrams
 {
+    /// <summary>
+    /// A regular N-Gram.
+    /// </summary>
+    /// <typeparam name="T">The type of the actions.</typeparam>
     public class NGram<T> : INGram<T>
     {
-        // The N in N-Gram (window size + 1)
+        /// <inheritdoc/>
         public int NValue { get; }
 
         // Dictionary which relates a sequence to a set of actions and
         // probabilities
-        private Dictionary<string, ActionFrequency<T>> data;
+        private readonly IDictionary<string, ActionFrequency<T>> data;
 
-        // Constructor, accepts the N in N-Gram
+        // String builder object, for converting sequences of objects to strings
+        private static StringBuilder stringBuilder;
+
+        // Initialize static string builder
+        static NGram()
+        {
+            stringBuilder = new StringBuilder();
+        }
+
+        /// <summary>
+        /// Creates a new N-Gram.
+        /// </summary>
+        /// <param name="nValue">The N in N-Gram (window size + 1).</param>
         public NGram(int nValue)
         {
             NValue = nValue;
             data = new Dictionary<string, ActionFrequency<T>>();
         }
 
-        // Converts a sequence of actions to a string
-        public static string ArrayToStringKey(T[] actions)
+        /// <summary>
+        /// Converts a sequence of objects to a string.
+        /// </summary>
+        /// <param name="actions">Sequence of objects.</param>
+        /// <returns>String representing sequence of objects.</returns>
+        public static string SequenceToString(IEnumerable<T> actions)
         {
-            StringBuilder builder = new StringBuilder();
+            stringBuilder.Clear();
             foreach (T a in actions)
             {
-                builder.Append(a.ToString());
+                stringBuilder.Append(a.ToString());
             }
-            return builder.ToString();
+            return stringBuilder.ToString();
         }
 
-        // Register a sequence of actions
-        // The actions array should be of size N
-        public void RegisterSequence(T[] actions)
+        /// <summary>
+        /// Register a sequence of actions.
+        /// </summary>
+        /// <param name="actions">
+        /// The actions list, which should be at least of size N.
+        /// </param>
+        public void RegisterSequence(IReadOnlyList<T> actions)
         {
-
             // Can only register sequence if its size N
-            if (actions.Length == NValue)
+            if (actions.Count == NValue)
             {
-
                 // Previous actions
-                T[] prevActions = new T[NValue - 1];
+                ReadOnlyListSegment<T> prevActions =
+                    new ReadOnlyListSegment<T>(actions, 0, NValue - 1);
 
                 // Previous actions in key form
-                string prevActionsKey;
+                string prevActionsKey = SequenceToString(prevActions);
 
                 // Action performed
-                T actionPerformed;
-
-                // Split the sequence into a key and value
-                Array.ConstrainedCopy(actions, 0, prevActions, 0, NValue - 1);
-                actionPerformed = actions[NValue - 1];
-                prevActionsKey = ArrayToStringKey(prevActions);
+                T actionPerformed = actions[NValue - 1];
 
                 // Check if our data contains the key (i.e. sequence of actions)
                 // If not, create a new record for this sequence of actions
@@ -76,24 +90,28 @@ namespace LibGameAI.NGrams
             }
         }
 
-        // Get the most likely action given a sequence of actions
-        // The actions array should be of size N-1
-        public T GetMostLikely(T[] actions)
+        /// <summary>
+        /// Get the most likely action given a sequence of actions.
+        /// </summary>
+        /// <param name="actions">
+        /// The actions list, which should be at least of size N-1.
+        /// </param>
+        /// <returns>
+        /// The most likely action for the given a sequence of actions.
+        /// </returns>
+        public T GetMostLikely(IReadOnlyList<T> actions)
         {
             // The most likely action, initially set to its default value
-            T bestAction = default(T);
+            T bestAction = default;
 
             // The actions array must have the window size
-            if (actions.Length == NValue - 1)
+            if (actions.Count == NValue - 1)
             {
                 // First, convert sequence of actions to string (i.e. the key)
-                string key = ArrayToStringKey(actions);
-
-                // The data record for this sequence of actions
-                ActionFrequency<T> actionFrequency;
+                string key = SequenceToString(actions);
 
                 // Try to get the best action for the given sequence of actions
-                if (data.TryGetValue(key, out actionFrequency))
+                if (data.TryGetValue(key, out ActionFrequency<T> actionFrequency))
                 {
                     bestAction = actionFrequency.BestAction;
                 }
@@ -103,20 +121,28 @@ namespace LibGameAI.NGrams
             return bestAction;
         }
 
-        // Return the number of times this sequence has been seen
-        // The actions array should be of size N-1
-        public int GetActionsFrequency(T[] actions)
+        /// <summary>
+        /// Return the number of times the given sequence of actions has been
+        /// seen.
+        /// </summary>
+        /// <param name="actions">
+        /// Sequence of actions, which must of size N-1.
+        /// </param>
+        /// <returns>
+        /// Number of times the given sequence of actions has been seen.
+        /// </returns>
+        public int GetActionsFrequency(IReadOnlyCollection<T> actions)
         {
             // Number of times this sequence of actions has been seen
             int actionCount = 0;
 
-            if (actions.Length == NValue - 1)
+            if (actions.Count == NValue - 1)
             {
                 // First, convert sequence of actions to string (i.e. the key)
-                string key = ArrayToStringKey(actions);
+                string key = SequenceToString(actions);
 
                 // If there is data for this sequence, get the number of times
-                // this seqence has been seen
+                // this sequence has been seen
                 if (data.ContainsKey(key)) actionCount = data[key].Total;
             }
             return actionCount;

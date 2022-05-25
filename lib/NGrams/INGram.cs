@@ -1,21 +1,39 @@
-/* This Source Code Form is subject to the terms of the Mozilla Public
- * License, v. 2.0. If a copy of the MPL was not distributed with this
- * file, You can obtain one at http://mozilla.org/MPL/2.0/.
- *
- * Author: Nuno Fachada
- * */
+// Copyright (c) 2022 Nuno Fachada
+// Distributed under the MIT License (See accompanying file LICENSE or copy
+// at http://opensource.org/licenses/MIT)
+
+using System.Collections.Generic;
 
 namespace LibGameAI.NGrams
 {
+    /// <summary>
+    /// Interface for concrete N-Gram implementations.
+    /// </summary>
+    /// <typeparam name="T">The type of the actions.</typeparam>
     public interface INGram<T>
     {
-        // The N in N-Gram (window size + 1)
+        /// <summary>
+        /// The N in N-Gram (window size + 1).
+        /// </summary>
         int NValue { get; }
 
-        // Register a sequence of actions
-        void RegisterSequence(T[] actions);
+        /// <summary>
+        /// Register a sequence of actions.
+        /// </summary>
+        /// <param name="actions">
+        /// The actions list.
+        /// </param>
+        void RegisterSequence(IReadOnlyList<T> actions);
 
-        // Get the most likely action given a sequence of actions
-        T GetMostLikely(T[] actions);
+        /// <summary>
+        /// Get the most likely action given a sequence of actions.
+        /// </summary>
+        /// <param name="actions">
+        /// The actions list.
+        /// </param>
+        /// <returns>
+        /// The most likely action for the given a sequence of actions.
+        /// </returns>
+        T GetMostLikely(IReadOnlyList<T> actions);
     }
 }
