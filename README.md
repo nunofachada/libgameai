@@ -18,7 +18,6 @@ Currently a work in progress. More information soon.
 
 Again, note this is very much a work in progress.
 
-* [Behavior trees](lib/BehaviorTrees)
 * [Decision trees](lib/DecisionTrees)
 * [Finite state machines](lib/FSMs)
 * [N-grams](lib/NGrams)
@@ -29,4 +28,4 @@ Again, note this is very much a work in progress.
 
 ## License
 
-[Mozilla Public License 2.0](LICENSE)
+[Mozilla Public License 2.0](LICENSE) (will be relicensed to MIT soon)
