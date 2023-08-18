@@ -1,31 +1,31 @@
-[![Mozilla Public License Version 2.0](https://img.shields.io/badge/license-MPLv2-yellowgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+[![MIT](https://img.shields.io/badge/license-MIT-yellowgreen.svg)](https://opensource.org/license/mit/)
 
 # libGameAI
 
-A .NET Standard 2.0 library of AI algorithms for video games.
+A .NET Standard 2.1 library of AI algorithms for video games with a focus on
+education.
 
-Currently a work in progress. More information soon.
-
-## Compatibility (minimum)
-
-* Unity 2018.1
-* .NET Core 2.0
-* .NET Framework 4.6.1
-* Mono 5.4
-* UWP 10.0.16299
-
-## Implemented techniques
-
-Again, note this is very much a work in progress.
+## Library components
 
 * [Decision trees](lib/DecisionTrees)
 * [Finite state machines](lib/FSMs)
 * [N-grams](lib/NGrams)
 * [Naive Bayes classifier](lib/NaiveBayes)
-* [Optimization algorithms (parameter learning)](lib/Optimizers)
 * [Path finding algorithms](lib/PathFinding)
-* More to come...
+* [PCG](lib/PCG)
+* [PRNG](lib/PRNG)
+* [QRNG](lib/QRNG)
+* [Utils](lib/Util)
+
+## Reference
+
+If you use or mention this software in your work, please cite the following
+reference:
+
+- Fachada, N., Barreiros, F.F., Lopes, P., & Fonseca, M. (2023, August).
+  Active Learning Prototypes for Teaching Game AI. In *2023 IEEE Conference on
+  Games (CoG)* (pp. TBD). IEEE.
 
 ## License
 
-[Mozilla Public License 2.0](LICENSE) (will be relicensed to MIT soon)
+[MIT](LICENSE)
