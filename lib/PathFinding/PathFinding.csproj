@@ -1,15 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <AssemblyName>LibGameAI.PathFinding</AssemblyName>
     <RootNamespace>LibGameAI.PathFinding</RootNamespace>
     <Authors>Nuno Fachada</Authors>
     <Description>Pathfinding algorithms</Description>
-    <Copyright>Copyright (c) 2018-2020 Nuno Fachada and Contributors</Copyright>
+    <Copyright>Copyright (c) 2018-2023 Nuno Fachada and Contributors</Copyright>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
-    <PackageProjectUrl>https://github.com/fakenmc/libGameAI</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/fakenmc/libGameAI</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/nunofachada/libgameai</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/nunofachada/libgameai</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
