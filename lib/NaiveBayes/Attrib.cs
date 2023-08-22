@@ -15,7 +15,7 @@ namespace LibGameAI.NaiveBayes
         public ICollection<string> Values => values;
 
         // List that contains the actual values of the attribute
-        private List<string> values;
+        private readonly List<string> values;
 
         // Constructor, accepts a name and a set of possible values
         public Attrib(string name, IEnumerable<string> values)

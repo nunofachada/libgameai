@@ -11,7 +11,7 @@ namespace LibGameAI.NaiveBayes
     internal class AttribCount
     {
         // Contains the counts for each attribute value
-        private IDictionary<string, int> counts;
+        private readonly IDictionary<string, int> counts;
 
         // Constructor, initializes all counts to zero
         public AttribCount(Attrib attribute)

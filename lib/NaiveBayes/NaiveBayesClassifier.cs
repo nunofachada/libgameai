@@ -12,10 +12,10 @@ namespace LibGameAI.NaiveBayes
     {
 
         // Number of examples with given label
-        private IDictionary<string, int> labelsCount;
+        private readonly IDictionary<string, int> labelsCount;
 
         // Number of times each attribute has a given value for each label
-        private IDictionary<string, IDictionary<Attrib, AttribCount>>
+        private readonly IDictionary<string, IDictionary<Attrib, AttribCount>>
             attribValueCounts;
 
         // Constructor, accepts a set of labels and a set of attributes
@@ -83,6 +83,10 @@ namespace LibGameAI.NaiveBayes
             string bestLabel = "";
             // Total counts
             int totalCounts = labelsCount.Values.Sum();
+
+            // If there are no observations yet, just return a random label
+            if (totalCounts == 0) return labelsCount.Keys
+                .ToArray()[DateTime.Now.Millisecond % labelsCount.Keys.Count];
 
             // Search for label with highest probability
             foreach (string label in labelsCount.Keys)
