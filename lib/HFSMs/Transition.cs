@@ -38,6 +38,11 @@ namespace LibGameAI.HFSMs
             return condition();
         }
 
+        public int GetLevel()
+        {
+            throw new NotImplementedException();
+        }
+
         /// <summary>
         /// Create a new transition.
         /// </summary>
