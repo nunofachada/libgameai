@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QRNG", "QRNG\QRNG.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Util", "Util\Util.csproj", "{61C64162-AB91-4873-AEDD-DF2E4B6ABA61}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Optimizers", "Optimizers\Optimizers.csproj", "{388959F4-6550-407D-B833-8606F018DD13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -142,5 +144,17 @@ Global
 		{61C64162-AB91-4873-AEDD-DF2E4B6ABA61}.Release|x64.Build.0 = Release|Any CPU
 		{61C64162-AB91-4873-AEDD-DF2E4B6ABA61}.Release|x86.ActiveCfg = Release|Any CPU
 		{61C64162-AB91-4873-AEDD-DF2E4B6ABA61}.Release|x86.Build.0 = Release|Any CPU
+		{388959F4-6550-407D-B833-8606F018DD13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{388959F4-6550-407D-B833-8606F018DD13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{388959F4-6550-407D-B833-8606F018DD13}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{388959F4-6550-407D-B833-8606F018DD13}.Debug|x64.Build.0 = Debug|Any CPU
+		{388959F4-6550-407D-B833-8606F018DD13}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{388959F4-6550-407D-B833-8606F018DD13}.Debug|x86.Build.0 = Debug|Any CPU
+		{388959F4-6550-407D-B833-8606F018DD13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{388959F4-6550-407D-B833-8606F018DD13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{388959F4-6550-407D-B833-8606F018DD13}.Release|x64.ActiveCfg = Release|Any CPU
+		{388959F4-6550-407D-B833-8606F018DD13}.Release|x64.Build.0 = Release|Any CPU
+		{388959F4-6550-407D-B833-8606F018DD13}.Release|x86.ActiveCfg = Release|Any CPU
+		{388959F4-6550-407D-B833-8606F018DD13}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
