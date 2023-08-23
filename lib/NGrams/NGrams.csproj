@@ -1,11 +1,30 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <ItemGroup>
-    <ProjectReference Include="..\Util\Util.csproj" />
-  </ItemGroup>
-
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
+    <PackageId>LibGameAI.NGrams</PackageId>
+    <Version>0.0.1</Version>
+    <Authors>Nuno Fachada</Authors>
+    <Copyright>Copyright (c) 2018-2023 Nuno Fachada and Contributors</Copyright>
+    <Description>
+      LibGameAI is a .NET Standard 2.1 library of AI algorithms for video games
+      with a focus on education. In particular, the LibGameAI.NGrams package
+      is oriented towards using N-Grams.
+    </Description>
+    <PackageTags>artificial intelligence;AI algorithms;game development;games;education;n-grams</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/nunofachada/libgameai</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>logo.png</PackageIcon>
+    <RepositoryUrl>https://github.com/nunofachada/libgameai</RepositoryUrl>
+    <!-- Include symbol files (*.pdb) in the built .nupkg -->
+    <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Util\Util.csproj" />
+    <None Include="..\..\assets\logo.png" Pack="true" PackagePath="\" Visible="false" />
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" Visible="false" />
+  </ItemGroup>
 
 </Project>
