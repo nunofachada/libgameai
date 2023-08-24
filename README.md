@@ -1,6 +1,6 @@
 [![Tests](https://github.com/nunofachada/libgameai/actions/workflows/test.yml/badge.svg)](https://github.com/nunofachada/libgameai/actions/workflows/test.yml)
 [![codecov](https://codecov.io/gh/nunofachada/libGameAI/graph/badge.svg?token=oPLu1FqD1H)](https://codecov.io/gh/nunofachada/libGameAI)
-[![MIT](https://img.shields.io/badge/license-MIT-yellowgreen.svg)](https://opensource.org/license/mit/)
+[![MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/license/mit/)
 
 # libGameAI
 
