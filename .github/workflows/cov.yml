@@ -1,0 +1,32 @@
+name: Coverage
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+
+  coverage:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '6.x'
+    - name: Install dependencies
+      run: dotnet tool install -g dotnet-reportgenerator-globaltool
+    - name: Perform tests and generate coverage
+      run: dotnet test --verbosity normal --collect:"XPlat Code Coverage" tests
+    - name: Consolidate tests reports
+      run: reportgenerator "-reports:tests/**/coverage.cobertura.xml" "-targetdir:coveragereport" -reporttypes:cobertura
+    - name: Publish coverage report to codecov
+      uses: codecov/codecov-action@v3
+      with:
+        files: ./coveragereport/Cobertura.xml
+        fail_ci_if_error: true
+        verbose: true
