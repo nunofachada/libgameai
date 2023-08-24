@@ -3,8 +3,11 @@ name: Coverage
 on:
   push:
     branches: [ main ]
+    paths: [ 'lib/**', 'tests/**', '.github/workflows/cov.yml' ]
+    tags: '*'
   pull_request:
     branches: [ main ]
+    paths: [ 'lib/**', 'tests/**', '.github/workflows/cov.yml' ]
 
 jobs:
 
