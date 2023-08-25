@@ -1,0 +1,2228 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: LibGameAI.DecisionTrees
+  name: LibGameAI.DecisionTrees
+  href: api/LibGameAI.DecisionTrees.html
+  commentId: N:LibGameAI.DecisionTrees
+  fullName: LibGameAI.DecisionTrees
+  nameWithType: LibGameAI.DecisionTrees
+- uid: LibGameAI.DecisionTrees.ActionNode
+  name: ActionNode
+  href: api/LibGameAI.DecisionTrees.ActionNode.html
+  commentId: T:LibGameAI.DecisionTrees.ActionNode
+  fullName: LibGameAI.DecisionTrees.ActionNode
+  nameWithType: ActionNode
+- uid: LibGameAI.DecisionTrees.ActionNode.#ctor(System.Action)
+  name: ActionNode(Action)
+  href: api/LibGameAI.DecisionTrees.ActionNode.html#LibGameAI_DecisionTrees_ActionNode__ctor_System_Action_
+  commentId: M:LibGameAI.DecisionTrees.ActionNode.#ctor(System.Action)
+  name.vb: New(Action)
+  fullName: LibGameAI.DecisionTrees.ActionNode.ActionNode(System.Action)
+  fullName.vb: LibGameAI.DecisionTrees.ActionNode.New(System.Action)
+  nameWithType: ActionNode.ActionNode(Action)
+  nameWithType.vb: ActionNode.New(Action)
+- uid: LibGameAI.DecisionTrees.ActionNode.#ctor*
+  name: ActionNode
+  href: api/LibGameAI.DecisionTrees.ActionNode.html#LibGameAI_DecisionTrees_ActionNode__ctor_
+  commentId: Overload:LibGameAI.DecisionTrees.ActionNode.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: LibGameAI.DecisionTrees.ActionNode.ActionNode
+  fullName.vb: LibGameAI.DecisionTrees.ActionNode.New
+  nameWithType: ActionNode.ActionNode
+  nameWithType.vb: ActionNode.New
+- uid: LibGameAI.DecisionTrees.ActionNode.Execute
+  name: Execute()
+  href: api/LibGameAI.DecisionTrees.ActionNode.html#LibGameAI_DecisionTrees_ActionNode_Execute
+  commentId: M:LibGameAI.DecisionTrees.ActionNode.Execute
+  fullName: LibGameAI.DecisionTrees.ActionNode.Execute()
+  nameWithType: ActionNode.Execute()
+- uid: LibGameAI.DecisionTrees.ActionNode.Execute*
+  name: Execute
+  href: api/LibGameAI.DecisionTrees.ActionNode.html#LibGameAI_DecisionTrees_ActionNode_Execute_
+  commentId: Overload:LibGameAI.DecisionTrees.ActionNode.Execute
+  isSpec: "True"
+  fullName: LibGameAI.DecisionTrees.ActionNode.Execute
+  nameWithType: ActionNode.Execute
+- uid: LibGameAI.DecisionTrees.ActionNode.MakeDecision
+  name: MakeDecision()
+  href: api/LibGameAI.DecisionTrees.ActionNode.html#LibGameAI_DecisionTrees_ActionNode_MakeDecision
+  commentId: M:LibGameAI.DecisionTrees.ActionNode.MakeDecision
+  fullName: LibGameAI.DecisionTrees.ActionNode.MakeDecision()
+  nameWithType: ActionNode.MakeDecision()
+- uid: LibGameAI.DecisionTrees.ActionNode.MakeDecision*
+  name: MakeDecision
+  href: api/LibGameAI.DecisionTrees.ActionNode.html#LibGameAI_DecisionTrees_ActionNode_MakeDecision_
+  commentId: Overload:LibGameAI.DecisionTrees.ActionNode.MakeDecision
+  isSpec: "True"
+  fullName: LibGameAI.DecisionTrees.ActionNode.MakeDecision
+  nameWithType: ActionNode.MakeDecision
+- uid: LibGameAI.DecisionTrees.DecisionNode
+  name: DecisionNode
+  href: api/LibGameAI.DecisionTrees.DecisionNode.html
+  commentId: T:LibGameAI.DecisionTrees.DecisionNode
+  fullName: LibGameAI.DecisionTrees.DecisionNode
+  nameWithType: DecisionNode
+- uid: LibGameAI.DecisionTrees.DecisionNode.#ctor(System.Func{System.Boolean},LibGameAI.DecisionTrees.IDecisionTreeNode,LibGameAI.DecisionTrees.IDecisionTreeNode)
+  name: DecisionNode(Func<bool>, IDecisionTreeNode, IDecisionTreeNode)
+  href: api/LibGameAI.DecisionTrees.DecisionNode.html#LibGameAI_DecisionTrees_DecisionNode__ctor_System_Func_System_Boolean__LibGameAI_DecisionTrees_IDecisionTreeNode_LibGameAI_DecisionTrees_IDecisionTreeNode_
+  commentId: M:LibGameAI.DecisionTrees.DecisionNode.#ctor(System.Func{System.Boolean},LibGameAI.DecisionTrees.IDecisionTreeNode,LibGameAI.DecisionTrees.IDecisionTreeNode)
+  name.vb: New(Func(Of Boolean), IDecisionTreeNode, IDecisionTreeNode)
+  fullName: LibGameAI.DecisionTrees.DecisionNode.DecisionNode(System.Func<bool>, LibGameAI.DecisionTrees.IDecisionTreeNode, LibGameAI.DecisionTrees.IDecisionTreeNode)
+  fullName.vb: LibGameAI.DecisionTrees.DecisionNode.New(System.Func(Of Boolean), LibGameAI.DecisionTrees.IDecisionTreeNode, LibGameAI.DecisionTrees.IDecisionTreeNode)
+  nameWithType: DecisionNode.DecisionNode(Func<bool>, IDecisionTreeNode, IDecisionTreeNode)
+  nameWithType.vb: DecisionNode.New(Func(Of Boolean), IDecisionTreeNode, IDecisionTreeNode)
+- uid: LibGameAI.DecisionTrees.DecisionNode.#ctor*
+  name: DecisionNode
+  href: api/LibGameAI.DecisionTrees.DecisionNode.html#LibGameAI_DecisionTrees_DecisionNode__ctor_
+  commentId: Overload:LibGameAI.DecisionTrees.DecisionNode.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: LibGameAI.DecisionTrees.DecisionNode.DecisionNode
+  fullName.vb: LibGameAI.DecisionTrees.DecisionNode.New
+  nameWithType: DecisionNode.DecisionNode
+  nameWithType.vb: DecisionNode.New
+- uid: LibGameAI.DecisionTrees.DecisionNode.MakeDecision
+  name: MakeDecision()
+  href: api/LibGameAI.DecisionTrees.DecisionNode.html#LibGameAI_DecisionTrees_DecisionNode_MakeDecision
+  commentId: M:LibGameAI.DecisionTrees.DecisionNode.MakeDecision
+  fullName: LibGameAI.DecisionTrees.DecisionNode.MakeDecision()
+  nameWithType: DecisionNode.MakeDecision()
+- uid: LibGameAI.DecisionTrees.DecisionNode.MakeDecision*
+  name: MakeDecision
+  href: api/LibGameAI.DecisionTrees.DecisionNode.html#LibGameAI_DecisionTrees_DecisionNode_MakeDecision_
+  commentId: Overload:LibGameAI.DecisionTrees.DecisionNode.MakeDecision
+  isSpec: "True"
+  fullName: LibGameAI.DecisionTrees.DecisionNode.MakeDecision
+  nameWithType: DecisionNode.MakeDecision
+- uid: LibGameAI.DecisionTrees.IDecisionTreeNode
+  name: IDecisionTreeNode
+  href: api/LibGameAI.DecisionTrees.IDecisionTreeNode.html
+  commentId: T:LibGameAI.DecisionTrees.IDecisionTreeNode
+  fullName: LibGameAI.DecisionTrees.IDecisionTreeNode
+  nameWithType: IDecisionTreeNode
+- uid: LibGameAI.DecisionTrees.IDecisionTreeNode.MakeDecision
+  name: MakeDecision()
+  href: api/LibGameAI.DecisionTrees.IDecisionTreeNode.html#LibGameAI_DecisionTrees_IDecisionTreeNode_MakeDecision
+  commentId: M:LibGameAI.DecisionTrees.IDecisionTreeNode.MakeDecision
+  fullName: LibGameAI.DecisionTrees.IDecisionTreeNode.MakeDecision()
+  nameWithType: IDecisionTreeNode.MakeDecision()
+- uid: LibGameAI.DecisionTrees.IDecisionTreeNode.MakeDecision*
+  name: MakeDecision
+  href: api/LibGameAI.DecisionTrees.IDecisionTreeNode.html#LibGameAI_DecisionTrees_IDecisionTreeNode_MakeDecision_
+  commentId: Overload:LibGameAI.DecisionTrees.IDecisionTreeNode.MakeDecision
+  isSpec: "True"
+  fullName: LibGameAI.DecisionTrees.IDecisionTreeNode.MakeDecision
+  nameWithType: IDecisionTreeNode.MakeDecision
+- uid: LibGameAI.DecisionTrees.RandomDecisionBehaviour
+  name: RandomDecisionBehaviour
+  href: api/LibGameAI.DecisionTrees.RandomDecisionBehaviour.html
+  commentId: T:LibGameAI.DecisionTrees.RandomDecisionBehaviour
+  fullName: LibGameAI.DecisionTrees.RandomDecisionBehaviour
+  nameWithType: RandomDecisionBehaviour
+- uid: LibGameAI.DecisionTrees.RandomDecisionBehaviour.#ctor(System.Func{System.Single},System.Func{System.Single},System.Single,System.Single)
+  name: RandomDecisionBehaviour(Func<float>, Func<float>, float, float)
+  href: api/LibGameAI.DecisionTrees.RandomDecisionBehaviour.html#LibGameAI_DecisionTrees_RandomDecisionBehaviour__ctor_System_Func_System_Single__System_Func_System_Single__System_Single_System_Single_
+  commentId: M:LibGameAI.DecisionTrees.RandomDecisionBehaviour.#ctor(System.Func{System.Single},System.Func{System.Single},System.Single,System.Single)
+  name.vb: New(Func(Of Single), Func(Of Single), Single, Single)
+  fullName: LibGameAI.DecisionTrees.RandomDecisionBehaviour.RandomDecisionBehaviour(System.Func<float>, System.Func<float>, float, float)
+  fullName.vb: LibGameAI.DecisionTrees.RandomDecisionBehaviour.New(System.Func(Of Single), System.Func(Of Single), Single, Single)
+  nameWithType: RandomDecisionBehaviour.RandomDecisionBehaviour(Func<float>, Func<float>, float, float)
+  nameWithType.vb: RandomDecisionBehaviour.New(Func(Of Single), Func(Of Single), Single, Single)
+- uid: LibGameAI.DecisionTrees.RandomDecisionBehaviour.#ctor*
+  name: RandomDecisionBehaviour
+  href: api/LibGameAI.DecisionTrees.RandomDecisionBehaviour.html#LibGameAI_DecisionTrees_RandomDecisionBehaviour__ctor_
+  commentId: Overload:LibGameAI.DecisionTrees.RandomDecisionBehaviour.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: LibGameAI.DecisionTrees.RandomDecisionBehaviour.RandomDecisionBehaviour
+  fullName.vb: LibGameAI.DecisionTrees.RandomDecisionBehaviour.New
+  nameWithType: RandomDecisionBehaviour.RandomDecisionBehaviour
+  nameWithType.vb: RandomDecisionBehaviour.New
+- uid: LibGameAI.DecisionTrees.RandomDecisionBehaviour.RandomDecision
+  name: RandomDecision()
+  href: api/LibGameAI.DecisionTrees.RandomDecisionBehaviour.html#LibGameAI_DecisionTrees_RandomDecisionBehaviour_RandomDecision
+  commentId: M:LibGameAI.DecisionTrees.RandomDecisionBehaviour.RandomDecision
+  fullName: LibGameAI.DecisionTrees.RandomDecisionBehaviour.RandomDecision()
+  nameWithType: RandomDecisionBehaviour.RandomDecision()
+- uid: LibGameAI.DecisionTrees.RandomDecisionBehaviour.RandomDecision*
+  name: RandomDecision
+  href: api/LibGameAI.DecisionTrees.RandomDecisionBehaviour.html#LibGameAI_DecisionTrees_RandomDecisionBehaviour_RandomDecision_
+  commentId: Overload:LibGameAI.DecisionTrees.RandomDecisionBehaviour.RandomDecision
+  isSpec: "True"
+  fullName: LibGameAI.DecisionTrees.RandomDecisionBehaviour.RandomDecision
+  nameWithType: RandomDecisionBehaviour.RandomDecision
+- uid: LibGameAI.FSMs
+  name: LibGameAI.FSMs
+  href: api/LibGameAI.FSMs.html
+  commentId: N:LibGameAI.FSMs
+  fullName: LibGameAI.FSMs
+  nameWithType: LibGameAI.FSMs
+- uid: LibGameAI.FSMs.State
+  name: State
+  href: api/LibGameAI.FSMs.State.html
+  commentId: T:LibGameAI.FSMs.State
+  fullName: LibGameAI.FSMs.State
+  nameWithType: State
+- uid: LibGameAI.FSMs.State.#ctor(System.String,System.Action,System.Action,System.Action)
+  name: State(string, Action, Action, Action)
+  href: api/LibGameAI.FSMs.State.html#LibGameAI_FSMs_State__ctor_System_String_System_Action_System_Action_System_Action_
+  commentId: M:LibGameAI.FSMs.State.#ctor(System.String,System.Action,System.Action,System.Action)
+  name.vb: New(String, Action, Action, Action)
+  fullName: LibGameAI.FSMs.State.State(string, System.Action, System.Action, System.Action)
+  fullName.vb: LibGameAI.FSMs.State.New(String, System.Action, System.Action, System.Action)
+  nameWithType: State.State(string, Action, Action, Action)
+  nameWithType.vb: State.New(String, Action, Action, Action)
+- uid: LibGameAI.FSMs.State.#ctor*
+  name: State
+  href: api/LibGameAI.FSMs.State.html#LibGameAI_FSMs_State__ctor_
+  commentId: Overload:LibGameAI.FSMs.State.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: LibGameAI.FSMs.State.State
+  fullName.vb: LibGameAI.FSMs.State.New
+  nameWithType: State.State
+  nameWithType.vb: State.New
+- uid: LibGameAI.FSMs.State.AddTransition(LibGameAI.FSMs.Transition)
+  name: AddTransition(Transition)
+  href: api/LibGameAI.FSMs.State.html#LibGameAI_FSMs_State_AddTransition_LibGameAI_FSMs_Transition_
+  commentId: M:LibGameAI.FSMs.State.AddTransition(LibGameAI.FSMs.Transition)
+  fullName: LibGameAI.FSMs.State.AddTransition(LibGameAI.FSMs.Transition)
+  nameWithType: State.AddTransition(Transition)
+- uid: LibGameAI.FSMs.State.AddTransition*
+  name: AddTransition
+  href: api/LibGameAI.FSMs.State.html#LibGameAI_FSMs_State_AddTransition_
+  commentId: Overload:LibGameAI.FSMs.State.AddTransition
+  isSpec: "True"
+  fullName: LibGameAI.FSMs.State.AddTransition
+  nameWithType: State.AddTransition
+- uid: LibGameAI.FSMs.State.EntryActions
+  name: EntryActions
+  href: api/LibGameAI.FSMs.State.html#LibGameAI_FSMs_State_EntryActions
+  commentId: P:LibGameAI.FSMs.State.EntryActions
+  fullName: LibGameAI.FSMs.State.EntryActions
+  nameWithType: State.EntryActions
+- uid: LibGameAI.FSMs.State.EntryActions*
+  name: EntryActions
+  href: api/LibGameAI.FSMs.State.html#LibGameAI_FSMs_State_EntryActions_
+  commentId: Overload:LibGameAI.FSMs.State.EntryActions
+  isSpec: "True"
+  fullName: LibGameAI.FSMs.State.EntryActions
+  nameWithType: State.EntryActions
+- uid: LibGameAI.FSMs.State.ExitActions
+  name: ExitActions
+  href: api/LibGameAI.FSMs.State.html#LibGameAI_FSMs_State_ExitActions
+  commentId: P:LibGameAI.FSMs.State.ExitActions
+  fullName: LibGameAI.FSMs.State.ExitActions
+  nameWithType: State.ExitActions
+- uid: LibGameAI.FSMs.State.ExitActions*
+  name: ExitActions
+  href: api/LibGameAI.FSMs.State.html#LibGameAI_FSMs_State_ExitActions_
+  commentId: Overload:LibGameAI.FSMs.State.ExitActions
+  isSpec: "True"
+  fullName: LibGameAI.FSMs.State.ExitActions
+  nameWithType: State.ExitActions
+- uid: LibGameAI.FSMs.State.Name
+  name: Name
+  href: api/LibGameAI.FSMs.State.html#LibGameAI_FSMs_State_Name
+  commentId: P:LibGameAI.FSMs.State.Name
+  fullName: LibGameAI.FSMs.State.Name
+  nameWithType: State.Name
+- uid: LibGameAI.FSMs.State.Name*
+  name: Name
+  href: api/LibGameAI.FSMs.State.html#LibGameAI_FSMs_State_Name_
+  commentId: Overload:LibGameAI.FSMs.State.Name
+  isSpec: "True"
+  fullName: LibGameAI.FSMs.State.Name
+  nameWithType: State.Name
+- uid: LibGameAI.FSMs.State.StateActions
+  name: StateActions
+  href: api/LibGameAI.FSMs.State.html#LibGameAI_FSMs_State_StateActions
+  commentId: P:LibGameAI.FSMs.State.StateActions
+  fullName: LibGameAI.FSMs.State.StateActions
+  nameWithType: State.StateActions
+- uid: LibGameAI.FSMs.State.StateActions*
+  name: StateActions
+  href: api/LibGameAI.FSMs.State.html#LibGameAI_FSMs_State_StateActions_
+  commentId: Overload:LibGameAI.FSMs.State.StateActions
+  isSpec: "True"
+  fullName: LibGameAI.FSMs.State.StateActions
+  nameWithType: State.StateActions
+- uid: LibGameAI.FSMs.State.Transitions
+  name: Transitions
+  href: api/LibGameAI.FSMs.State.html#LibGameAI_FSMs_State_Transitions
+  commentId: P:LibGameAI.FSMs.State.Transitions
+  fullName: LibGameAI.FSMs.State.Transitions
+  nameWithType: State.Transitions
+- uid: LibGameAI.FSMs.State.Transitions*
+  name: Transitions
+  href: api/LibGameAI.FSMs.State.html#LibGameAI_FSMs_State_Transitions_
+  commentId: Overload:LibGameAI.FSMs.State.Transitions
+  isSpec: "True"
+  fullName: LibGameAI.FSMs.State.Transitions
+  nameWithType: State.Transitions
+- uid: LibGameAI.FSMs.StateMachine
+  name: StateMachine
+  href: api/LibGameAI.FSMs.StateMachine.html
+  commentId: T:LibGameAI.FSMs.StateMachine
+  fullName: LibGameAI.FSMs.StateMachine
+  nameWithType: StateMachine
+- uid: LibGameAI.FSMs.StateMachine.#ctor(LibGameAI.FSMs.State)
+  name: StateMachine(State)
+  href: api/LibGameAI.FSMs.StateMachine.html#LibGameAI_FSMs_StateMachine__ctor_LibGameAI_FSMs_State_
+  commentId: M:LibGameAI.FSMs.StateMachine.#ctor(LibGameAI.FSMs.State)
+  name.vb: New(State)
+  fullName: LibGameAI.FSMs.StateMachine.StateMachine(LibGameAI.FSMs.State)
+  fullName.vb: LibGameAI.FSMs.StateMachine.New(LibGameAI.FSMs.State)
+  nameWithType: StateMachine.StateMachine(State)
+  nameWithType.vb: StateMachine.New(State)
+- uid: LibGameAI.FSMs.StateMachine.#ctor*
+  name: StateMachine
+  href: api/LibGameAI.FSMs.StateMachine.html#LibGameAI_FSMs_StateMachine__ctor_
+  commentId: Overload:LibGameAI.FSMs.StateMachine.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: LibGameAI.FSMs.StateMachine.StateMachine
+  fullName.vb: LibGameAI.FSMs.StateMachine.New
+  nameWithType: StateMachine.StateMachine
+  nameWithType.vb: StateMachine.New
+- uid: LibGameAI.FSMs.StateMachine.Update
+  name: Update()
+  href: api/LibGameAI.FSMs.StateMachine.html#LibGameAI_FSMs_StateMachine_Update
+  commentId: M:LibGameAI.FSMs.StateMachine.Update
+  fullName: LibGameAI.FSMs.StateMachine.Update()
+  nameWithType: StateMachine.Update()
+- uid: LibGameAI.FSMs.StateMachine.Update*
+  name: Update
+  href: api/LibGameAI.FSMs.StateMachine.html#LibGameAI_FSMs_StateMachine_Update_
+  commentId: Overload:LibGameAI.FSMs.StateMachine.Update
+  isSpec: "True"
+  fullName: LibGameAI.FSMs.StateMachine.Update
+  nameWithType: StateMachine.Update
+- uid: LibGameAI.FSMs.Transition
+  name: Transition
+  href: api/LibGameAI.FSMs.Transition.html
+  commentId: T:LibGameAI.FSMs.Transition
+  fullName: LibGameAI.FSMs.Transition
+  nameWithType: Transition
+- uid: LibGameAI.FSMs.Transition.#ctor(System.Func{System.Boolean},System.Action,LibGameAI.FSMs.State)
+  name: Transition(Func<bool>, Action, State)
+  href: api/LibGameAI.FSMs.Transition.html#LibGameAI_FSMs_Transition__ctor_System_Func_System_Boolean__System_Action_LibGameAI_FSMs_State_
+  commentId: M:LibGameAI.FSMs.Transition.#ctor(System.Func{System.Boolean},System.Action,LibGameAI.FSMs.State)
+  name.vb: New(Func(Of Boolean), Action, State)
+  fullName: LibGameAI.FSMs.Transition.Transition(System.Func<bool>, System.Action, LibGameAI.FSMs.State)
+  fullName.vb: LibGameAI.FSMs.Transition.New(System.Func(Of Boolean), System.Action, LibGameAI.FSMs.State)
+  nameWithType: Transition.Transition(Func<bool>, Action, State)
+  nameWithType.vb: Transition.New(Func(Of Boolean), Action, State)
+- uid: LibGameAI.FSMs.Transition.#ctor*
+  name: Transition
+  href: api/LibGameAI.FSMs.Transition.html#LibGameAI_FSMs_Transition__ctor_
+  commentId: Overload:LibGameAI.FSMs.Transition.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: LibGameAI.FSMs.Transition.Transition
+  fullName.vb: LibGameAI.FSMs.Transition.New
+  nameWithType: Transition.Transition
+  nameWithType.vb: Transition.New
+- uid: LibGameAI.FSMs.Transition.Actions
+  name: Actions
+  href: api/LibGameAI.FSMs.Transition.html#LibGameAI_FSMs_Transition_Actions
+  commentId: P:LibGameAI.FSMs.Transition.Actions
+  fullName: LibGameAI.FSMs.Transition.Actions
+  nameWithType: Transition.Actions
+- uid: LibGameAI.FSMs.Transition.Actions*
+  name: Actions
+  href: api/LibGameAI.FSMs.Transition.html#LibGameAI_FSMs_Transition_Actions_
+  commentId: Overload:LibGameAI.FSMs.Transition.Actions
+  isSpec: "True"
+  fullName: LibGameAI.FSMs.Transition.Actions
+  nameWithType: Transition.Actions
+- uid: LibGameAI.FSMs.Transition.IsTriggered
+  name: IsTriggered()
+  href: api/LibGameAI.FSMs.Transition.html#LibGameAI_FSMs_Transition_IsTriggered
+  commentId: M:LibGameAI.FSMs.Transition.IsTriggered
+  fullName: LibGameAI.FSMs.Transition.IsTriggered()
+  nameWithType: Transition.IsTriggered()
+- uid: LibGameAI.FSMs.Transition.IsTriggered*
+  name: IsTriggered
+  href: api/LibGameAI.FSMs.Transition.html#LibGameAI_FSMs_Transition_IsTriggered_
+  commentId: Overload:LibGameAI.FSMs.Transition.IsTriggered
+  isSpec: "True"
+  fullName: LibGameAI.FSMs.Transition.IsTriggered
+  nameWithType: Transition.IsTriggered
+- uid: LibGameAI.FSMs.Transition.TargetState
+  name: TargetState
+  href: api/LibGameAI.FSMs.Transition.html#LibGameAI_FSMs_Transition_TargetState
+  commentId: P:LibGameAI.FSMs.Transition.TargetState
+  fullName: LibGameAI.FSMs.Transition.TargetState
+  nameWithType: Transition.TargetState
+- uid: LibGameAI.FSMs.Transition.TargetState*
+  name: TargetState
+  href: api/LibGameAI.FSMs.Transition.html#LibGameAI_FSMs_Transition_TargetState_
+  commentId: Overload:LibGameAI.FSMs.Transition.TargetState
+  isSpec: "True"
+  fullName: LibGameAI.FSMs.Transition.TargetState
+  nameWithType: Transition.TargetState
+- uid: LibGameAI.NGrams
+  name: LibGameAI.NGrams
+  href: api/LibGameAI.NGrams.html
+  commentId: N:LibGameAI.NGrams
+  fullName: LibGameAI.NGrams
+  nameWithType: LibGameAI.NGrams
+- uid: LibGameAI.NGrams.ActionFrequency`1
+  name: ActionFrequency<T>
+  href: api/LibGameAI.NGrams.ActionFrequency-1.html
+  commentId: T:LibGameAI.NGrams.ActionFrequency`1
+  name.vb: ActionFrequency(Of T)
+  fullName: LibGameAI.NGrams.ActionFrequency<T>
+  fullName.vb: LibGameAI.NGrams.ActionFrequency(Of T)
+  nameWithType: ActionFrequency<T>
+  nameWithType.vb: ActionFrequency(Of T)
+- uid: LibGameAI.NGrams.ActionFrequency`1.#ctor
+  name: ActionFrequency()
+  href: api/LibGameAI.NGrams.ActionFrequency-1.html#LibGameAI_NGrams_ActionFrequency_1__ctor
+  commentId: M:LibGameAI.NGrams.ActionFrequency`1.#ctor
+  name.vb: New()
+  fullName: LibGameAI.NGrams.ActionFrequency<T>.ActionFrequency()
+  fullName.vb: LibGameAI.NGrams.ActionFrequency(Of T).New()
+  nameWithType: ActionFrequency<T>.ActionFrequency()
+  nameWithType.vb: ActionFrequency(Of T).New()
+- uid: LibGameAI.NGrams.ActionFrequency`1.#ctor*
+  name: ActionFrequency
+  href: api/LibGameAI.NGrams.ActionFrequency-1.html#LibGameAI_NGrams_ActionFrequency_1__ctor_
+  commentId: Overload:LibGameAI.NGrams.ActionFrequency`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: LibGameAI.NGrams.ActionFrequency<T>.ActionFrequency
+  fullName.vb: LibGameAI.NGrams.ActionFrequency(Of T).New
+  nameWithType: ActionFrequency<T>.ActionFrequency
+  nameWithType.vb: ActionFrequency(Of T).New
+- uid: LibGameAI.NGrams.ActionFrequency`1.BestAction
+  name: BestAction
+  href: api/LibGameAI.NGrams.ActionFrequency-1.html#LibGameAI_NGrams_ActionFrequency_1_BestAction
+  commentId: P:LibGameAI.NGrams.ActionFrequency`1.BestAction
+  fullName: LibGameAI.NGrams.ActionFrequency<T>.BestAction
+  fullName.vb: LibGameAI.NGrams.ActionFrequency(Of T).BestAction
+  nameWithType: ActionFrequency<T>.BestAction
+  nameWithType.vb: ActionFrequency(Of T).BestAction
+- uid: LibGameAI.NGrams.ActionFrequency`1.BestAction*
+  name: BestAction
+  href: api/LibGameAI.NGrams.ActionFrequency-1.html#LibGameAI_NGrams_ActionFrequency_1_BestAction_
+  commentId: Overload:LibGameAI.NGrams.ActionFrequency`1.BestAction
+  isSpec: "True"
+  fullName: LibGameAI.NGrams.ActionFrequency<T>.BestAction
+  fullName.vb: LibGameAI.NGrams.ActionFrequency(Of T).BestAction
+  nameWithType: ActionFrequency<T>.BestAction
+  nameWithType.vb: ActionFrequency(Of T).BestAction
+- uid: LibGameAI.NGrams.ActionFrequency`1.IncrementFrequency(`0)
+  name: IncrementFrequency(T)
+  href: api/LibGameAI.NGrams.ActionFrequency-1.html#LibGameAI_NGrams_ActionFrequency_1_IncrementFrequency__0_
+  commentId: M:LibGameAI.NGrams.ActionFrequency`1.IncrementFrequency(`0)
+  fullName: LibGameAI.NGrams.ActionFrequency<T>.IncrementFrequency(T)
+  fullName.vb: LibGameAI.NGrams.ActionFrequency(Of T).IncrementFrequency(T)
+  nameWithType: ActionFrequency<T>.IncrementFrequency(T)
+  nameWithType.vb: ActionFrequency(Of T).IncrementFrequency(T)
+- uid: LibGameAI.NGrams.ActionFrequency`1.IncrementFrequency*
+  name: IncrementFrequency
+  href: api/LibGameAI.NGrams.ActionFrequency-1.html#LibGameAI_NGrams_ActionFrequency_1_IncrementFrequency_
+  commentId: Overload:LibGameAI.NGrams.ActionFrequency`1.IncrementFrequency
+  isSpec: "True"
+  fullName: LibGameAI.NGrams.ActionFrequency<T>.IncrementFrequency
+  fullName.vb: LibGameAI.NGrams.ActionFrequency(Of T).IncrementFrequency
+  nameWithType: ActionFrequency<T>.IncrementFrequency
+  nameWithType.vb: ActionFrequency(Of T).IncrementFrequency
+- uid: LibGameAI.NGrams.ActionFrequency`1.Total
+  name: Total
+  href: api/LibGameAI.NGrams.ActionFrequency-1.html#LibGameAI_NGrams_ActionFrequency_1_Total
+  commentId: P:LibGameAI.NGrams.ActionFrequency`1.Total
+  fullName: LibGameAI.NGrams.ActionFrequency<T>.Total
+  fullName.vb: LibGameAI.NGrams.ActionFrequency(Of T).Total
+  nameWithType: ActionFrequency<T>.Total
+  nameWithType.vb: ActionFrequency(Of T).Total
+- uid: LibGameAI.NGrams.ActionFrequency`1.Total*
+  name: Total
+  href: api/LibGameAI.NGrams.ActionFrequency-1.html#LibGameAI_NGrams_ActionFrequency_1_Total_
+  commentId: Overload:LibGameAI.NGrams.ActionFrequency`1.Total
+  isSpec: "True"
+  fullName: LibGameAI.NGrams.ActionFrequency<T>.Total
+  fullName.vb: LibGameAI.NGrams.ActionFrequency(Of T).Total
+  nameWithType: ActionFrequency<T>.Total
+  nameWithType.vb: ActionFrequency(Of T).Total
+- uid: LibGameAI.NGrams.HierarchNGram`1
+  name: HierarchNGram<T>
+  href: api/LibGameAI.NGrams.HierarchNGram-1.html
+  commentId: T:LibGameAI.NGrams.HierarchNGram`1
+  name.vb: HierarchNGram(Of T)
+  fullName: LibGameAI.NGrams.HierarchNGram<T>
+  fullName.vb: LibGameAI.NGrams.HierarchNGram(Of T)
+  nameWithType: HierarchNGram<T>
+  nameWithType.vb: HierarchNGram(Of T)
+- uid: LibGameAI.NGrams.HierarchNGram`1.#ctor(System.Int32,System.Int32)
+  name: HierarchNGram(int, int)
+  href: api/LibGameAI.NGrams.HierarchNGram-1.html#LibGameAI_NGrams_HierarchNGram_1__ctor_System_Int32_System_Int32_
+  commentId: M:LibGameAI.NGrams.HierarchNGram`1.#ctor(System.Int32,System.Int32)
+  name.vb: New(Integer, Integer)
+  fullName: LibGameAI.NGrams.HierarchNGram<T>.HierarchNGram(int, int)
+  fullName.vb: LibGameAI.NGrams.HierarchNGram(Of T).New(Integer, Integer)
+  nameWithType: HierarchNGram<T>.HierarchNGram(int, int)
+  nameWithType.vb: HierarchNGram(Of T).New(Integer, Integer)
+- uid: LibGameAI.NGrams.HierarchNGram`1.#ctor*
+  name: HierarchNGram
+  href: api/LibGameAI.NGrams.HierarchNGram-1.html#LibGameAI_NGrams_HierarchNGram_1__ctor_
+  commentId: Overload:LibGameAI.NGrams.HierarchNGram`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: LibGameAI.NGrams.HierarchNGram<T>.HierarchNGram
+  fullName.vb: LibGameAI.NGrams.HierarchNGram(Of T).New
+  nameWithType: HierarchNGram<T>.HierarchNGram
+  nameWithType.vb: HierarchNGram(Of T).New
+- uid: LibGameAI.NGrams.HierarchNGram`1.GetMostLikely(System.Collections.Generic.IReadOnlyList{`0})
+  name: GetMostLikely(IReadOnlyList<T>)
+  href: api/LibGameAI.NGrams.HierarchNGram-1.html#LibGameAI_NGrams_HierarchNGram_1_GetMostLikely_System_Collections_Generic_IReadOnlyList__0__
+  commentId: M:LibGameAI.NGrams.HierarchNGram`1.GetMostLikely(System.Collections.Generic.IReadOnlyList{`0})
+  name.vb: GetMostLikely(IReadOnlyList(Of T))
+  fullName: LibGameAI.NGrams.HierarchNGram<T>.GetMostLikely(System.Collections.Generic.IReadOnlyList<T>)
+  fullName.vb: LibGameAI.NGrams.HierarchNGram(Of T).GetMostLikely(System.Collections.Generic.IReadOnlyList(Of T))
+  nameWithType: HierarchNGram<T>.GetMostLikely(IReadOnlyList<T>)
+  nameWithType.vb: HierarchNGram(Of T).GetMostLikely(IReadOnlyList(Of T))
+- uid: LibGameAI.NGrams.HierarchNGram`1.GetMostLikely*
+  name: GetMostLikely
+  href: api/LibGameAI.NGrams.HierarchNGram-1.html#LibGameAI_NGrams_HierarchNGram_1_GetMostLikely_
+  commentId: Overload:LibGameAI.NGrams.HierarchNGram`1.GetMostLikely
+  isSpec: "True"
+  fullName: LibGameAI.NGrams.HierarchNGram<T>.GetMostLikely
+  fullName.vb: LibGameAI.NGrams.HierarchNGram(Of T).GetMostLikely
+  nameWithType: HierarchNGram<T>.GetMostLikely
+  nameWithType.vb: HierarchNGram(Of T).GetMostLikely
+- uid: LibGameAI.NGrams.HierarchNGram`1.NValue
+  name: NValue
+  href: api/LibGameAI.NGrams.HierarchNGram-1.html#LibGameAI_NGrams_HierarchNGram_1_NValue
+  commentId: P:LibGameAI.NGrams.HierarchNGram`1.NValue
+  fullName: LibGameAI.NGrams.HierarchNGram<T>.NValue
+  fullName.vb: LibGameAI.NGrams.HierarchNGram(Of T).NValue
+  nameWithType: HierarchNGram<T>.NValue
+  nameWithType.vb: HierarchNGram(Of T).NValue
+- uid: LibGameAI.NGrams.HierarchNGram`1.NValue*
+  name: NValue
+  href: api/LibGameAI.NGrams.HierarchNGram-1.html#LibGameAI_NGrams_HierarchNGram_1_NValue_
+  commentId: Overload:LibGameAI.NGrams.HierarchNGram`1.NValue
+  isSpec: "True"
+  fullName: LibGameAI.NGrams.HierarchNGram<T>.NValue
+  fullName.vb: LibGameAI.NGrams.HierarchNGram(Of T).NValue
+  nameWithType: HierarchNGram<T>.NValue
+  nameWithType.vb: HierarchNGram(Of T).NValue
+- uid: LibGameAI.NGrams.HierarchNGram`1.RegisterSequence(System.Collections.Generic.IReadOnlyList{`0})
+  name: RegisterSequence(IReadOnlyList<T>)
+  href: api/LibGameAI.NGrams.HierarchNGram-1.html#LibGameAI_NGrams_HierarchNGram_1_RegisterSequence_System_Collections_Generic_IReadOnlyList__0__
+  commentId: M:LibGameAI.NGrams.HierarchNGram`1.RegisterSequence(System.Collections.Generic.IReadOnlyList{`0})
+  name.vb: RegisterSequence(IReadOnlyList(Of T))
+  fullName: LibGameAI.NGrams.HierarchNGram<T>.RegisterSequence(System.Collections.Generic.IReadOnlyList<T>)
+  fullName.vb: LibGameAI.NGrams.HierarchNGram(Of T).RegisterSequence(System.Collections.Generic.IReadOnlyList(Of T))
+  nameWithType: HierarchNGram<T>.RegisterSequence(IReadOnlyList<T>)
+  nameWithType.vb: HierarchNGram(Of T).RegisterSequence(IReadOnlyList(Of T))
+- uid: LibGameAI.NGrams.HierarchNGram`1.RegisterSequence*
+  name: RegisterSequence
+  href: api/LibGameAI.NGrams.HierarchNGram-1.html#LibGameAI_NGrams_HierarchNGram_1_RegisterSequence_
+  commentId: Overload:LibGameAI.NGrams.HierarchNGram`1.RegisterSequence
+  isSpec: "True"
+  fullName: LibGameAI.NGrams.HierarchNGram<T>.RegisterSequence
+  fullName.vb: LibGameAI.NGrams.HierarchNGram(Of T).RegisterSequence
+  nameWithType: HierarchNGram<T>.RegisterSequence
+  nameWithType.vb: HierarchNGram(Of T).RegisterSequence
+- uid: LibGameAI.NGrams.INGram`1
+  name: INGram<T>
+  href: api/LibGameAI.NGrams.INGram-1.html
+  commentId: T:LibGameAI.NGrams.INGram`1
+  name.vb: INGram(Of T)
+  fullName: LibGameAI.NGrams.INGram<T>
+  fullName.vb: LibGameAI.NGrams.INGram(Of T)
+  nameWithType: INGram<T>
+  nameWithType.vb: INGram(Of T)
+- uid: LibGameAI.NGrams.INGram`1.GetMostLikely(System.Collections.Generic.IReadOnlyList{`0})
+  name: GetMostLikely(IReadOnlyList<T>)
+  href: api/LibGameAI.NGrams.INGram-1.html#LibGameAI_NGrams_INGram_1_GetMostLikely_System_Collections_Generic_IReadOnlyList__0__
+  commentId: M:LibGameAI.NGrams.INGram`1.GetMostLikely(System.Collections.Generic.IReadOnlyList{`0})
+  name.vb: GetMostLikely(IReadOnlyList(Of T))
+  fullName: LibGameAI.NGrams.INGram<T>.GetMostLikely(System.Collections.Generic.IReadOnlyList<T>)
+  fullName.vb: LibGameAI.NGrams.INGram(Of T).GetMostLikely(System.Collections.Generic.IReadOnlyList(Of T))
+  nameWithType: INGram<T>.GetMostLikely(IReadOnlyList<T>)
+  nameWithType.vb: INGram(Of T).GetMostLikely(IReadOnlyList(Of T))
+- uid: LibGameAI.NGrams.INGram`1.GetMostLikely*
+  name: GetMostLikely
+  href: api/LibGameAI.NGrams.INGram-1.html#LibGameAI_NGrams_INGram_1_GetMostLikely_
+  commentId: Overload:LibGameAI.NGrams.INGram`1.GetMostLikely
+  isSpec: "True"
+  fullName: LibGameAI.NGrams.INGram<T>.GetMostLikely
+  fullName.vb: LibGameAI.NGrams.INGram(Of T).GetMostLikely
+  nameWithType: INGram<T>.GetMostLikely
+  nameWithType.vb: INGram(Of T).GetMostLikely
+- uid: LibGameAI.NGrams.INGram`1.NValue
+  name: NValue
+  href: api/LibGameAI.NGrams.INGram-1.html#LibGameAI_NGrams_INGram_1_NValue
+  commentId: P:LibGameAI.NGrams.INGram`1.NValue
+  fullName: LibGameAI.NGrams.INGram<T>.NValue
+  fullName.vb: LibGameAI.NGrams.INGram(Of T).NValue
+  nameWithType: INGram<T>.NValue
+  nameWithType.vb: INGram(Of T).NValue
+- uid: LibGameAI.NGrams.INGram`1.NValue*
+  name: NValue
+  href: api/LibGameAI.NGrams.INGram-1.html#LibGameAI_NGrams_INGram_1_NValue_
+  commentId: Overload:LibGameAI.NGrams.INGram`1.NValue
+  isSpec: "True"
+  fullName: LibGameAI.NGrams.INGram<T>.NValue
+  fullName.vb: LibGameAI.NGrams.INGram(Of T).NValue
+  nameWithType: INGram<T>.NValue
+  nameWithType.vb: INGram(Of T).NValue
+- uid: LibGameAI.NGrams.INGram`1.RegisterSequence(System.Collections.Generic.IReadOnlyList{`0})
+  name: RegisterSequence(IReadOnlyList<T>)
+  href: api/LibGameAI.NGrams.INGram-1.html#LibGameAI_NGrams_INGram_1_RegisterSequence_System_Collections_Generic_IReadOnlyList__0__
+  commentId: M:LibGameAI.NGrams.INGram`1.RegisterSequence(System.Collections.Generic.IReadOnlyList{`0})
+  name.vb: RegisterSequence(IReadOnlyList(Of T))
+  fullName: LibGameAI.NGrams.INGram<T>.RegisterSequence(System.Collections.Generic.IReadOnlyList<T>)
+  fullName.vb: LibGameAI.NGrams.INGram(Of T).RegisterSequence(System.Collections.Generic.IReadOnlyList(Of T))
+  nameWithType: INGram<T>.RegisterSequence(IReadOnlyList<T>)
+  nameWithType.vb: INGram(Of T).RegisterSequence(IReadOnlyList(Of T))
+- uid: LibGameAI.NGrams.INGram`1.RegisterSequence*
+  name: RegisterSequence
+  href: api/LibGameAI.NGrams.INGram-1.html#LibGameAI_NGrams_INGram_1_RegisterSequence_
+  commentId: Overload:LibGameAI.NGrams.INGram`1.RegisterSequence
+  isSpec: "True"
+  fullName: LibGameAI.NGrams.INGram<T>.RegisterSequence
+  fullName.vb: LibGameAI.NGrams.INGram(Of T).RegisterSequence
+  nameWithType: INGram<T>.RegisterSequence
+  nameWithType.vb: INGram(Of T).RegisterSequence
+- uid: LibGameAI.NGrams.NGram`1
+  name: NGram<T>
+  href: api/LibGameAI.NGrams.NGram-1.html
+  commentId: T:LibGameAI.NGrams.NGram`1
+  name.vb: NGram(Of T)
+  fullName: LibGameAI.NGrams.NGram<T>
+  fullName.vb: LibGameAI.NGrams.NGram(Of T)
+  nameWithType: NGram<T>
+  nameWithType.vb: NGram(Of T)
+- uid: LibGameAI.NGrams.NGram`1.#ctor(System.Int32)
+  name: NGram(int)
+  href: api/LibGameAI.NGrams.NGram-1.html#LibGameAI_NGrams_NGram_1__ctor_System_Int32_
+  commentId: M:LibGameAI.NGrams.NGram`1.#ctor(System.Int32)
+  name.vb: New(Integer)
+  fullName: LibGameAI.NGrams.NGram<T>.NGram(int)
+  fullName.vb: LibGameAI.NGrams.NGram(Of T).New(Integer)
+  nameWithType: NGram<T>.NGram(int)
+  nameWithType.vb: NGram(Of T).New(Integer)
+- uid: LibGameAI.NGrams.NGram`1.#ctor*
+  name: NGram
+  href: api/LibGameAI.NGrams.NGram-1.html#LibGameAI_NGrams_NGram_1__ctor_
+  commentId: Overload:LibGameAI.NGrams.NGram`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: LibGameAI.NGrams.NGram<T>.NGram
+  fullName.vb: LibGameAI.NGrams.NGram(Of T).New
+  nameWithType: NGram<T>.NGram
+  nameWithType.vb: NGram(Of T).New
+- uid: LibGameAI.NGrams.NGram`1.GetActionsFrequency(System.Collections.Generic.IReadOnlyCollection{`0})
+  name: GetActionsFrequency(IReadOnlyCollection<T>)
+  href: api/LibGameAI.NGrams.NGram-1.html#LibGameAI_NGrams_NGram_1_GetActionsFrequency_System_Collections_Generic_IReadOnlyCollection__0__
+  commentId: M:LibGameAI.NGrams.NGram`1.GetActionsFrequency(System.Collections.Generic.IReadOnlyCollection{`0})
+  name.vb: GetActionsFrequency(IReadOnlyCollection(Of T))
+  fullName: LibGameAI.NGrams.NGram<T>.GetActionsFrequency(System.Collections.Generic.IReadOnlyCollection<T>)
+  fullName.vb: LibGameAI.NGrams.NGram(Of T).GetActionsFrequency(System.Collections.Generic.IReadOnlyCollection(Of T))
+  nameWithType: NGram<T>.GetActionsFrequency(IReadOnlyCollection<T>)
+  nameWithType.vb: NGram(Of T).GetActionsFrequency(IReadOnlyCollection(Of T))
+- uid: LibGameAI.NGrams.NGram`1.GetActionsFrequency*
+  name: GetActionsFrequency
+  href: api/LibGameAI.NGrams.NGram-1.html#LibGameAI_NGrams_NGram_1_GetActionsFrequency_
+  commentId: Overload:LibGameAI.NGrams.NGram`1.GetActionsFrequency
+  isSpec: "True"
+  fullName: LibGameAI.NGrams.NGram<T>.GetActionsFrequency
+  fullName.vb: LibGameAI.NGrams.NGram(Of T).GetActionsFrequency
+  nameWithType: NGram<T>.GetActionsFrequency
+  nameWithType.vb: NGram(Of T).GetActionsFrequency
+- uid: LibGameAI.NGrams.NGram`1.GetMostLikely(System.Collections.Generic.IReadOnlyList{`0})
+  name: GetMostLikely(IReadOnlyList<T>)
+  href: api/LibGameAI.NGrams.NGram-1.html#LibGameAI_NGrams_NGram_1_GetMostLikely_System_Collections_Generic_IReadOnlyList__0__
+  commentId: M:LibGameAI.NGrams.NGram`1.GetMostLikely(System.Collections.Generic.IReadOnlyList{`0})
+  name.vb: GetMostLikely(IReadOnlyList(Of T))
+  fullName: LibGameAI.NGrams.NGram<T>.GetMostLikely(System.Collections.Generic.IReadOnlyList<T>)
+  fullName.vb: LibGameAI.NGrams.NGram(Of T).GetMostLikely(System.Collections.Generic.IReadOnlyList(Of T))
+  nameWithType: NGram<T>.GetMostLikely(IReadOnlyList<T>)
+  nameWithType.vb: NGram(Of T).GetMostLikely(IReadOnlyList(Of T))
+- uid: LibGameAI.NGrams.NGram`1.GetMostLikely*
+  name: GetMostLikely
+  href: api/LibGameAI.NGrams.NGram-1.html#LibGameAI_NGrams_NGram_1_GetMostLikely_
+  commentId: Overload:LibGameAI.NGrams.NGram`1.GetMostLikely
+  isSpec: "True"
+  fullName: LibGameAI.NGrams.NGram<T>.GetMostLikely
+  fullName.vb: LibGameAI.NGrams.NGram(Of T).GetMostLikely
+  nameWithType: NGram<T>.GetMostLikely
+  nameWithType.vb: NGram(Of T).GetMostLikely
+- uid: LibGameAI.NGrams.NGram`1.NValue
+  name: NValue
+  href: api/LibGameAI.NGrams.NGram-1.html#LibGameAI_NGrams_NGram_1_NValue
+  commentId: P:LibGameAI.NGrams.NGram`1.NValue
+  fullName: LibGameAI.NGrams.NGram<T>.NValue
+  fullName.vb: LibGameAI.NGrams.NGram(Of T).NValue
+  nameWithType: NGram<T>.NValue
+  nameWithType.vb: NGram(Of T).NValue
+- uid: LibGameAI.NGrams.NGram`1.NValue*
+  name: NValue
+  href: api/LibGameAI.NGrams.NGram-1.html#LibGameAI_NGrams_NGram_1_NValue_
+  commentId: Overload:LibGameAI.NGrams.NGram`1.NValue
+  isSpec: "True"
+  fullName: LibGameAI.NGrams.NGram<T>.NValue
+  fullName.vb: LibGameAI.NGrams.NGram(Of T).NValue
+  nameWithType: NGram<T>.NValue
+  nameWithType.vb: NGram(Of T).NValue
+- uid: LibGameAI.NGrams.NGram`1.RegisterSequence(System.Collections.Generic.IReadOnlyList{`0})
+  name: RegisterSequence(IReadOnlyList<T>)
+  href: api/LibGameAI.NGrams.NGram-1.html#LibGameAI_NGrams_NGram_1_RegisterSequence_System_Collections_Generic_IReadOnlyList__0__
+  commentId: M:LibGameAI.NGrams.NGram`1.RegisterSequence(System.Collections.Generic.IReadOnlyList{`0})
+  name.vb: RegisterSequence(IReadOnlyList(Of T))
+  fullName: LibGameAI.NGrams.NGram<T>.RegisterSequence(System.Collections.Generic.IReadOnlyList<T>)
+  fullName.vb: LibGameAI.NGrams.NGram(Of T).RegisterSequence(System.Collections.Generic.IReadOnlyList(Of T))
+  nameWithType: NGram<T>.RegisterSequence(IReadOnlyList<T>)
+  nameWithType.vb: NGram(Of T).RegisterSequence(IReadOnlyList(Of T))
+- uid: LibGameAI.NGrams.NGram`1.RegisterSequence*
+  name: RegisterSequence
+  href: api/LibGameAI.NGrams.NGram-1.html#LibGameAI_NGrams_NGram_1_RegisterSequence_
+  commentId: Overload:LibGameAI.NGrams.NGram`1.RegisterSequence
+  isSpec: "True"
+  fullName: LibGameAI.NGrams.NGram<T>.RegisterSequence
+  fullName.vb: LibGameAI.NGrams.NGram(Of T).RegisterSequence
+  nameWithType: NGram<T>.RegisterSequence
+  nameWithType.vb: NGram(Of T).RegisterSequence
+- uid: LibGameAI.NGrams.NGram`1.SequenceToString(System.Collections.Generic.IEnumerable{`0})
+  name: SequenceToString(IEnumerable<T>)
+  href: api/LibGameAI.NGrams.NGram-1.html#LibGameAI_NGrams_NGram_1_SequenceToString_System_Collections_Generic_IEnumerable__0__
+  commentId: M:LibGameAI.NGrams.NGram`1.SequenceToString(System.Collections.Generic.IEnumerable{`0})
+  name.vb: SequenceToString(IEnumerable(Of T))
+  fullName: LibGameAI.NGrams.NGram<T>.SequenceToString(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: LibGameAI.NGrams.NGram(Of T).SequenceToString(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: NGram<T>.SequenceToString(IEnumerable<T>)
+  nameWithType.vb: NGram(Of T).SequenceToString(IEnumerable(Of T))
+- uid: LibGameAI.NGrams.NGram`1.SequenceToString*
+  name: SequenceToString
+  href: api/LibGameAI.NGrams.NGram-1.html#LibGameAI_NGrams_NGram_1_SequenceToString_
+  commentId: Overload:LibGameAI.NGrams.NGram`1.SequenceToString
+  isSpec: "True"
+  fullName: LibGameAI.NGrams.NGram<T>.SequenceToString
+  fullName.vb: LibGameAI.NGrams.NGram(Of T).SequenceToString
+  nameWithType: NGram<T>.SequenceToString
+  nameWithType.vb: NGram(Of T).SequenceToString
+- uid: LibGameAI.NaiveBayes
+  name: LibGameAI.NaiveBayes
+  href: api/LibGameAI.NaiveBayes.html
+  commentId: N:LibGameAI.NaiveBayes
+  fullName: LibGameAI.NaiveBayes
+  nameWithType: LibGameAI.NaiveBayes
+- uid: LibGameAI.NaiveBayes.Attrib
+  name: Attrib
+  href: api/LibGameAI.NaiveBayes.Attrib.html
+  commentId: T:LibGameAI.NaiveBayes.Attrib
+  fullName: LibGameAI.NaiveBayes.Attrib
+  nameWithType: Attrib
+- uid: LibGameAI.NaiveBayes.Attrib.#ctor(System.String,System.Collections.Generic.IEnumerable{System.String})
+  name: Attrib(string, IEnumerable<string>)
+  href: api/LibGameAI.NaiveBayes.Attrib.html#LibGameAI_NaiveBayes_Attrib__ctor_System_String_System_Collections_Generic_IEnumerable_System_String__
+  commentId: M:LibGameAI.NaiveBayes.Attrib.#ctor(System.String,System.Collections.Generic.IEnumerable{System.String})
+  name.vb: New(String, IEnumerable(Of String))
+  fullName: LibGameAI.NaiveBayes.Attrib.Attrib(string, System.Collections.Generic.IEnumerable<string>)
+  fullName.vb: LibGameAI.NaiveBayes.Attrib.New(String, System.Collections.Generic.IEnumerable(Of String))
+  nameWithType: Attrib.Attrib(string, IEnumerable<string>)
+  nameWithType.vb: Attrib.New(String, IEnumerable(Of String))
+- uid: LibGameAI.NaiveBayes.Attrib.#ctor*
+  name: Attrib
+  href: api/LibGameAI.NaiveBayes.Attrib.html#LibGameAI_NaiveBayes_Attrib__ctor_
+  commentId: Overload:LibGameAI.NaiveBayes.Attrib.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: LibGameAI.NaiveBayes.Attrib.Attrib
+  fullName.vb: LibGameAI.NaiveBayes.Attrib.New
+  nameWithType: Attrib.Attrib
+  nameWithType.vb: Attrib.New
+- uid: LibGameAI.NaiveBayes.Attrib.Name
+  name: Name
+  href: api/LibGameAI.NaiveBayes.Attrib.html#LibGameAI_NaiveBayes_Attrib_Name
+  commentId: P:LibGameAI.NaiveBayes.Attrib.Name
+  fullName: LibGameAI.NaiveBayes.Attrib.Name
+  nameWithType: Attrib.Name
+- uid: LibGameAI.NaiveBayes.Attrib.Name*
+  name: Name
+  href: api/LibGameAI.NaiveBayes.Attrib.html#LibGameAI_NaiveBayes_Attrib_Name_
+  commentId: Overload:LibGameAI.NaiveBayes.Attrib.Name
+  isSpec: "True"
+  fullName: LibGameAI.NaiveBayes.Attrib.Name
+  nameWithType: Attrib.Name
+- uid: LibGameAI.NaiveBayes.Attrib.Values
+  name: Values
+  href: api/LibGameAI.NaiveBayes.Attrib.html#LibGameAI_NaiveBayes_Attrib_Values
+  commentId: P:LibGameAI.NaiveBayes.Attrib.Values
+  fullName: LibGameAI.NaiveBayes.Attrib.Values
+  nameWithType: Attrib.Values
+- uid: LibGameAI.NaiveBayes.Attrib.Values*
+  name: Values
+  href: api/LibGameAI.NaiveBayes.Attrib.html#LibGameAI_NaiveBayes_Attrib_Values_
+  commentId: Overload:LibGameAI.NaiveBayes.Attrib.Values
+  isSpec: "True"
+  fullName: LibGameAI.NaiveBayes.Attrib.Values
+  nameWithType: Attrib.Values
+- uid: LibGameAI.NaiveBayes.NaiveBayesClassifier
+  name: NaiveBayesClassifier
+  href: api/LibGameAI.NaiveBayes.NaiveBayesClassifier.html
+  commentId: T:LibGameAI.NaiveBayes.NaiveBayesClassifier
+  fullName: LibGameAI.NaiveBayes.NaiveBayesClassifier
+  nameWithType: NaiveBayesClassifier
+- uid: LibGameAI.NaiveBayes.NaiveBayesClassifier.#ctor(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{LibGameAI.NaiveBayes.Attrib})
+  name: NaiveBayesClassifier(IEnumerable<string>, IEnumerable<Attrib>)
+  href: api/LibGameAI.NaiveBayes.NaiveBayesClassifier.html#LibGameAI_NaiveBayes_NaiveBayesClassifier__ctor_System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_LibGameAI_NaiveBayes_Attrib__
+  commentId: M:LibGameAI.NaiveBayes.NaiveBayesClassifier.#ctor(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{LibGameAI.NaiveBayes.Attrib})
+  name.vb: New(IEnumerable(Of String), IEnumerable(Of Attrib))
+  fullName: LibGameAI.NaiveBayes.NaiveBayesClassifier.NaiveBayesClassifier(System.Collections.Generic.IEnumerable<string>, System.Collections.Generic.IEnumerable<LibGameAI.NaiveBayes.Attrib>)
+  fullName.vb: LibGameAI.NaiveBayes.NaiveBayesClassifier.New(System.Collections.Generic.IEnumerable(Of String), System.Collections.Generic.IEnumerable(Of LibGameAI.NaiveBayes.Attrib))
+  nameWithType: NaiveBayesClassifier.NaiveBayesClassifier(IEnumerable<string>, IEnumerable<Attrib>)
+  nameWithType.vb: NaiveBayesClassifier.New(IEnumerable(Of String), IEnumerable(Of Attrib))
+- uid: LibGameAI.NaiveBayes.NaiveBayesClassifier.#ctor*
+  name: NaiveBayesClassifier
+  href: api/LibGameAI.NaiveBayes.NaiveBayesClassifier.html#LibGameAI_NaiveBayes_NaiveBayesClassifier__ctor_
+  commentId: Overload:LibGameAI.NaiveBayes.NaiveBayesClassifier.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: LibGameAI.NaiveBayes.NaiveBayesClassifier.NaiveBayesClassifier
+  fullName.vb: LibGameAI.NaiveBayes.NaiveBayesClassifier.New
+  nameWithType: NaiveBayesClassifier.NaiveBayesClassifier
+  nameWithType.vb: NaiveBayesClassifier.New
+- uid: LibGameAI.NaiveBayes.NaiveBayesClassifier.Predict(System.Collections.Generic.IDictionary{LibGameAI.NaiveBayes.Attrib,System.String})
+  name: Predict(IDictionary<Attrib, string>)
+  href: api/LibGameAI.NaiveBayes.NaiveBayesClassifier.html#LibGameAI_NaiveBayes_NaiveBayesClassifier_Predict_System_Collections_Generic_IDictionary_LibGameAI_NaiveBayes_Attrib_System_String__
+  commentId: M:LibGameAI.NaiveBayes.NaiveBayesClassifier.Predict(System.Collections.Generic.IDictionary{LibGameAI.NaiveBayes.Attrib,System.String})
+  name.vb: Predict(IDictionary(Of Attrib, String))
+  fullName: LibGameAI.NaiveBayes.NaiveBayesClassifier.Predict(System.Collections.Generic.IDictionary<LibGameAI.NaiveBayes.Attrib, string>)
+  fullName.vb: LibGameAI.NaiveBayes.NaiveBayesClassifier.Predict(System.Collections.Generic.IDictionary(Of LibGameAI.NaiveBayes.Attrib, String))
+  nameWithType: NaiveBayesClassifier.Predict(IDictionary<Attrib, string>)
+  nameWithType.vb: NaiveBayesClassifier.Predict(IDictionary(Of Attrib, String))
+- uid: LibGameAI.NaiveBayes.NaiveBayesClassifier.Predict*
+  name: Predict
+  href: api/LibGameAI.NaiveBayes.NaiveBayesClassifier.html#LibGameAI_NaiveBayes_NaiveBayesClassifier_Predict_
+  commentId: Overload:LibGameAI.NaiveBayes.NaiveBayesClassifier.Predict
+  isSpec: "True"
+  fullName: LibGameAI.NaiveBayes.NaiveBayesClassifier.Predict
+  nameWithType: NaiveBayesClassifier.Predict
+- uid: LibGameAI.NaiveBayes.NaiveBayesClassifier.Update(System.String,System.Collections.Generic.IDictionary{LibGameAI.NaiveBayes.Attrib,System.String})
+  name: Update(string, IDictionary<Attrib, string>)
+  href: api/LibGameAI.NaiveBayes.NaiveBayesClassifier.html#LibGameAI_NaiveBayes_NaiveBayesClassifier_Update_System_String_System_Collections_Generic_IDictionary_LibGameAI_NaiveBayes_Attrib_System_String__
+  commentId: M:LibGameAI.NaiveBayes.NaiveBayesClassifier.Update(System.String,System.Collections.Generic.IDictionary{LibGameAI.NaiveBayes.Attrib,System.String})
+  name.vb: Update(String, IDictionary(Of Attrib, String))
+  fullName: LibGameAI.NaiveBayes.NaiveBayesClassifier.Update(string, System.Collections.Generic.IDictionary<LibGameAI.NaiveBayes.Attrib, string>)
+  fullName.vb: LibGameAI.NaiveBayes.NaiveBayesClassifier.Update(String, System.Collections.Generic.IDictionary(Of LibGameAI.NaiveBayes.Attrib, String))
+  nameWithType: NaiveBayesClassifier.Update(string, IDictionary<Attrib, string>)
+  nameWithType.vb: NaiveBayesClassifier.Update(String, IDictionary(Of Attrib, String))
+- uid: LibGameAI.NaiveBayes.NaiveBayesClassifier.Update*
+  name: Update
+  href: api/LibGameAI.NaiveBayes.NaiveBayesClassifier.html#LibGameAI_NaiveBayes_NaiveBayesClassifier_Update_
+  commentId: Overload:LibGameAI.NaiveBayes.NaiveBayesClassifier.Update
+  isSpec: "True"
+  fullName: LibGameAI.NaiveBayes.NaiveBayesClassifier.Update
+  nameWithType: NaiveBayesClassifier.Update
+- uid: LibGameAI.PCG
+  name: LibGameAI.PCG
+  href: api/LibGameAI.PCG.html
+  commentId: N:LibGameAI.PCG
+  fullName: LibGameAI.PCG
+  nameWithType: LibGameAI.PCG
+- uid: LibGameAI.PCG.Landscape
+  name: Landscape
+  href: api/LibGameAI.PCG.Landscape.html
+  commentId: T:LibGameAI.PCG.Landscape
+  fullName: LibGameAI.PCG.Landscape
+  nameWithType: Landscape
+- uid: LibGameAI.PCG.Landscape.DiamondSquare(System.Single[0:,0:],System.Single,System.Single,System.Func{System.Single})
+  name: DiamondSquare(float[,], float, float, Func<float>)
+  href: api/LibGameAI.PCG.Landscape.html#LibGameAI_PCG_Landscape_DiamondSquare_System_Single_0__0___System_Single_System_Single_System_Func_System_Single__
+  commentId: M:LibGameAI.PCG.Landscape.DiamondSquare(System.Single[0:,0:],System.Single,System.Single,System.Func{System.Single})
+  name.vb: DiamondSquare(Single(,), Single, Single, Func(Of Single))
+  fullName: LibGameAI.PCG.Landscape.DiamondSquare(float[,], float, float, System.Func<float>)
+  fullName.vb: LibGameAI.PCG.Landscape.DiamondSquare(Single(,), Single, Single, System.Func(Of Single))
+  nameWithType: Landscape.DiamondSquare(float[,], float, float, Func<float>)
+  nameWithType.vb: Landscape.DiamondSquare(Single(,), Single, Single, Func(Of Single))
+- uid: LibGameAI.PCG.Landscape.DiamondSquare*
+  name: DiamondSquare
+  href: api/LibGameAI.PCG.Landscape.html#LibGameAI_PCG_Landscape_DiamondSquare_
+  commentId: Overload:LibGameAI.PCG.Landscape.DiamondSquare
+  isSpec: "True"
+  fullName: LibGameAI.PCG.Landscape.DiamondSquare
+  nameWithType: Landscape.DiamondSquare
+- uid: LibGameAI.PCG.Landscape.FaultModifier(System.Single[0:,0:],System.Single,System.Func{System.Single},System.Single)
+  name: FaultModifier(float[,], float, Func<float>, float)
+  href: api/LibGameAI.PCG.Landscape.html#LibGameAI_PCG_Landscape_FaultModifier_System_Single_0__0___System_Single_System_Func_System_Single__System_Single_
+  commentId: M:LibGameAI.PCG.Landscape.FaultModifier(System.Single[0:,0:],System.Single,System.Func{System.Single},System.Single)
+  name.vb: FaultModifier(Single(,), Single, Func(Of Single), Single)
+  fullName: LibGameAI.PCG.Landscape.FaultModifier(float[,], float, System.Func<float>, float)
+  fullName.vb: LibGameAI.PCG.Landscape.FaultModifier(Single(,), Single, System.Func(Of Single), Single)
+  nameWithType: Landscape.FaultModifier(float[,], float, Func<float>, float)
+  nameWithType.vb: Landscape.FaultModifier(Single(,), Single, Func(Of Single), Single)
+- uid: LibGameAI.PCG.Landscape.FaultModifier*
+  name: FaultModifier
+  href: api/LibGameAI.PCG.Landscape.html#LibGameAI_PCG_Landscape_FaultModifier_
+  commentId: Overload:LibGameAI.PCG.Landscape.FaultModifier
+  isSpec: "True"
+  fullName: LibGameAI.PCG.Landscape.FaultModifier
+  nameWithType: Landscape.FaultModifier
+- uid: LibGameAI.PCG.Landscape.Sandpile(System.Single[0:,0:],System.Single,System.Single,System.Single,System.Single,System.Boolean,System.Boolean,System.Func{System.Int32,System.Int32},System.Func{System.Double},System.ValueTuple{System.Int32,System.Int32}[])
+  name: Sandpile(float[,], float, float, float, float, bool, bool, Func<int, int>, Func<double>, (int x, int y)[])
+  href: api/LibGameAI.PCG.Landscape.html#LibGameAI_PCG_Landscape_Sandpile_System_Single_0__0___System_Single_System_Single_System_Single_System_Single_System_Boolean_System_Boolean_System_Func_System_Int32_System_Int32__System_Func_System_Double__System_ValueTuple_System_Int32_System_Int32____
+  commentId: M:LibGameAI.PCG.Landscape.Sandpile(System.Single[0:,0:],System.Single,System.Single,System.Single,System.Single,System.Boolean,System.Boolean,System.Func{System.Int32,System.Int32},System.Func{System.Double},System.ValueTuple{System.Int32,System.Int32}[])
+  name.vb: Sandpile(Single(,), Single, Single, Single, Single, Boolean, Boolean, Func(Of Integer, Integer), Func(Of Double), (x As Integer, y As Integer)())
+  fullName: LibGameAI.PCG.Landscape.Sandpile(float[,], float, float, float, float, bool, bool, System.Func<int, int>, System.Func<double>, (int x, int y)[])
+  fullName.vb: LibGameAI.PCG.Landscape.Sandpile(Single(,), Single, Single, Single, Single, Boolean, Boolean, System.Func(Of Integer, Integer), System.Func(Of Double), (x As Integer, y As Integer)())
+  nameWithType: Landscape.Sandpile(float[,], float, float, float, float, bool, bool, Func<int, int>, Func<double>, (int x, int y)[])
+  nameWithType.vb: Landscape.Sandpile(Single(,), Single, Single, Single, Single, Boolean, Boolean, Func(Of Integer, Integer), Func(Of Double), (x As Integer, y As Integer)())
+- uid: LibGameAI.PCG.Landscape.Sandpile*
+  name: Sandpile
+  href: api/LibGameAI.PCG.Landscape.html#LibGameAI_PCG_Landscape_Sandpile_
+  commentId: Overload:LibGameAI.PCG.Landscape.Sandpile
+  isSpec: "True"
+  fullName: LibGameAI.PCG.Landscape.Sandpile
+  nameWithType: Landscape.Sandpile
+- uid: LibGameAI.PCG.Landscape.ThermalErosion(System.Single[0:,0:],System.Single)
+  name: ThermalErosion(float[,], float)
+  href: api/LibGameAI.PCG.Landscape.html#LibGameAI_PCG_Landscape_ThermalErosion_System_Single_0__0___System_Single_
+  commentId: M:LibGameAI.PCG.Landscape.ThermalErosion(System.Single[0:,0:],System.Single)
+  name.vb: ThermalErosion(Single(,), Single)
+  fullName: LibGameAI.PCG.Landscape.ThermalErosion(float[,], float)
+  fullName.vb: LibGameAI.PCG.Landscape.ThermalErosion(Single(,), Single)
+  nameWithType: Landscape.ThermalErosion(float[,], float)
+  nameWithType.vb: Landscape.ThermalErosion(Single(,), Single)
+- uid: LibGameAI.PCG.Landscape.ThermalErosion*
+  name: ThermalErosion
+  href: api/LibGameAI.PCG.Landscape.html#LibGameAI_PCG_Landscape_ThermalErosion_
+  commentId: Overload:LibGameAI.PCG.Landscape.ThermalErosion
+  isSpec: "True"
+  fullName: LibGameAI.PCG.Landscape.ThermalErosion
+  nameWithType: Landscape.ThermalErosion
+- uid: LibGameAI.PCG.Noise
+  name: Noise
+  href: api/LibGameAI.PCG.Noise.html
+  commentId: T:LibGameAI.PCG.Noise
+  fullName: LibGameAI.PCG.Noise
+  nameWithType: Noise
+- uid: LibGameAI.PCG.Noise.MPD(System.Single[],System.Single,System.Func{System.Single})
+  name: MPD(float[], float, Func<float>)
+  href: api/LibGameAI.PCG.Noise.html#LibGameAI_PCG_Noise_MPD_System_Single___System_Single_System_Func_System_Single__
+  commentId: M:LibGameAI.PCG.Noise.MPD(System.Single[],System.Single,System.Func{System.Single})
+  name.vb: MPD(Single(), Single, Func(Of Single))
+  fullName: LibGameAI.PCG.Noise.MPD(float[], float, System.Func<float>)
+  fullName.vb: LibGameAI.PCG.Noise.MPD(Single(), Single, System.Func(Of Single))
+  nameWithType: Noise.MPD(float[], float, Func<float>)
+  nameWithType.vb: Noise.MPD(Single(), Single, Func(Of Single))
+- uid: LibGameAI.PCG.Noise.MPD*
+  name: MPD
+  href: api/LibGameAI.PCG.Noise.html#LibGameAI_PCG_Noise_MPD_
+  commentId: Overload:LibGameAI.PCG.Noise.MPD
+  isSpec: "True"
+  fullName: LibGameAI.PCG.Noise.MPD
+  nameWithType: Noise.MPD
+- uid: LibGameAI.PRNG
+  name: LibGameAI.PRNG
+  href: api/LibGameAI.PRNG.html
+  commentId: N:LibGameAI.PRNG
+  fullName: LibGameAI.PRNG
+  nameWithType: LibGameAI.PRNG
+- uid: LibGameAI.PRNG.LCG48
+  name: LCG48
+  href: api/LibGameAI.PRNG.LCG48.html
+  commentId: T:LibGameAI.PRNG.LCG48
+  fullName: LibGameAI.PRNG.LCG48
+  nameWithType: LCG48
+- uid: LibGameAI.PRNG.LCG48.#ctor
+  name: LCG48()
+  href: api/LibGameAI.PRNG.LCG48.html#LibGameAI_PRNG_LCG48__ctor
+  commentId: M:LibGameAI.PRNG.LCG48.#ctor
+  name.vb: New()
+  fullName: LibGameAI.PRNG.LCG48.LCG48()
+  fullName.vb: LibGameAI.PRNG.LCG48.New()
+  nameWithType: LCG48.LCG48()
+  nameWithType.vb: LCG48.New()
+- uid: LibGameAI.PRNG.LCG48.#ctor(System.Int32)
+  name: LCG48(int)
+  href: api/LibGameAI.PRNG.LCG48.html#LibGameAI_PRNG_LCG48__ctor_System_Int32_
+  commentId: M:LibGameAI.PRNG.LCG48.#ctor(System.Int32)
+  name.vb: New(Integer)
+  fullName: LibGameAI.PRNG.LCG48.LCG48(int)
+  fullName.vb: LibGameAI.PRNG.LCG48.New(Integer)
+  nameWithType: LCG48.LCG48(int)
+  nameWithType.vb: LCG48.New(Integer)
+- uid: LibGameAI.PRNG.LCG48.#ctor(System.Int64)
+  name: LCG48(long)
+  href: api/LibGameAI.PRNG.LCG48.html#LibGameAI_PRNG_LCG48__ctor_System_Int64_
+  commentId: M:LibGameAI.PRNG.LCG48.#ctor(System.Int64)
+  name.vb: New(Long)
+  fullName: LibGameAI.PRNG.LCG48.LCG48(long)
+  fullName.vb: LibGameAI.PRNG.LCG48.New(Long)
+  nameWithType: LCG48.LCG48(long)
+  nameWithType.vb: LCG48.New(Long)
+- uid: LibGameAI.PRNG.LCG48.#ctor*
+  name: LCG48
+  href: api/LibGameAI.PRNG.LCG48.html#LibGameAI_PRNG_LCG48__ctor_
+  commentId: Overload:LibGameAI.PRNG.LCG48.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: LibGameAI.PRNG.LCG48.LCG48
+  fullName.vb: LibGameAI.PRNG.LCG48.New
+  nameWithType: LCG48.LCG48
+  nameWithType.vb: LCG48.New
+- uid: LibGameAI.PRNG.LCG48.Next
+  name: Next()
+  href: api/LibGameAI.PRNG.LCG48.html#LibGameAI_PRNG_LCG48_Next
+  commentId: M:LibGameAI.PRNG.LCG48.Next
+  fullName: LibGameAI.PRNG.LCG48.Next()
+  nameWithType: LCG48.Next()
+- uid: LibGameAI.PRNG.LCG48.Next(System.Int32,System.Int32)
+  name: Next(int, int)
+  href: api/LibGameAI.PRNG.LCG48.html#LibGameAI_PRNG_LCG48_Next_System_Int32_System_Int32_
+  commentId: M:LibGameAI.PRNG.LCG48.Next(System.Int32,System.Int32)
+  name.vb: Next(Integer, Integer)
+  fullName: LibGameAI.PRNG.LCG48.Next(int, int)
+  fullName.vb: LibGameAI.PRNG.LCG48.Next(Integer, Integer)
+  nameWithType: LCG48.Next(int, int)
+  nameWithType.vb: LCG48.Next(Integer, Integer)
+- uid: LibGameAI.PRNG.LCG48.Next*
+  name: Next
+  href: api/LibGameAI.PRNG.LCG48.html#LibGameAI_PRNG_LCG48_Next_
+  commentId: Overload:LibGameAI.PRNG.LCG48.Next
+  isSpec: "True"
+  fullName: LibGameAI.PRNG.LCG48.Next
+  nameWithType: LCG48.Next
+- uid: LibGameAI.PRNG.LCG48.NextBytes(System.Byte[])
+  name: NextBytes(byte[])
+  href: api/LibGameAI.PRNG.LCG48.html#LibGameAI_PRNG_LCG48_NextBytes_System_Byte___
+  commentId: M:LibGameAI.PRNG.LCG48.NextBytes(System.Byte[])
+  name.vb: NextBytes(Byte())
+  fullName: LibGameAI.PRNG.LCG48.NextBytes(byte[])
+  fullName.vb: LibGameAI.PRNG.LCG48.NextBytes(Byte())
+  nameWithType: LCG48.NextBytes(byte[])
+  nameWithType.vb: LCG48.NextBytes(Byte())
+- uid: LibGameAI.PRNG.LCG48.NextBytes*
+  name: NextBytes
+  href: api/LibGameAI.PRNG.LCG48.html#LibGameAI_PRNG_LCG48_NextBytes_
+  commentId: Overload:LibGameAI.PRNG.LCG48.NextBytes
+  isSpec: "True"
+  fullName: LibGameAI.PRNG.LCG48.NextBytes
+  nameWithType: LCG48.NextBytes
+- uid: LibGameAI.PRNG.LCG48.Sample
+  name: Sample()
+  href: api/LibGameAI.PRNG.LCG48.html#LibGameAI_PRNG_LCG48_Sample
+  commentId: M:LibGameAI.PRNG.LCG48.Sample
+  fullName: LibGameAI.PRNG.LCG48.Sample()
+  nameWithType: LCG48.Sample()
+- uid: LibGameAI.PRNG.LCG48.Sample*
+  name: Sample
+  href: api/LibGameAI.PRNG.LCG48.html#LibGameAI_PRNG_LCG48_Sample_
+  commentId: Overload:LibGameAI.PRNG.LCG48.Sample
+  isSpec: "True"
+  fullName: LibGameAI.PRNG.LCG48.Sample
+  nameWithType: LCG48.Sample
+- uid: LibGameAI.PRNG.Randu
+  name: Randu
+  href: api/LibGameAI.PRNG.Randu.html
+  commentId: T:LibGameAI.PRNG.Randu
+  fullName: LibGameAI.PRNG.Randu
+  nameWithType: Randu
+- uid: LibGameAI.PRNG.Randu.#ctor
+  name: Randu()
+  href: api/LibGameAI.PRNG.Randu.html#LibGameAI_PRNG_Randu__ctor
+  commentId: M:LibGameAI.PRNG.Randu.#ctor
+  name.vb: New()
+  fullName: LibGameAI.PRNG.Randu.Randu()
+  fullName.vb: LibGameAI.PRNG.Randu.New()
+  nameWithType: Randu.Randu()
+  nameWithType.vb: Randu.New()
+- uid: LibGameAI.PRNG.Randu.#ctor(System.Int32)
+  name: Randu(int)
+  href: api/LibGameAI.PRNG.Randu.html#LibGameAI_PRNG_Randu__ctor_System_Int32_
+  commentId: M:LibGameAI.PRNG.Randu.#ctor(System.Int32)
+  name.vb: New(Integer)
+  fullName: LibGameAI.PRNG.Randu.Randu(int)
+  fullName.vb: LibGameAI.PRNG.Randu.New(Integer)
+  nameWithType: Randu.Randu(int)
+  nameWithType.vb: Randu.New(Integer)
+- uid: LibGameAI.PRNG.Randu.#ctor*
+  name: Randu
+  href: api/LibGameAI.PRNG.Randu.html#LibGameAI_PRNG_Randu__ctor_
+  commentId: Overload:LibGameAI.PRNG.Randu.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: LibGameAI.PRNG.Randu.Randu
+  fullName.vb: LibGameAI.PRNG.Randu.New
+  nameWithType: Randu.Randu
+  nameWithType.vb: Randu.New
+- uid: LibGameAI.PRNG.Randu.Next
+  name: Next()
+  href: api/LibGameAI.PRNG.Randu.html#LibGameAI_PRNG_Randu_Next
+  commentId: M:LibGameAI.PRNG.Randu.Next
+  fullName: LibGameAI.PRNG.Randu.Next()
+  nameWithType: Randu.Next()
+- uid: LibGameAI.PRNG.Randu.Next(System.Int32,System.Int32)
+  name: Next(int, int)
+  href: api/LibGameAI.PRNG.Randu.html#LibGameAI_PRNG_Randu_Next_System_Int32_System_Int32_
+  commentId: M:LibGameAI.PRNG.Randu.Next(System.Int32,System.Int32)
+  name.vb: Next(Integer, Integer)
+  fullName: LibGameAI.PRNG.Randu.Next(int, int)
+  fullName.vb: LibGameAI.PRNG.Randu.Next(Integer, Integer)
+  nameWithType: Randu.Next(int, int)
+  nameWithType.vb: Randu.Next(Integer, Integer)
+- uid: LibGameAI.PRNG.Randu.Next*
+  name: Next
+  href: api/LibGameAI.PRNG.Randu.html#LibGameAI_PRNG_Randu_Next_
+  commentId: Overload:LibGameAI.PRNG.Randu.Next
+  isSpec: "True"
+  fullName: LibGameAI.PRNG.Randu.Next
+  nameWithType: Randu.Next
+- uid: LibGameAI.PRNG.Randu.NextBytes(System.Byte[])
+  name: NextBytes(byte[])
+  href: api/LibGameAI.PRNG.Randu.html#LibGameAI_PRNG_Randu_NextBytes_System_Byte___
+  commentId: M:LibGameAI.PRNG.Randu.NextBytes(System.Byte[])
+  name.vb: NextBytes(Byte())
+  fullName: LibGameAI.PRNG.Randu.NextBytes(byte[])
+  fullName.vb: LibGameAI.PRNG.Randu.NextBytes(Byte())
+  nameWithType: Randu.NextBytes(byte[])
+  nameWithType.vb: Randu.NextBytes(Byte())
+- uid: LibGameAI.PRNG.Randu.NextBytes*
+  name: NextBytes
+  href: api/LibGameAI.PRNG.Randu.html#LibGameAI_PRNG_Randu_NextBytes_
+  commentId: Overload:LibGameAI.PRNG.Randu.NextBytes
+  isSpec: "True"
+  fullName: LibGameAI.PRNG.Randu.NextBytes
+  nameWithType: Randu.NextBytes
+- uid: LibGameAI.PRNG.Randu.Sample
+  name: Sample()
+  href: api/LibGameAI.PRNG.Randu.html#LibGameAI_PRNG_Randu_Sample
+  commentId: M:LibGameAI.PRNG.Randu.Sample
+  fullName: LibGameAI.PRNG.Randu.Sample()
+  nameWithType: Randu.Sample()
+- uid: LibGameAI.PRNG.Randu.Sample*
+  name: Sample
+  href: api/LibGameAI.PRNG.Randu.html#LibGameAI_PRNG_Randu_Sample_
+  commentId: Overload:LibGameAI.PRNG.Randu.Sample
+  isSpec: "True"
+  fullName: LibGameAI.PRNG.Randu.Sample
+  nameWithType: Randu.Sample
+- uid: LibGameAI.PRNG.XorShift128
+  name: XorShift128
+  href: api/LibGameAI.PRNG.XorShift128.html
+  commentId: T:LibGameAI.PRNG.XorShift128
+  fullName: LibGameAI.PRNG.XorShift128
+  nameWithType: XorShift128
+- uid: LibGameAI.PRNG.XorShift128.#ctor
+  name: XorShift128()
+  href: api/LibGameAI.PRNG.XorShift128.html#LibGameAI_PRNG_XorShift128__ctor
+  commentId: M:LibGameAI.PRNG.XorShift128.#ctor
+  name.vb: New()
+  fullName: LibGameAI.PRNG.XorShift128.XorShift128()
+  fullName.vb: LibGameAI.PRNG.XorShift128.New()
+  nameWithType: XorShift128.XorShift128()
+  nameWithType.vb: XorShift128.New()
+- uid: LibGameAI.PRNG.XorShift128.#ctor(System.Int32)
+  name: XorShift128(int)
+  href: api/LibGameAI.PRNG.XorShift128.html#LibGameAI_PRNG_XorShift128__ctor_System_Int32_
+  commentId: M:LibGameAI.PRNG.XorShift128.#ctor(System.Int32)
+  name.vb: New(Integer)
+  fullName: LibGameAI.PRNG.XorShift128.XorShift128(int)
+  fullName.vb: LibGameAI.PRNG.XorShift128.New(Integer)
+  nameWithType: XorShift128.XorShift128(int)
+  nameWithType.vb: XorShift128.New(Integer)
+- uid: LibGameAI.PRNG.XorShift128.#ctor(System.Int64)
+  name: XorShift128(long)
+  href: api/LibGameAI.PRNG.XorShift128.html#LibGameAI_PRNG_XorShift128__ctor_System_Int64_
+  commentId: M:LibGameAI.PRNG.XorShift128.#ctor(System.Int64)
+  name.vb: New(Long)
+  fullName: LibGameAI.PRNG.XorShift128.XorShift128(long)
+  fullName.vb: LibGameAI.PRNG.XorShift128.New(Long)
+  nameWithType: XorShift128.XorShift128(long)
+  nameWithType.vb: XorShift128.New(Long)
+- uid: LibGameAI.PRNG.XorShift128.#ctor*
+  name: XorShift128
+  href: api/LibGameAI.PRNG.XorShift128.html#LibGameAI_PRNG_XorShift128__ctor_
+  commentId: Overload:LibGameAI.PRNG.XorShift128.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: LibGameAI.PRNG.XorShift128.XorShift128
+  fullName.vb: LibGameAI.PRNG.XorShift128.New
+  nameWithType: XorShift128.XorShift128
+  nameWithType.vb: XorShift128.New
+- uid: LibGameAI.PRNG.XorShift128.Next
+  name: Next()
+  href: api/LibGameAI.PRNG.XorShift128.html#LibGameAI_PRNG_XorShift128_Next
+  commentId: M:LibGameAI.PRNG.XorShift128.Next
+  fullName: LibGameAI.PRNG.XorShift128.Next()
+  nameWithType: XorShift128.Next()
+- uid: LibGameAI.PRNG.XorShift128.Next(System.Int32,System.Int32)
+  name: Next(int, int)
+  href: api/LibGameAI.PRNG.XorShift128.html#LibGameAI_PRNG_XorShift128_Next_System_Int32_System_Int32_
+  commentId: M:LibGameAI.PRNG.XorShift128.Next(System.Int32,System.Int32)
+  name.vb: Next(Integer, Integer)
+  fullName: LibGameAI.PRNG.XorShift128.Next(int, int)
+  fullName.vb: LibGameAI.PRNG.XorShift128.Next(Integer, Integer)
+  nameWithType: XorShift128.Next(int, int)
+  nameWithType.vb: XorShift128.Next(Integer, Integer)
+- uid: LibGameAI.PRNG.XorShift128.Next*
+  name: Next
+  href: api/LibGameAI.PRNG.XorShift128.html#LibGameAI_PRNG_XorShift128_Next_
+  commentId: Overload:LibGameAI.PRNG.XorShift128.Next
+  isSpec: "True"
+  fullName: LibGameAI.PRNG.XorShift128.Next
+  nameWithType: XorShift128.Next
+- uid: LibGameAI.PRNG.XorShift128.NextBytes(System.Byte[])
+  name: NextBytes(byte[])
+  href: api/LibGameAI.PRNG.XorShift128.html#LibGameAI_PRNG_XorShift128_NextBytes_System_Byte___
+  commentId: M:LibGameAI.PRNG.XorShift128.NextBytes(System.Byte[])
+  name.vb: NextBytes(Byte())
+  fullName: LibGameAI.PRNG.XorShift128.NextBytes(byte[])
+  fullName.vb: LibGameAI.PRNG.XorShift128.NextBytes(Byte())
+  nameWithType: XorShift128.NextBytes(byte[])
+  nameWithType.vb: XorShift128.NextBytes(Byte())
+- uid: LibGameAI.PRNG.XorShift128.NextBytes*
+  name: NextBytes
+  href: api/LibGameAI.PRNG.XorShift128.html#LibGameAI_PRNG_XorShift128_NextBytes_
+  commentId: Overload:LibGameAI.PRNG.XorShift128.NextBytes
+  isSpec: "True"
+  fullName: LibGameAI.PRNG.XorShift128.NextBytes
+  nameWithType: XorShift128.NextBytes
+- uid: LibGameAI.PRNG.XorShift128.Sample
+  name: Sample()
+  href: api/LibGameAI.PRNG.XorShift128.html#LibGameAI_PRNG_XorShift128_Sample
+  commentId: M:LibGameAI.PRNG.XorShift128.Sample
+  fullName: LibGameAI.PRNG.XorShift128.Sample()
+  nameWithType: XorShift128.Sample()
+- uid: LibGameAI.PRNG.XorShift128.Sample*
+  name: Sample
+  href: api/LibGameAI.PRNG.XorShift128.html#LibGameAI_PRNG_XorShift128_Sample_
+  commentId: Overload:LibGameAI.PRNG.XorShift128.Sample
+  isSpec: "True"
+  fullName: LibGameAI.PRNG.XorShift128.Sample
+  nameWithType: XorShift128.Sample
+- uid: LibGameAI.PathFinding
+  name: LibGameAI.PathFinding
+  href: api/LibGameAI.PathFinding.html
+  commentId: N:LibGameAI.PathFinding
+  fullName: LibGameAI.PathFinding
+  nameWithType: LibGameAI.PathFinding
+- uid: LibGameAI.PathFinding.AStarPathFinder
+  name: AStarPathFinder
+  href: api/LibGameAI.PathFinding.AStarPathFinder.html
+  commentId: T:LibGameAI.PathFinding.AStarPathFinder
+  fullName: LibGameAI.PathFinding.AStarPathFinder
+  nameWithType: AStarPathFinder
+- uid: LibGameAI.PathFinding.AStarPathFinder.#ctor(System.Func{System.Int32,System.Single},System.Boolean)
+  name: AStarPathFinder(Func<int, float>, bool)
+  href: api/LibGameAI.PathFinding.AStarPathFinder.html#LibGameAI_PathFinding_AStarPathFinder__ctor_System_Func_System_Int32_System_Single__System_Boolean_
+  commentId: M:LibGameAI.PathFinding.AStarPathFinder.#ctor(System.Func{System.Int32,System.Single},System.Boolean)
+  name.vb: New(Func(Of Integer, Single), Boolean)
+  fullName: LibGameAI.PathFinding.AStarPathFinder.AStarPathFinder(System.Func<int, float>, bool)
+  fullName.vb: LibGameAI.PathFinding.AStarPathFinder.New(System.Func(Of Integer, Single), Boolean)
+  nameWithType: AStarPathFinder.AStarPathFinder(Func<int, float>, bool)
+  nameWithType.vb: AStarPathFinder.New(Func(Of Integer, Single), Boolean)
+- uid: LibGameAI.PathFinding.AStarPathFinder.#ctor*
+  name: AStarPathFinder
+  href: api/LibGameAI.PathFinding.AStarPathFinder.html#LibGameAI_PathFinding_AStarPathFinder__ctor_
+  commentId: Overload:LibGameAI.PathFinding.AStarPathFinder.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: LibGameAI.PathFinding.AStarPathFinder.AStarPathFinder
+  fullName.vb: LibGameAI.PathFinding.AStarPathFinder.New
+  nameWithType: AStarPathFinder.AStarPathFinder
+  nameWithType.vb: AStarPathFinder.New
+- uid: LibGameAI.PathFinding.AStarPathFinder.ClosedNodes
+  name: ClosedNodes
+  href: api/LibGameAI.PathFinding.AStarPathFinder.html#LibGameAI_PathFinding_AStarPathFinder_ClosedNodes
+  commentId: P:LibGameAI.PathFinding.AStarPathFinder.ClosedNodes
+  fullName: LibGameAI.PathFinding.AStarPathFinder.ClosedNodes
+  nameWithType: AStarPathFinder.ClosedNodes
+- uid: LibGameAI.PathFinding.AStarPathFinder.ClosedNodes*
+  name: ClosedNodes
+  href: api/LibGameAI.PathFinding.AStarPathFinder.html#LibGameAI_PathFinding_AStarPathFinder_ClosedNodes_
+  commentId: Overload:LibGameAI.PathFinding.AStarPathFinder.ClosedNodes
+  isSpec: "True"
+  fullName: LibGameAI.PathFinding.AStarPathFinder.ClosedNodes
+  nameWithType: AStarPathFinder.ClosedNodes
+- uid: LibGameAI.PathFinding.AStarPathFinder.FindPath(LibGameAI.PathFinding.IGraph,System.Int32,System.Int32)
+  name: FindPath(IGraph, int, int)
+  href: api/LibGameAI.PathFinding.AStarPathFinder.html#LibGameAI_PathFinding_AStarPathFinder_FindPath_LibGameAI_PathFinding_IGraph_System_Int32_System_Int32_
+  commentId: M:LibGameAI.PathFinding.AStarPathFinder.FindPath(LibGameAI.PathFinding.IGraph,System.Int32,System.Int32)
+  name.vb: FindPath(IGraph, Integer, Integer)
+  fullName: LibGameAI.PathFinding.AStarPathFinder.FindPath(LibGameAI.PathFinding.IGraph, int, int)
+  fullName.vb: LibGameAI.PathFinding.AStarPathFinder.FindPath(LibGameAI.PathFinding.IGraph, Integer, Integer)
+  nameWithType: AStarPathFinder.FindPath(IGraph, int, int)
+  nameWithType.vb: AStarPathFinder.FindPath(IGraph, Integer, Integer)
+- uid: LibGameAI.PathFinding.AStarPathFinder.FindPath*
+  name: FindPath
+  href: api/LibGameAI.PathFinding.AStarPathFinder.html#LibGameAI_PathFinding_AStarPathFinder_FindPath_
+  commentId: Overload:LibGameAI.PathFinding.AStarPathFinder.FindPath
+  isSpec: "True"
+  fullName: LibGameAI.PathFinding.AStarPathFinder.FindPath
+  nameWithType: AStarPathFinder.FindPath
+- uid: LibGameAI.PathFinding.AStarPathFinder.OpenNodes
+  name: OpenNodes
+  href: api/LibGameAI.PathFinding.AStarPathFinder.html#LibGameAI_PathFinding_AStarPathFinder_OpenNodes
+  commentId: P:LibGameAI.PathFinding.AStarPathFinder.OpenNodes
+  fullName: LibGameAI.PathFinding.AStarPathFinder.OpenNodes
+  nameWithType: AStarPathFinder.OpenNodes
+- uid: LibGameAI.PathFinding.AStarPathFinder.OpenNodes*
+  name: OpenNodes
+  href: api/LibGameAI.PathFinding.AStarPathFinder.html#LibGameAI_PathFinding_AStarPathFinder_OpenNodes_
+  commentId: Overload:LibGameAI.PathFinding.AStarPathFinder.OpenNodes
+  isSpec: "True"
+  fullName: LibGameAI.PathFinding.AStarPathFinder.OpenNodes
+  nameWithType: AStarPathFinder.OpenNodes
+- uid: LibGameAI.PathFinding.Connection
+  name: Connection
+  href: api/LibGameAI.PathFinding.Connection.html
+  commentId: T:LibGameAI.PathFinding.Connection
+  fullName: LibGameAI.PathFinding.Connection
+  nameWithType: Connection
+- uid: LibGameAI.PathFinding.Connection.#ctor(System.Single,System.Int32,System.Int32)
+  name: Connection(float, int, int)
+  href: api/LibGameAI.PathFinding.Connection.html#LibGameAI_PathFinding_Connection__ctor_System_Single_System_Int32_System_Int32_
+  commentId: M:LibGameAI.PathFinding.Connection.#ctor(System.Single,System.Int32,System.Int32)
+  name.vb: New(Single, Integer, Integer)
+  fullName: LibGameAI.PathFinding.Connection.Connection(float, int, int)
+  fullName.vb: LibGameAI.PathFinding.Connection.New(Single, Integer, Integer)
+  nameWithType: Connection.Connection(float, int, int)
+  nameWithType.vb: Connection.New(Single, Integer, Integer)
+- uid: LibGameAI.PathFinding.Connection.#ctor*
+  name: Connection
+  href: api/LibGameAI.PathFinding.Connection.html#LibGameAI_PathFinding_Connection__ctor_
+  commentId: Overload:LibGameAI.PathFinding.Connection.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: LibGameAI.PathFinding.Connection.Connection
+  fullName.vb: LibGameAI.PathFinding.Connection.New
+  nameWithType: Connection.Connection
+  nameWithType.vb: Connection.New
+- uid: LibGameAI.PathFinding.Connection.Cost
+  name: Cost
+  href: api/LibGameAI.PathFinding.Connection.html#LibGameAI_PathFinding_Connection_Cost
+  commentId: P:LibGameAI.PathFinding.Connection.Cost
+  fullName: LibGameAI.PathFinding.Connection.Cost
+  nameWithType: Connection.Cost
+- uid: LibGameAI.PathFinding.Connection.Cost*
+  name: Cost
+  href: api/LibGameAI.PathFinding.Connection.html#LibGameAI_PathFinding_Connection_Cost_
+  commentId: Overload:LibGameAI.PathFinding.Connection.Cost
+  isSpec: "True"
+  fullName: LibGameAI.PathFinding.Connection.Cost
+  nameWithType: Connection.Cost
+- uid: LibGameAI.PathFinding.Connection.FromNode
+  name: FromNode
+  href: api/LibGameAI.PathFinding.Connection.html#LibGameAI_PathFinding_Connection_FromNode
+  commentId: P:LibGameAI.PathFinding.Connection.FromNode
+  fullName: LibGameAI.PathFinding.Connection.FromNode
+  nameWithType: Connection.FromNode
+- uid: LibGameAI.PathFinding.Connection.FromNode*
+  name: FromNode
+  href: api/LibGameAI.PathFinding.Connection.html#LibGameAI_PathFinding_Connection_FromNode_
+  commentId: Overload:LibGameAI.PathFinding.Connection.FromNode
+  isSpec: "True"
+  fullName: LibGameAI.PathFinding.Connection.FromNode
+  nameWithType: Connection.FromNode
+- uid: LibGameAI.PathFinding.Connection.ToNode
+  name: ToNode
+  href: api/LibGameAI.PathFinding.Connection.html#LibGameAI_PathFinding_Connection_ToNode
+  commentId: P:LibGameAI.PathFinding.Connection.ToNode
+  fullName: LibGameAI.PathFinding.Connection.ToNode
+  nameWithType: Connection.ToNode
+- uid: LibGameAI.PathFinding.Connection.ToNode*
+  name: ToNode
+  href: api/LibGameAI.PathFinding.Connection.html#LibGameAI_PathFinding_Connection_ToNode_
+  commentId: Overload:LibGameAI.PathFinding.Connection.ToNode
+  isSpec: "True"
+  fullName: LibGameAI.PathFinding.Connection.ToNode
+  nameWithType: Connection.ToNode
+- uid: LibGameAI.PathFinding.DijkstraPathFinder
+  name: DijkstraPathFinder
+  href: api/LibGameAI.PathFinding.DijkstraPathFinder.html
+  commentId: T:LibGameAI.PathFinding.DijkstraPathFinder
+  fullName: LibGameAI.PathFinding.DijkstraPathFinder
+  nameWithType: DijkstraPathFinder
+- uid: LibGameAI.PathFinding.DijkstraPathFinder.#ctor
+  name: DijkstraPathFinder()
+  href: api/LibGameAI.PathFinding.DijkstraPathFinder.html#LibGameAI_PathFinding_DijkstraPathFinder__ctor
+  commentId: M:LibGameAI.PathFinding.DijkstraPathFinder.#ctor
+  name.vb: New()
+  fullName: LibGameAI.PathFinding.DijkstraPathFinder.DijkstraPathFinder()
+  fullName.vb: LibGameAI.PathFinding.DijkstraPathFinder.New()
+  nameWithType: DijkstraPathFinder.DijkstraPathFinder()
+  nameWithType.vb: DijkstraPathFinder.New()
+- uid: LibGameAI.PathFinding.DijkstraPathFinder.#ctor*
+  name: DijkstraPathFinder
+  href: api/LibGameAI.PathFinding.DijkstraPathFinder.html#LibGameAI_PathFinding_DijkstraPathFinder__ctor_
+  commentId: Overload:LibGameAI.PathFinding.DijkstraPathFinder.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: LibGameAI.PathFinding.DijkstraPathFinder.DijkstraPathFinder
+  fullName.vb: LibGameAI.PathFinding.DijkstraPathFinder.New
+  nameWithType: DijkstraPathFinder.DijkstraPathFinder
+  nameWithType.vb: DijkstraPathFinder.New
+- uid: LibGameAI.PathFinding.DijkstraPathFinder.ClosedNodes
+  name: ClosedNodes
+  href: api/LibGameAI.PathFinding.DijkstraPathFinder.html#LibGameAI_PathFinding_DijkstraPathFinder_ClosedNodes
+  commentId: P:LibGameAI.PathFinding.DijkstraPathFinder.ClosedNodes
+  fullName: LibGameAI.PathFinding.DijkstraPathFinder.ClosedNodes
+  nameWithType: DijkstraPathFinder.ClosedNodes
+- uid: LibGameAI.PathFinding.DijkstraPathFinder.ClosedNodes*
+  name: ClosedNodes
+  href: api/LibGameAI.PathFinding.DijkstraPathFinder.html#LibGameAI_PathFinding_DijkstraPathFinder_ClosedNodes_
+  commentId: Overload:LibGameAI.PathFinding.DijkstraPathFinder.ClosedNodes
+  isSpec: "True"
+  fullName: LibGameAI.PathFinding.DijkstraPathFinder.ClosedNodes
+  nameWithType: DijkstraPathFinder.ClosedNodes
+- uid: LibGameAI.PathFinding.DijkstraPathFinder.FindPath(LibGameAI.PathFinding.IGraph,System.Int32,System.Int32)
+  name: FindPath(IGraph, int, int)
+  href: api/LibGameAI.PathFinding.DijkstraPathFinder.html#LibGameAI_PathFinding_DijkstraPathFinder_FindPath_LibGameAI_PathFinding_IGraph_System_Int32_System_Int32_
+  commentId: M:LibGameAI.PathFinding.DijkstraPathFinder.FindPath(LibGameAI.PathFinding.IGraph,System.Int32,System.Int32)
+  name.vb: FindPath(IGraph, Integer, Integer)
+  fullName: LibGameAI.PathFinding.DijkstraPathFinder.FindPath(LibGameAI.PathFinding.IGraph, int, int)
+  fullName.vb: LibGameAI.PathFinding.DijkstraPathFinder.FindPath(LibGameAI.PathFinding.IGraph, Integer, Integer)
+  nameWithType: DijkstraPathFinder.FindPath(IGraph, int, int)
+  nameWithType.vb: DijkstraPathFinder.FindPath(IGraph, Integer, Integer)
+- uid: LibGameAI.PathFinding.DijkstraPathFinder.FindPath*
+  name: FindPath
+  href: api/LibGameAI.PathFinding.DijkstraPathFinder.html#LibGameAI_PathFinding_DijkstraPathFinder_FindPath_
+  commentId: Overload:LibGameAI.PathFinding.DijkstraPathFinder.FindPath
+  isSpec: "True"
+  fullName: LibGameAI.PathFinding.DijkstraPathFinder.FindPath
+  nameWithType: DijkstraPathFinder.FindPath
+- uid: LibGameAI.PathFinding.DijkstraPathFinder.OpenNodes
+  name: OpenNodes
+  href: api/LibGameAI.PathFinding.DijkstraPathFinder.html#LibGameAI_PathFinding_DijkstraPathFinder_OpenNodes
+  commentId: P:LibGameAI.PathFinding.DijkstraPathFinder.OpenNodes
+  fullName: LibGameAI.PathFinding.DijkstraPathFinder.OpenNodes
+  nameWithType: DijkstraPathFinder.OpenNodes
+- uid: LibGameAI.PathFinding.DijkstraPathFinder.OpenNodes*
+  name: OpenNodes
+  href: api/LibGameAI.PathFinding.DijkstraPathFinder.html#LibGameAI_PathFinding_DijkstraPathFinder_OpenNodes_
+  commentId: Overload:LibGameAI.PathFinding.DijkstraPathFinder.OpenNodes
+  isSpec: "True"
+  fullName: LibGameAI.PathFinding.DijkstraPathFinder.OpenNodes
+  nameWithType: DijkstraPathFinder.OpenNodes
+- uid: LibGameAI.PathFinding.Graph
+  name: Graph
+  href: api/LibGameAI.PathFinding.Graph.html
+  commentId: T:LibGameAI.PathFinding.Graph
+  fullName: LibGameAI.PathFinding.Graph
+  nameWithType: Graph
+- uid: LibGameAI.PathFinding.Graph.#ctor(System.Collections.Generic.IList{System.Collections.Generic.IEnumerable{LibGameAI.PathFinding.IConnection}})
+  name: Graph(IList<IEnumerable<IConnection>>)
+  href: api/LibGameAI.PathFinding.Graph.html#LibGameAI_PathFinding_Graph__ctor_System_Collections_Generic_IList_System_Collections_Generic_IEnumerable_LibGameAI_PathFinding_IConnection___
+  commentId: M:LibGameAI.PathFinding.Graph.#ctor(System.Collections.Generic.IList{System.Collections.Generic.IEnumerable{LibGameAI.PathFinding.IConnection}})
+  name.vb: New(IList(Of IEnumerable(Of IConnection)))
+  fullName: LibGameAI.PathFinding.Graph.Graph(System.Collections.Generic.IList<System.Collections.Generic.IEnumerable<LibGameAI.PathFinding.IConnection>>)
+  fullName.vb: LibGameAI.PathFinding.Graph.New(System.Collections.Generic.IList(Of System.Collections.Generic.IEnumerable(Of LibGameAI.PathFinding.IConnection)))
+  nameWithType: Graph.Graph(IList<IEnumerable<IConnection>>)
+  nameWithType.vb: Graph.New(IList(Of IEnumerable(Of IConnection)))
+- uid: LibGameAI.PathFinding.Graph.#ctor(System.Single[0:,0:])
+  name: Graph(float[,])
+  href: api/LibGameAI.PathFinding.Graph.html#LibGameAI_PathFinding_Graph__ctor_System_Single_0__0___
+  commentId: M:LibGameAI.PathFinding.Graph.#ctor(System.Single[0:,0:])
+  name.vb: New(Single(,))
+  fullName: LibGameAI.PathFinding.Graph.Graph(float[,])
+  fullName.vb: LibGameAI.PathFinding.Graph.New(Single(,))
+  nameWithType: Graph.Graph(float[,])
+  nameWithType.vb: Graph.New(Single(,))
+- uid: LibGameAI.PathFinding.Graph.#ctor*
+  name: Graph
+  href: api/LibGameAI.PathFinding.Graph.html#LibGameAI_PathFinding_Graph__ctor_
+  commentId: Overload:LibGameAI.PathFinding.Graph.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: LibGameAI.PathFinding.Graph.Graph
+  fullName.vb: LibGameAI.PathFinding.Graph.New
+  nameWithType: Graph.Graph
+  nameWithType.vb: Graph.New
+- uid: LibGameAI.PathFinding.Graph.GetConnections(System.Int32)
+  name: GetConnections(int)
+  href: api/LibGameAI.PathFinding.Graph.html#LibGameAI_PathFinding_Graph_GetConnections_System_Int32_
+  commentId: M:LibGameAI.PathFinding.Graph.GetConnections(System.Int32)
+  name.vb: GetConnections(Integer)
+  fullName: LibGameAI.PathFinding.Graph.GetConnections(int)
+  fullName.vb: LibGameAI.PathFinding.Graph.GetConnections(Integer)
+  nameWithType: Graph.GetConnections(int)
+  nameWithType.vb: Graph.GetConnections(Integer)
+- uid: LibGameAI.PathFinding.Graph.GetConnections*
+  name: GetConnections
+  href: api/LibGameAI.PathFinding.Graph.html#LibGameAI_PathFinding_Graph_GetConnections_
+  commentId: Overload:LibGameAI.PathFinding.Graph.GetConnections
+  isSpec: "True"
+  fullName: LibGameAI.PathFinding.Graph.GetConnections
+  nameWithType: Graph.GetConnections
+- uid: LibGameAI.PathFinding.IConnection
+  name: IConnection
+  href: api/LibGameAI.PathFinding.IConnection.html
+  commentId: T:LibGameAI.PathFinding.IConnection
+  fullName: LibGameAI.PathFinding.IConnection
+  nameWithType: IConnection
+- uid: LibGameAI.PathFinding.IConnection.Cost
+  name: Cost
+  href: api/LibGameAI.PathFinding.IConnection.html#LibGameAI_PathFinding_IConnection_Cost
+  commentId: P:LibGameAI.PathFinding.IConnection.Cost
+  fullName: LibGameAI.PathFinding.IConnection.Cost
+  nameWithType: IConnection.Cost
+- uid: LibGameAI.PathFinding.IConnection.Cost*
+  name: Cost
+  href: api/LibGameAI.PathFinding.IConnection.html#LibGameAI_PathFinding_IConnection_Cost_
+  commentId: Overload:LibGameAI.PathFinding.IConnection.Cost
+  isSpec: "True"
+  fullName: LibGameAI.PathFinding.IConnection.Cost
+  nameWithType: IConnection.Cost
+- uid: LibGameAI.PathFinding.IConnection.FromNode
+  name: FromNode
+  href: api/LibGameAI.PathFinding.IConnection.html#LibGameAI_PathFinding_IConnection_FromNode
+  commentId: P:LibGameAI.PathFinding.IConnection.FromNode
+  fullName: LibGameAI.PathFinding.IConnection.FromNode
+  nameWithType: IConnection.FromNode
+- uid: LibGameAI.PathFinding.IConnection.FromNode*
+  name: FromNode
+  href: api/LibGameAI.PathFinding.IConnection.html#LibGameAI_PathFinding_IConnection_FromNode_
+  commentId: Overload:LibGameAI.PathFinding.IConnection.FromNode
+  isSpec: "True"
+  fullName: LibGameAI.PathFinding.IConnection.FromNode
+  nameWithType: IConnection.FromNode
+- uid: LibGameAI.PathFinding.IConnection.ToNode
+  name: ToNode
+  href: api/LibGameAI.PathFinding.IConnection.html#LibGameAI_PathFinding_IConnection_ToNode
+  commentId: P:LibGameAI.PathFinding.IConnection.ToNode
+  fullName: LibGameAI.PathFinding.IConnection.ToNode
+  nameWithType: IConnection.ToNode
+- uid: LibGameAI.PathFinding.IConnection.ToNode*
+  name: ToNode
+  href: api/LibGameAI.PathFinding.IConnection.html#LibGameAI_PathFinding_IConnection_ToNode_
+  commentId: Overload:LibGameAI.PathFinding.IConnection.ToNode
+  isSpec: "True"
+  fullName: LibGameAI.PathFinding.IConnection.ToNode
+  nameWithType: IConnection.ToNode
+- uid: LibGameAI.PathFinding.IGraph
+  name: IGraph
+  href: api/LibGameAI.PathFinding.IGraph.html
+  commentId: T:LibGameAI.PathFinding.IGraph
+  fullName: LibGameAI.PathFinding.IGraph
+  nameWithType: IGraph
+- uid: LibGameAI.PathFinding.IGraph.GetConnections(System.Int32)
+  name: GetConnections(int)
+  href: api/LibGameAI.PathFinding.IGraph.html#LibGameAI_PathFinding_IGraph_GetConnections_System_Int32_
+  commentId: M:LibGameAI.PathFinding.IGraph.GetConnections(System.Int32)
+  name.vb: GetConnections(Integer)
+  fullName: LibGameAI.PathFinding.IGraph.GetConnections(int)
+  fullName.vb: LibGameAI.PathFinding.IGraph.GetConnections(Integer)
+  nameWithType: IGraph.GetConnections(int)
+  nameWithType.vb: IGraph.GetConnections(Integer)
+- uid: LibGameAI.PathFinding.IGraph.GetConnections*
+  name: GetConnections
+  href: api/LibGameAI.PathFinding.IGraph.html#LibGameAI_PathFinding_IGraph_GetConnections_
+  commentId: Overload:LibGameAI.PathFinding.IGraph.GetConnections
+  isSpec: "True"
+  fullName: LibGameAI.PathFinding.IGraph.GetConnections
+  nameWithType: IGraph.GetConnections
+- uid: LibGameAI.PathFinding.IPathFinder
+  name: IPathFinder
+  href: api/LibGameAI.PathFinding.IPathFinder.html
+  commentId: T:LibGameAI.PathFinding.IPathFinder
+  fullName: LibGameAI.PathFinding.IPathFinder
+  nameWithType: IPathFinder
+- uid: LibGameAI.PathFinding.IPathFinder.ClosedNodes
+  name: ClosedNodes
+  href: api/LibGameAI.PathFinding.IPathFinder.html#LibGameAI_PathFinding_IPathFinder_ClosedNodes
+  commentId: P:LibGameAI.PathFinding.IPathFinder.ClosedNodes
+  fullName: LibGameAI.PathFinding.IPathFinder.ClosedNodes
+  nameWithType: IPathFinder.ClosedNodes
+- uid: LibGameAI.PathFinding.IPathFinder.ClosedNodes*
+  name: ClosedNodes
+  href: api/LibGameAI.PathFinding.IPathFinder.html#LibGameAI_PathFinding_IPathFinder_ClosedNodes_
+  commentId: Overload:LibGameAI.PathFinding.IPathFinder.ClosedNodes
+  isSpec: "True"
+  fullName: LibGameAI.PathFinding.IPathFinder.ClosedNodes
+  nameWithType: IPathFinder.ClosedNodes
+- uid: LibGameAI.PathFinding.IPathFinder.FindPath(LibGameAI.PathFinding.IGraph,System.Int32,System.Int32)
+  name: FindPath(IGraph, int, int)
+  href: api/LibGameAI.PathFinding.IPathFinder.html#LibGameAI_PathFinding_IPathFinder_FindPath_LibGameAI_PathFinding_IGraph_System_Int32_System_Int32_
+  commentId: M:LibGameAI.PathFinding.IPathFinder.FindPath(LibGameAI.PathFinding.IGraph,System.Int32,System.Int32)
+  name.vb: FindPath(IGraph, Integer, Integer)
+  fullName: LibGameAI.PathFinding.IPathFinder.FindPath(LibGameAI.PathFinding.IGraph, int, int)
+  fullName.vb: LibGameAI.PathFinding.IPathFinder.FindPath(LibGameAI.PathFinding.IGraph, Integer, Integer)
+  nameWithType: IPathFinder.FindPath(IGraph, int, int)
+  nameWithType.vb: IPathFinder.FindPath(IGraph, Integer, Integer)
+- uid: LibGameAI.PathFinding.IPathFinder.FindPath*
+  name: FindPath
+  href: api/LibGameAI.PathFinding.IPathFinder.html#LibGameAI_PathFinding_IPathFinder_FindPath_
+  commentId: Overload:LibGameAI.PathFinding.IPathFinder.FindPath
+  isSpec: "True"
+  fullName: LibGameAI.PathFinding.IPathFinder.FindPath
+  nameWithType: IPathFinder.FindPath
+- uid: LibGameAI.PathFinding.IPathFinder.OpenNodes
+  name: OpenNodes
+  href: api/LibGameAI.PathFinding.IPathFinder.html#LibGameAI_PathFinding_IPathFinder_OpenNodes
+  commentId: P:LibGameAI.PathFinding.IPathFinder.OpenNodes
+  fullName: LibGameAI.PathFinding.IPathFinder.OpenNodes
+  nameWithType: IPathFinder.OpenNodes
+- uid: LibGameAI.PathFinding.IPathFinder.OpenNodes*
+  name: OpenNodes
+  href: api/LibGameAI.PathFinding.IPathFinder.html#LibGameAI_PathFinding_IPathFinder_OpenNodes_
+  commentId: Overload:LibGameAI.PathFinding.IPathFinder.OpenNodes
+  isSpec: "True"
+  fullName: LibGameAI.PathFinding.IPathFinder.OpenNodes
+  nameWithType: IPathFinder.OpenNodes
+- uid: LibGameAI.QRNG
+  name: LibGameAI.QRNG
+  href: api/LibGameAI.QRNG.html
+  commentId: N:LibGameAI.QRNG
+  fullName: LibGameAI.QRNG
+  nameWithType: LibGameAI.QRNG
+- uid: LibGameAI.QRNG.Halton
+  name: Halton
+  href: api/LibGameAI.QRNG.Halton.html
+  commentId: T:LibGameAI.QRNG.Halton
+  fullName: LibGameAI.QRNG.Halton
+  nameWithType: Halton
+- uid: LibGameAI.QRNG.Halton.#ctor(System.Int32,System.Boolean)
+  name: Halton(int, bool)
+  href: api/LibGameAI.QRNG.Halton.html#LibGameAI_QRNG_Halton__ctor_System_Int32_System_Boolean_
+  commentId: M:LibGameAI.QRNG.Halton.#ctor(System.Int32,System.Boolean)
+  name.vb: New(Integer, Boolean)
+  fullName: LibGameAI.QRNG.Halton.Halton(int, bool)
+  fullName.vb: LibGameAI.QRNG.Halton.New(Integer, Boolean)
+  nameWithType: Halton.Halton(int, bool)
+  nameWithType.vb: Halton.New(Integer, Boolean)
+- uid: LibGameAI.QRNG.Halton.#ctor*
+  name: Halton
+  href: api/LibGameAI.QRNG.Halton.html#LibGameAI_QRNG_Halton__ctor_
+  commentId: Overload:LibGameAI.QRNG.Halton.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: LibGameAI.QRNG.Halton.Halton
+  fullName.vb: LibGameAI.QRNG.Halton.New
+  nameWithType: Halton.Halton
+  nameWithType.vb: Halton.New
+- uid: LibGameAI.QRNG.Halton.Next
+  name: Next()
+  href: api/LibGameAI.QRNG.Halton.html#LibGameAI_QRNG_Halton_Next
+  commentId: M:LibGameAI.QRNG.Halton.Next
+  fullName: LibGameAI.QRNG.Halton.Next()
+  nameWithType: Halton.Next()
+- uid: LibGameAI.QRNG.Halton.Next(System.Int32,System.Int32)
+  name: Next(int, int)
+  href: api/LibGameAI.QRNG.Halton.html#LibGameAI_QRNG_Halton_Next_System_Int32_System_Int32_
+  commentId: M:LibGameAI.QRNG.Halton.Next(System.Int32,System.Int32)
+  name.vb: Next(Integer, Integer)
+  fullName: LibGameAI.QRNG.Halton.Next(int, int)
+  fullName.vb: LibGameAI.QRNG.Halton.Next(Integer, Integer)
+  nameWithType: Halton.Next(int, int)
+  nameWithType.vb: Halton.Next(Integer, Integer)
+- uid: LibGameAI.QRNG.Halton.Next*
+  name: Next
+  href: api/LibGameAI.QRNG.Halton.html#LibGameAI_QRNG_Halton_Next_
+  commentId: Overload:LibGameAI.QRNG.Halton.Next
+  isSpec: "True"
+  fullName: LibGameAI.QRNG.Halton.Next
+  nameWithType: Halton.Next
+- uid: LibGameAI.QRNG.Halton.NextBytes(System.Byte[])
+  name: NextBytes(byte[])
+  href: api/LibGameAI.QRNG.Halton.html#LibGameAI_QRNG_Halton_NextBytes_System_Byte___
+  commentId: M:LibGameAI.QRNG.Halton.NextBytes(System.Byte[])
+  name.vb: NextBytes(Byte())
+  fullName: LibGameAI.QRNG.Halton.NextBytes(byte[])
+  fullName.vb: LibGameAI.QRNG.Halton.NextBytes(Byte())
+  nameWithType: Halton.NextBytes(byte[])
+  nameWithType.vb: Halton.NextBytes(Byte())
+- uid: LibGameAI.QRNG.Halton.NextBytes*
+  name: NextBytes
+  href: api/LibGameAI.QRNG.Halton.html#LibGameAI_QRNG_Halton_NextBytes_
+  commentId: Overload:LibGameAI.QRNG.Halton.NextBytes
+  isSpec: "True"
+  fullName: LibGameAI.QRNG.Halton.NextBytes
+  nameWithType: Halton.NextBytes
+- uid: LibGameAI.QRNG.Halton.Sample
+  name: Sample()
+  href: api/LibGameAI.QRNG.Halton.html#LibGameAI_QRNG_Halton_Sample
+  commentId: M:LibGameAI.QRNG.Halton.Sample
+  fullName: LibGameAI.QRNG.Halton.Sample()
+  nameWithType: Halton.Sample()
+- uid: LibGameAI.QRNG.Halton.Sample*
+  name: Sample
+  href: api/LibGameAI.QRNG.Halton.html#LibGameAI_QRNG_Halton_Sample_
+  commentId: Overload:LibGameAI.QRNG.Halton.Sample
+  isSpec: "True"
+  fullName: LibGameAI.QRNG.Halton.Sample
+  nameWithType: Halton.Sample
+- uid: LibGameAI.QRNG.Halton.Sequence(System.Int32,System.Int32)
+  name: Sequence(int, int)
+  href: api/LibGameAI.QRNG.Halton.html#LibGameAI_QRNG_Halton_Sequence_System_Int32_System_Int32_
+  commentId: M:LibGameAI.QRNG.Halton.Sequence(System.Int32,System.Int32)
+  name.vb: Sequence(Integer, Integer)
+  fullName: LibGameAI.QRNG.Halton.Sequence(int, int)
+  fullName.vb: LibGameAI.QRNG.Halton.Sequence(Integer, Integer)
+  nameWithType: Halton.Sequence(int, int)
+  nameWithType.vb: Halton.Sequence(Integer, Integer)
+- uid: LibGameAI.QRNG.Halton.Sequence*
+  name: Sequence
+  href: api/LibGameAI.QRNG.Halton.html#LibGameAI_QRNG_Halton_Sequence_
+  commentId: Overload:LibGameAI.QRNG.Halton.Sequence
+  isSpec: "True"
+  fullName: LibGameAI.QRNG.Halton.Sequence
+  nameWithType: Halton.Sequence
+- uid: LibGameAI.Util
+  name: LibGameAI.Util
+  href: api/LibGameAI.Util.html
+  commentId: N:LibGameAI.Util
+  fullName: LibGameAI.Util
+  nameWithType: LibGameAI.Util
+- uid: LibGameAI.Util.ClassManager`1
+  name: ClassManager<T>
+  href: api/LibGameAI.Util.ClassManager-1.html
+  commentId: T:LibGameAI.Util.ClassManager`1
+  name.vb: ClassManager(Of T)
+  fullName: LibGameAI.Util.ClassManager<T>
+  fullName.vb: LibGameAI.Util.ClassManager(Of T)
+  nameWithType: ClassManager<T>
+  nameWithType.vb: ClassManager(Of T)
+- uid: LibGameAI.Util.ClassManager`1.ClassNames
+  name: ClassNames
+  href: api/LibGameAI.Util.ClassManager-1.html#LibGameAI_Util_ClassManager_1_ClassNames
+  commentId: P:LibGameAI.Util.ClassManager`1.ClassNames
+  fullName: LibGameAI.Util.ClassManager<T>.ClassNames
+  fullName.vb: LibGameAI.Util.ClassManager(Of T).ClassNames
+  nameWithType: ClassManager<T>.ClassNames
+  nameWithType.vb: ClassManager(Of T).ClassNames
+- uid: LibGameAI.Util.ClassManager`1.ClassNames*
+  name: ClassNames
+  href: api/LibGameAI.Util.ClassManager-1.html#LibGameAI_Util_ClassManager_1_ClassNames_
+  commentId: Overload:LibGameAI.Util.ClassManager`1.ClassNames
+  isSpec: "True"
+  fullName: LibGameAI.Util.ClassManager<T>.ClassNames
+  fullName.vb: LibGameAI.Util.ClassManager(Of T).ClassNames
+  nameWithType: ClassManager<T>.ClassNames
+  nameWithType.vb: ClassManager(Of T).ClassNames
+- uid: LibGameAI.Util.ClassManager`1.FilterTypes(System.Func{System.Type,System.Boolean})
+  name: FilterTypes(Func<Type, bool>)
+  href: api/LibGameAI.Util.ClassManager-1.html#LibGameAI_Util_ClassManager_1_FilterTypes_System_Func_System_Type_System_Boolean__
+  commentId: M:LibGameAI.Util.ClassManager`1.FilterTypes(System.Func{System.Type,System.Boolean})
+  name.vb: FilterTypes(Func(Of Type, Boolean))
+  fullName: LibGameAI.Util.ClassManager<T>.FilterTypes(System.Func<System.Type, bool>)
+  fullName.vb: LibGameAI.Util.ClassManager(Of T).FilterTypes(System.Func(Of System.Type, Boolean))
+  nameWithType: ClassManager<T>.FilterTypes(Func<Type, bool>)
+  nameWithType.vb: ClassManager(Of T).FilterTypes(Func(Of Type, Boolean))
+- uid: LibGameAI.Util.ClassManager`1.FilterTypes*
+  name: FilterTypes
+  href: api/LibGameAI.Util.ClassManager-1.html#LibGameAI_Util_ClassManager_1_FilterTypes_
+  commentId: Overload:LibGameAI.Util.ClassManager`1.FilterTypes
+  isSpec: "True"
+  fullName: LibGameAI.Util.ClassManager<T>.FilterTypes
+  fullName.vb: LibGameAI.Util.ClassManager(Of T).FilterTypes
+  nameWithType: ClassManager<T>.FilterTypes
+  nameWithType.vb: ClassManager(Of T).FilterTypes
+- uid: LibGameAI.Util.ClassManager`1.GetNameFromType(System.Type)
+  name: GetNameFromType(Type)
+  href: api/LibGameAI.Util.ClassManager-1.html#LibGameAI_Util_ClassManager_1_GetNameFromType_System_Type_
+  commentId: M:LibGameAI.Util.ClassManager`1.GetNameFromType(System.Type)
+  fullName: LibGameAI.Util.ClassManager<T>.GetNameFromType(System.Type)
+  fullName.vb: LibGameAI.Util.ClassManager(Of T).GetNameFromType(System.Type)
+  nameWithType: ClassManager<T>.GetNameFromType(Type)
+  nameWithType.vb: ClassManager(Of T).GetNameFromType(Type)
+- uid: LibGameAI.Util.ClassManager`1.GetNameFromType*
+  name: GetNameFromType
+  href: api/LibGameAI.Util.ClassManager-1.html#LibGameAI_Util_ClassManager_1_GetNameFromType_
+  commentId: Overload:LibGameAI.Util.ClassManager`1.GetNameFromType
+  isSpec: "True"
+  fullName: LibGameAI.Util.ClassManager<T>.GetNameFromType
+  fullName.vb: LibGameAI.Util.ClassManager(Of T).GetNameFromType
+  nameWithType: ClassManager<T>.GetNameFromType
+  nameWithType.vb: ClassManager(Of T).GetNameFromType
+- uid: LibGameAI.Util.ClassManager`1.GetTypeFromName(System.String)
+  name: GetTypeFromName(string)
+  href: api/LibGameAI.Util.ClassManager-1.html#LibGameAI_Util_ClassManager_1_GetTypeFromName_System_String_
+  commentId: M:LibGameAI.Util.ClassManager`1.GetTypeFromName(System.String)
+  name.vb: GetTypeFromName(String)
+  fullName: LibGameAI.Util.ClassManager<T>.GetTypeFromName(string)
+  fullName.vb: LibGameAI.Util.ClassManager(Of T).GetTypeFromName(String)
+  nameWithType: ClassManager<T>.GetTypeFromName(string)
+  nameWithType.vb: ClassManager(Of T).GetTypeFromName(String)
+- uid: LibGameAI.Util.ClassManager`1.GetTypeFromName*
+  name: GetTypeFromName
+  href: api/LibGameAI.Util.ClassManager-1.html#LibGameAI_Util_ClassManager_1_GetTypeFromName_
+  commentId: Overload:LibGameAI.Util.ClassManager`1.GetTypeFromName
+  isSpec: "True"
+  fullName: LibGameAI.Util.ClassManager<T>.GetTypeFromName
+  fullName.vb: LibGameAI.Util.ClassManager(Of T).GetTypeFromName
+  nameWithType: ClassManager<T>.GetTypeFromName
+  nameWithType.vb: ClassManager(Of T).GetTypeFromName
+- uid: LibGameAI.Util.ClassManager`1.Instance
+  name: Instance
+  href: api/LibGameAI.Util.ClassManager-1.html#LibGameAI_Util_ClassManager_1_Instance
+  commentId: P:LibGameAI.Util.ClassManager`1.Instance
+  fullName: LibGameAI.Util.ClassManager<T>.Instance
+  fullName.vb: LibGameAI.Util.ClassManager(Of T).Instance
+  nameWithType: ClassManager<T>.Instance
+  nameWithType.vb: ClassManager(Of T).Instance
+- uid: LibGameAI.Util.ClassManager`1.Instance*
+  name: Instance
+  href: api/LibGameAI.Util.ClassManager-1.html#LibGameAI_Util_ClassManager_1_Instance_
+  commentId: Overload:LibGameAI.Util.ClassManager`1.Instance
+  isSpec: "True"
+  fullName: LibGameAI.Util.ClassManager<T>.Instance
+  fullName.vb: LibGameAI.Util.ClassManager(Of T).Instance
+  nameWithType: ClassManager<T>.Instance
+  nameWithType.vb: ClassManager(Of T).Instance
+- uid: LibGameAI.Util.ClassManager`1.ReplaceNames(System.Func{System.String,System.String})
+  name: ReplaceNames(Func<string, string>)
+  href: api/LibGameAI.Util.ClassManager-1.html#LibGameAI_Util_ClassManager_1_ReplaceNames_System_Func_System_String_System_String__
+  commentId: M:LibGameAI.Util.ClassManager`1.ReplaceNames(System.Func{System.String,System.String})
+  name.vb: ReplaceNames(Func(Of String, String))
+  fullName: LibGameAI.Util.ClassManager<T>.ReplaceNames(System.Func<string, string>)
+  fullName.vb: LibGameAI.Util.ClassManager(Of T).ReplaceNames(System.Func(Of String, String))
+  nameWithType: ClassManager<T>.ReplaceNames(Func<string, string>)
+  nameWithType.vb: ClassManager(Of T).ReplaceNames(Func(Of String, String))
+- uid: LibGameAI.Util.ClassManager`1.ReplaceNames*
+  name: ReplaceNames
+  href: api/LibGameAI.Util.ClassManager-1.html#LibGameAI_Util_ClassManager_1_ReplaceNames_
+  commentId: Overload:LibGameAI.Util.ClassManager`1.ReplaceNames
+  isSpec: "True"
+  fullName: LibGameAI.Util.ClassManager<T>.ReplaceNames
+  fullName.vb: LibGameAI.Util.ClassManager(Of T).ReplaceNames
+  nameWithType: ClassManager<T>.ReplaceNames
+  nameWithType.vb: ClassManager(Of T).ReplaceNames
+- uid: LibGameAI.Util.ListPlusOneWrapper`1
+  name: ListPlusOneWrapper<T>
+  href: api/LibGameAI.Util.ListPlusOneWrapper-1.html
+  commentId: T:LibGameAI.Util.ListPlusOneWrapper`1
+  name.vb: ListPlusOneWrapper(Of T)
+  fullName: LibGameAI.Util.ListPlusOneWrapper<T>
+  fullName.vb: LibGameAI.Util.ListPlusOneWrapper(Of T)
+  nameWithType: ListPlusOneWrapper<T>
+  nameWithType.vb: ListPlusOneWrapper(Of T)
+- uid: LibGameAI.Util.ListPlusOneWrapper`1.#ctor(System.Collections.Generic.IReadOnlyList{`0},`0)
+  name: ListPlusOneWrapper(IReadOnlyList<T>, T)
+  href: api/LibGameAI.Util.ListPlusOneWrapper-1.html#LibGameAI_Util_ListPlusOneWrapper_1__ctor_System_Collections_Generic_IReadOnlyList__0___0_
+  commentId: M:LibGameAI.Util.ListPlusOneWrapper`1.#ctor(System.Collections.Generic.IReadOnlyList{`0},`0)
+  name.vb: New(IReadOnlyList(Of T), T)
+  fullName: LibGameAI.Util.ListPlusOneWrapper<T>.ListPlusOneWrapper(System.Collections.Generic.IReadOnlyList<T>, T)
+  fullName.vb: LibGameAI.Util.ListPlusOneWrapper(Of T).New(System.Collections.Generic.IReadOnlyList(Of T), T)
+  nameWithType: ListPlusOneWrapper<T>.ListPlusOneWrapper(IReadOnlyList<T>, T)
+  nameWithType.vb: ListPlusOneWrapper(Of T).New(IReadOnlyList(Of T), T)
+- uid: LibGameAI.Util.ListPlusOneWrapper`1.#ctor*
+  name: ListPlusOneWrapper
+  href: api/LibGameAI.Util.ListPlusOneWrapper-1.html#LibGameAI_Util_ListPlusOneWrapper_1__ctor_
+  commentId: Overload:LibGameAI.Util.ListPlusOneWrapper`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: LibGameAI.Util.ListPlusOneWrapper<T>.ListPlusOneWrapper
+  fullName.vb: LibGameAI.Util.ListPlusOneWrapper(Of T).New
+  nameWithType: ListPlusOneWrapper<T>.ListPlusOneWrapper
+  nameWithType.vb: ListPlusOneWrapper(Of T).New
+- uid: LibGameAI.Util.ListPlusOneWrapper`1.Count
+  name: Count
+  href: api/LibGameAI.Util.ListPlusOneWrapper-1.html#LibGameAI_Util_ListPlusOneWrapper_1_Count
+  commentId: P:LibGameAI.Util.ListPlusOneWrapper`1.Count
+  fullName: LibGameAI.Util.ListPlusOneWrapper<T>.Count
+  fullName.vb: LibGameAI.Util.ListPlusOneWrapper(Of T).Count
+  nameWithType: ListPlusOneWrapper<T>.Count
+  nameWithType.vb: ListPlusOneWrapper(Of T).Count
+- uid: LibGameAI.Util.ListPlusOneWrapper`1.Count*
+  name: Count
+  href: api/LibGameAI.Util.ListPlusOneWrapper-1.html#LibGameAI_Util_ListPlusOneWrapper_1_Count_
+  commentId: Overload:LibGameAI.Util.ListPlusOneWrapper`1.Count
+  isSpec: "True"
+  fullName: LibGameAI.Util.ListPlusOneWrapper<T>.Count
+  fullName.vb: LibGameAI.Util.ListPlusOneWrapper(Of T).Count
+  nameWithType: ListPlusOneWrapper<T>.Count
+  nameWithType.vb: ListPlusOneWrapper(Of T).Count
+- uid: LibGameAI.Util.ListPlusOneWrapper`1.GetEnumerator
+  name: GetEnumerator()
+  href: api/LibGameAI.Util.ListPlusOneWrapper-1.html#LibGameAI_Util_ListPlusOneWrapper_1_GetEnumerator
+  commentId: M:LibGameAI.Util.ListPlusOneWrapper`1.GetEnumerator
+  fullName: LibGameAI.Util.ListPlusOneWrapper<T>.GetEnumerator()
+  fullName.vb: LibGameAI.Util.ListPlusOneWrapper(Of T).GetEnumerator()
+  nameWithType: ListPlusOneWrapper<T>.GetEnumerator()
+  nameWithType.vb: ListPlusOneWrapper(Of T).GetEnumerator()
+- uid: LibGameAI.Util.ListPlusOneWrapper`1.GetEnumerator*
+  name: GetEnumerator
+  href: api/LibGameAI.Util.ListPlusOneWrapper-1.html#LibGameAI_Util_ListPlusOneWrapper_1_GetEnumerator_
+  commentId: Overload:LibGameAI.Util.ListPlusOneWrapper`1.GetEnumerator
+  isSpec: "True"
+  fullName: LibGameAI.Util.ListPlusOneWrapper<T>.GetEnumerator
+  fullName.vb: LibGameAI.Util.ListPlusOneWrapper(Of T).GetEnumerator
+  nameWithType: ListPlusOneWrapper<T>.GetEnumerator
+  nameWithType.vb: ListPlusOneWrapper(Of T).GetEnumerator
+- uid: LibGameAI.Util.ListPlusOneWrapper`1.Item(System.Int32)
+  name: this[int]
+  href: api/LibGameAI.Util.ListPlusOneWrapper-1.html#LibGameAI_Util_ListPlusOneWrapper_1_Item_System_Int32_
+  commentId: P:LibGameAI.Util.ListPlusOneWrapper`1.Item(System.Int32)
+  name.vb: this[](Integer)
+  fullName: LibGameAI.Util.ListPlusOneWrapper<T>.this[int]
+  fullName.vb: LibGameAI.Util.ListPlusOneWrapper(Of T).this[](Integer)
+  nameWithType: ListPlusOneWrapper<T>.this[int]
+  nameWithType.vb: ListPlusOneWrapper(Of T).this[](Integer)
+- uid: LibGameAI.Util.ListPlusOneWrapper`1.Item*
+  name: this
+  href: api/LibGameAI.Util.ListPlusOneWrapper-1.html#LibGameAI_Util_ListPlusOneWrapper_1_Item_
+  commentId: Overload:LibGameAI.Util.ListPlusOneWrapper`1.Item
+  isSpec: "True"
+  name.vb: this[]
+  fullName: LibGameAI.Util.ListPlusOneWrapper<T>.this
+  fullName.vb: LibGameAI.Util.ListPlusOneWrapper(Of T).this[]
+  nameWithType: ListPlusOneWrapper<T>.this
+  nameWithType.vb: ListPlusOneWrapper(Of T).this[]
+- uid: LibGameAI.Util.MMath
+  name: MMath
+  href: api/LibGameAI.Util.MMath.html
+  commentId: T:LibGameAI.Util.MMath
+  fullName: LibGameAI.Util.MMath
+  nameWithType: MMath
+- uid: LibGameAI.Util.MMath.IsPrime(System.Int32)
+  name: IsPrime(int)
+  href: api/LibGameAI.Util.MMath.html#LibGameAI_Util_MMath_IsPrime_System_Int32_
+  commentId: M:LibGameAI.Util.MMath.IsPrime(System.Int32)
+  name.vb: IsPrime(Integer)
+  fullName: LibGameAI.Util.MMath.IsPrime(int)
+  fullName.vb: LibGameAI.Util.MMath.IsPrime(Integer)
+  nameWithType: MMath.IsPrime(int)
+  nameWithType.vb: MMath.IsPrime(Integer)
+- uid: LibGameAI.Util.MMath.IsPrime*
+  name: IsPrime
+  href: api/LibGameAI.Util.MMath.html#LibGameAI_Util_MMath_IsPrime_
+  commentId: Overload:LibGameAI.Util.MMath.IsPrime
+  isSpec: "True"
+  fullName: LibGameAI.Util.MMath.IsPrime
+  nameWithType: MMath.IsPrime
+- uid: LibGameAI.Util.MMath.Normalize(System.Single[],System.Single,System.Single)
+  name: Normalize(float[], float, float)
+  href: api/LibGameAI.Util.MMath.html#LibGameAI_Util_MMath_Normalize_System_Single___System_Single_System_Single_
+  commentId: M:LibGameAI.Util.MMath.Normalize(System.Single[],System.Single,System.Single)
+  name.vb: Normalize(Single(), Single, Single)
+  fullName: LibGameAI.Util.MMath.Normalize(float[], float, float)
+  fullName.vb: LibGameAI.Util.MMath.Normalize(Single(), Single, Single)
+  nameWithType: MMath.Normalize(float[], float, float)
+  nameWithType.vb: MMath.Normalize(Single(), Single, Single)
+- uid: LibGameAI.Util.MMath.Normalize*
+  name: Normalize
+  href: api/LibGameAI.Util.MMath.html#LibGameAI_Util_MMath_Normalize_
+  commentId: Overload:LibGameAI.Util.MMath.Normalize
+  isSpec: "True"
+  fullName: LibGameAI.Util.MMath.Normalize
+  nameWithType: MMath.Normalize
+- uid: LibGameAI.Util.ReadOnlyListSegment`1
+  name: ReadOnlyListSegment<T>
+  href: api/LibGameAI.Util.ReadOnlyListSegment-1.html
+  commentId: T:LibGameAI.Util.ReadOnlyListSegment`1
+  name.vb: ReadOnlyListSegment(Of T)
+  fullName: LibGameAI.Util.ReadOnlyListSegment<T>
+  fullName.vb: LibGameAI.Util.ReadOnlyListSegment(Of T)
+  nameWithType: ReadOnlyListSegment<T>
+  nameWithType.vb: ReadOnlyListSegment(Of T)
+- uid: LibGameAI.Util.ReadOnlyListSegment`1.#ctor(System.Collections.Generic.IReadOnlyList{`0},System.Int32,System.Int32)
+  name: ReadOnlyListSegment(IReadOnlyList<T>, int, int)
+  href: api/LibGameAI.Util.ReadOnlyListSegment-1.html#LibGameAI_Util_ReadOnlyListSegment_1__ctor_System_Collections_Generic_IReadOnlyList__0__System_Int32_System_Int32_
+  commentId: M:LibGameAI.Util.ReadOnlyListSegment`1.#ctor(System.Collections.Generic.IReadOnlyList{`0},System.Int32,System.Int32)
+  name.vb: New(IReadOnlyList(Of T), Integer, Integer)
+  fullName: LibGameAI.Util.ReadOnlyListSegment<T>.ReadOnlyListSegment(System.Collections.Generic.IReadOnlyList<T>, int, int)
+  fullName.vb: LibGameAI.Util.ReadOnlyListSegment(Of T).New(System.Collections.Generic.IReadOnlyList(Of T), Integer, Integer)
+  nameWithType: ReadOnlyListSegment<T>.ReadOnlyListSegment(IReadOnlyList<T>, int, int)
+  nameWithType.vb: ReadOnlyListSegment(Of T).New(IReadOnlyList(Of T), Integer, Integer)
+- uid: LibGameAI.Util.ReadOnlyListSegment`1.#ctor*
+  name: ReadOnlyListSegment
+  href: api/LibGameAI.Util.ReadOnlyListSegment-1.html#LibGameAI_Util_ReadOnlyListSegment_1__ctor_
+  commentId: Overload:LibGameAI.Util.ReadOnlyListSegment`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: LibGameAI.Util.ReadOnlyListSegment<T>.ReadOnlyListSegment
+  fullName.vb: LibGameAI.Util.ReadOnlyListSegment(Of T).New
+  nameWithType: ReadOnlyListSegment<T>.ReadOnlyListSegment
+  nameWithType.vb: ReadOnlyListSegment(Of T).New
+- uid: LibGameAI.Util.ReadOnlyListSegment`1.Count
+  name: Count
+  href: api/LibGameAI.Util.ReadOnlyListSegment-1.html#LibGameAI_Util_ReadOnlyListSegment_1_Count
+  commentId: P:LibGameAI.Util.ReadOnlyListSegment`1.Count
+  fullName: LibGameAI.Util.ReadOnlyListSegment<T>.Count
+  fullName.vb: LibGameAI.Util.ReadOnlyListSegment(Of T).Count
+  nameWithType: ReadOnlyListSegment<T>.Count
+  nameWithType.vb: ReadOnlyListSegment(Of T).Count
+- uid: LibGameAI.Util.ReadOnlyListSegment`1.Count*
+  name: Count
+  href: api/LibGameAI.Util.ReadOnlyListSegment-1.html#LibGameAI_Util_ReadOnlyListSegment_1_Count_
+  commentId: Overload:LibGameAI.Util.ReadOnlyListSegment`1.Count
+  isSpec: "True"
+  fullName: LibGameAI.Util.ReadOnlyListSegment<T>.Count
+  fullName.vb: LibGameAI.Util.ReadOnlyListSegment(Of T).Count
+  nameWithType: ReadOnlyListSegment<T>.Count
+  nameWithType.vb: ReadOnlyListSegment(Of T).Count
+- uid: LibGameAI.Util.ReadOnlyListSegment`1.GetEnumerator
+  name: GetEnumerator()
+  href: api/LibGameAI.Util.ReadOnlyListSegment-1.html#LibGameAI_Util_ReadOnlyListSegment_1_GetEnumerator
+  commentId: M:LibGameAI.Util.ReadOnlyListSegment`1.GetEnumerator
+  fullName: LibGameAI.Util.ReadOnlyListSegment<T>.GetEnumerator()
+  fullName.vb: LibGameAI.Util.ReadOnlyListSegment(Of T).GetEnumerator()
+  nameWithType: ReadOnlyListSegment<T>.GetEnumerator()
+  nameWithType.vb: ReadOnlyListSegment(Of T).GetEnumerator()
+- uid: LibGameAI.Util.ReadOnlyListSegment`1.GetEnumerator*
+  name: GetEnumerator
+  href: api/LibGameAI.Util.ReadOnlyListSegment-1.html#LibGameAI_Util_ReadOnlyListSegment_1_GetEnumerator_
+  commentId: Overload:LibGameAI.Util.ReadOnlyListSegment`1.GetEnumerator
+  isSpec: "True"
+  fullName: LibGameAI.Util.ReadOnlyListSegment<T>.GetEnumerator
+  fullName.vb: LibGameAI.Util.ReadOnlyListSegment(Of T).GetEnumerator
+  nameWithType: ReadOnlyListSegment<T>.GetEnumerator
+  nameWithType.vb: ReadOnlyListSegment(Of T).GetEnumerator
+- uid: LibGameAI.Util.ReadOnlyListSegment`1.Item(System.Int32)
+  name: this[int]
+  href: api/LibGameAI.Util.ReadOnlyListSegment-1.html#LibGameAI_Util_ReadOnlyListSegment_1_Item_System_Int32_
+  commentId: P:LibGameAI.Util.ReadOnlyListSegment`1.Item(System.Int32)
+  name.vb: this[](Integer)
+  fullName: LibGameAI.Util.ReadOnlyListSegment<T>.this[int]
+  fullName.vb: LibGameAI.Util.ReadOnlyListSegment(Of T).this[](Integer)
+  nameWithType: ReadOnlyListSegment<T>.this[int]
+  nameWithType.vb: ReadOnlyListSegment(Of T).this[](Integer)
+- uid: LibGameAI.Util.ReadOnlyListSegment`1.Item*
+  name: this
+  href: api/LibGameAI.Util.ReadOnlyListSegment-1.html#LibGameAI_Util_ReadOnlyListSegment_1_Item_
+  commentId: Overload:LibGameAI.Util.ReadOnlyListSegment`1.Item
+  isSpec: "True"
+  name.vb: this[]
+  fullName: LibGameAI.Util.ReadOnlyListSegment<T>.this
+  fullName.vb: LibGameAI.Util.ReadOnlyListSegment(Of T).this[]
+  nameWithType: ReadOnlyListSegment<T>.this
+  nameWithType.vb: ReadOnlyListSegment(Of T).this[]
+- uid: LibGameAI.Util.RingList`1
+  name: RingList<T>
+  href: api/LibGameAI.Util.RingList-1.html
+  commentId: T:LibGameAI.Util.RingList`1
+  name.vb: RingList(Of T)
+  fullName: LibGameAI.Util.RingList<T>
+  fullName.vb: LibGameAI.Util.RingList(Of T)
+  nameWithType: RingList<T>
+  nameWithType.vb: RingList(Of T)
+- uid: LibGameAI.Util.RingList`1.#ctor(System.Int32)
+  name: RingList(int)
+  href: api/LibGameAI.Util.RingList-1.html#LibGameAI_Util_RingList_1__ctor_System_Int32_
+  commentId: M:LibGameAI.Util.RingList`1.#ctor(System.Int32)
+  name.vb: New(Integer)
+  fullName: LibGameAI.Util.RingList<T>.RingList(int)
+  fullName.vb: LibGameAI.Util.RingList(Of T).New(Integer)
+  nameWithType: RingList<T>.RingList(int)
+  nameWithType.vb: RingList(Of T).New(Integer)
+- uid: LibGameAI.Util.RingList`1.#ctor*
+  name: RingList
+  href: api/LibGameAI.Util.RingList-1.html#LibGameAI_Util_RingList_1__ctor_
+  commentId: Overload:LibGameAI.Util.RingList`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: LibGameAI.Util.RingList<T>.RingList
+  fullName.vb: LibGameAI.Util.RingList(Of T).New
+  nameWithType: RingList<T>.RingList
+  nameWithType.vb: RingList(Of T).New
+- uid: LibGameAI.Util.RingList`1.Add(`0)
+  name: Add(T)
+  href: api/LibGameAI.Util.RingList-1.html#LibGameAI_Util_RingList_1_Add__0_
+  commentId: M:LibGameAI.Util.RingList`1.Add(`0)
+  fullName: LibGameAI.Util.RingList<T>.Add(T)
+  fullName.vb: LibGameAI.Util.RingList(Of T).Add(T)
+  nameWithType: RingList<T>.Add(T)
+  nameWithType.vb: RingList(Of T).Add(T)
+- uid: LibGameAI.Util.RingList`1.Add*
+  name: Add
+  href: api/LibGameAI.Util.RingList-1.html#LibGameAI_Util_RingList_1_Add_
+  commentId: Overload:LibGameAI.Util.RingList`1.Add
+  isSpec: "True"
+  fullName: LibGameAI.Util.RingList<T>.Add
+  fullName.vb: LibGameAI.Util.RingList(Of T).Add
+  nameWithType: RingList<T>.Add
+  nameWithType.vb: RingList(Of T).Add
+- uid: LibGameAI.Util.RingList`1.Capacity
+  name: Capacity
+  href: api/LibGameAI.Util.RingList-1.html#LibGameAI_Util_RingList_1_Capacity
+  commentId: P:LibGameAI.Util.RingList`1.Capacity
+  fullName: LibGameAI.Util.RingList<T>.Capacity
+  fullName.vb: LibGameAI.Util.RingList(Of T).Capacity
+  nameWithType: RingList<T>.Capacity
+  nameWithType.vb: RingList(Of T).Capacity
+- uid: LibGameAI.Util.RingList`1.Capacity*
+  name: Capacity
+  href: api/LibGameAI.Util.RingList-1.html#LibGameAI_Util_RingList_1_Capacity_
+  commentId: Overload:LibGameAI.Util.RingList`1.Capacity
+  isSpec: "True"
+  fullName: LibGameAI.Util.RingList<T>.Capacity
+  fullName.vb: LibGameAI.Util.RingList(Of T).Capacity
+  nameWithType: RingList<T>.Capacity
+  nameWithType.vb: RingList(Of T).Capacity
+- uid: LibGameAI.Util.RingList`1.Clear
+  name: Clear()
+  href: api/LibGameAI.Util.RingList-1.html#LibGameAI_Util_RingList_1_Clear
+  commentId: M:LibGameAI.Util.RingList`1.Clear
+  fullName: LibGameAI.Util.RingList<T>.Clear()
+  fullName.vb: LibGameAI.Util.RingList(Of T).Clear()
+  nameWithType: RingList<T>.Clear()
+  nameWithType.vb: RingList(Of T).Clear()
+- uid: LibGameAI.Util.RingList`1.Clear*
+  name: Clear
+  href: api/LibGameAI.Util.RingList-1.html#LibGameAI_Util_RingList_1_Clear_
+  commentId: Overload:LibGameAI.Util.RingList`1.Clear
+  isSpec: "True"
+  fullName: LibGameAI.Util.RingList<T>.Clear
+  fullName.vb: LibGameAI.Util.RingList(Of T).Clear
+  nameWithType: RingList<T>.Clear
+  nameWithType.vb: RingList(Of T).Clear
+- uid: LibGameAI.Util.RingList`1.Contains(`0)
+  name: Contains(T)
+  href: api/LibGameAI.Util.RingList-1.html#LibGameAI_Util_RingList_1_Contains__0_
+  commentId: M:LibGameAI.Util.RingList`1.Contains(`0)
+  fullName: LibGameAI.Util.RingList<T>.Contains(T)
+  fullName.vb: LibGameAI.Util.RingList(Of T).Contains(T)
+  nameWithType: RingList<T>.Contains(T)
+  nameWithType.vb: RingList(Of T).Contains(T)
+- uid: LibGameAI.Util.RingList`1.Contains*
+  name: Contains
+  href: api/LibGameAI.Util.RingList-1.html#LibGameAI_Util_RingList_1_Contains_
+  commentId: Overload:LibGameAI.Util.RingList`1.Contains
+  isSpec: "True"
+  fullName: LibGameAI.Util.RingList<T>.Contains
+  fullName.vb: LibGameAI.Util.RingList(Of T).Contains
+  nameWithType: RingList<T>.Contains
+  nameWithType.vb: RingList(Of T).Contains
+- uid: LibGameAI.Util.RingList`1.CopyTo(`0[],System.Int32)
+  name: CopyTo(T[], int)
+  href: api/LibGameAI.Util.RingList-1.html#LibGameAI_Util_RingList_1_CopyTo__0___System_Int32_
+  commentId: M:LibGameAI.Util.RingList`1.CopyTo(`0[],System.Int32)
+  name.vb: CopyTo(T(), Integer)
+  fullName: LibGameAI.Util.RingList<T>.CopyTo(T[], int)
+  fullName.vb: LibGameAI.Util.RingList(Of T).CopyTo(T(), Integer)
+  nameWithType: RingList<T>.CopyTo(T[], int)
+  nameWithType.vb: RingList(Of T).CopyTo(T(), Integer)
+- uid: LibGameAI.Util.RingList`1.CopyTo*
+  name: CopyTo
+  href: api/LibGameAI.Util.RingList-1.html#LibGameAI_Util_RingList_1_CopyTo_
+  commentId: Overload:LibGameAI.Util.RingList`1.CopyTo
+  isSpec: "True"
+  fullName: LibGameAI.Util.RingList<T>.CopyTo
+  fullName.vb: LibGameAI.Util.RingList(Of T).CopyTo
+  nameWithType: RingList<T>.CopyTo
+  nameWithType.vb: RingList(Of T).CopyTo
+- uid: LibGameAI.Util.RingList`1.Count
+  name: Count
+  href: api/LibGameAI.Util.RingList-1.html#LibGameAI_Util_RingList_1_Count
+  commentId: P:LibGameAI.Util.RingList`1.Count
+  fullName: LibGameAI.Util.RingList<T>.Count
+  fullName.vb: LibGameAI.Util.RingList(Of T).Count
+  nameWithType: RingList<T>.Count
+  nameWithType.vb: RingList(Of T).Count
+- uid: LibGameAI.Util.RingList`1.Count*
+  name: Count
+  href: api/LibGameAI.Util.RingList-1.html#LibGameAI_Util_RingList_1_Count_
+  commentId: Overload:LibGameAI.Util.RingList`1.Count
+  isSpec: "True"
+  fullName: LibGameAI.Util.RingList<T>.Count
+  fullName.vb: LibGameAI.Util.RingList(Of T).Count
+  nameWithType: RingList<T>.Count
+  nameWithType.vb: RingList(Of T).Count
+- uid: LibGameAI.Util.RingList`1.GetEnumerator
+  name: GetEnumerator()
+  href: api/LibGameAI.Util.RingList-1.html#LibGameAI_Util_RingList_1_GetEnumerator
+  commentId: M:LibGameAI.Util.RingList`1.GetEnumerator
+  fullName: LibGameAI.Util.RingList<T>.GetEnumerator()
+  fullName.vb: LibGameAI.Util.RingList(Of T).GetEnumerator()
+  nameWithType: RingList<T>.GetEnumerator()
+  nameWithType.vb: RingList(Of T).GetEnumerator()
+- uid: LibGameAI.Util.RingList`1.GetEnumerator*
+  name: GetEnumerator
+  href: api/LibGameAI.Util.RingList-1.html#LibGameAI_Util_RingList_1_GetEnumerator_
+  commentId: Overload:LibGameAI.Util.RingList`1.GetEnumerator
+  isSpec: "True"
+  fullName: LibGameAI.Util.RingList<T>.GetEnumerator
+  fullName.vb: LibGameAI.Util.RingList(Of T).GetEnumerator
+  nameWithType: RingList<T>.GetEnumerator
+  nameWithType.vb: RingList(Of T).GetEnumerator
+- uid: LibGameAI.Util.RingList`1.IsReadOnly
+  name: IsReadOnly
+  href: api/LibGameAI.Util.RingList-1.html#LibGameAI_Util_RingList_1_IsReadOnly
+  commentId: P:LibGameAI.Util.RingList`1.IsReadOnly
+  fullName: LibGameAI.Util.RingList<T>.IsReadOnly
+  fullName.vb: LibGameAI.Util.RingList(Of T).IsReadOnly
+  nameWithType: RingList<T>.IsReadOnly
+  nameWithType.vb: RingList(Of T).IsReadOnly
+- uid: LibGameAI.Util.RingList`1.IsReadOnly*
+  name: IsReadOnly
+  href: api/LibGameAI.Util.RingList-1.html#LibGameAI_Util_RingList_1_IsReadOnly_
+  commentId: Overload:LibGameAI.Util.RingList`1.IsReadOnly
+  isSpec: "True"
+  fullName: LibGameAI.Util.RingList<T>.IsReadOnly
+  fullName.vb: LibGameAI.Util.RingList(Of T).IsReadOnly
+  nameWithType: RingList<T>.IsReadOnly
+  nameWithType.vb: RingList(Of T).IsReadOnly
+- uid: LibGameAI.Util.RingList`1.Item(System.Int32)
+  name: this[int]
+  href: api/LibGameAI.Util.RingList-1.html#LibGameAI_Util_RingList_1_Item_System_Int32_
+  commentId: P:LibGameAI.Util.RingList`1.Item(System.Int32)
+  name.vb: this[](Integer)
+  fullName: LibGameAI.Util.RingList<T>.this[int]
+  fullName.vb: LibGameAI.Util.RingList(Of T).this[](Integer)
+  nameWithType: RingList<T>.this[int]
+  nameWithType.vb: RingList(Of T).this[](Integer)
+- uid: LibGameAI.Util.RingList`1.Item*
+  name: this
+  href: api/LibGameAI.Util.RingList-1.html#LibGameAI_Util_RingList_1_Item_
+  commentId: Overload:LibGameAI.Util.RingList`1.Item
+  isSpec: "True"
+  name.vb: this[]
+  fullName: LibGameAI.Util.RingList<T>.this
+  fullName.vb: LibGameAI.Util.RingList(Of T).this[]
+  nameWithType: RingList<T>.this
+  nameWithType.vb: RingList(Of T).this[]
+- uid: LibGameAI.Util.RingList`1.Remove(`0)
+  name: Remove(T)
+  href: api/LibGameAI.Util.RingList-1.html#LibGameAI_Util_RingList_1_Remove__0_
+  commentId: M:LibGameAI.Util.RingList`1.Remove(`0)
+  fullName: LibGameAI.Util.RingList<T>.Remove(T)
+  fullName.vb: LibGameAI.Util.RingList(Of T).Remove(T)
+  nameWithType: RingList<T>.Remove(T)
+  nameWithType.vb: RingList(Of T).Remove(T)
+- uid: LibGameAI.Util.RingList`1.Remove*
+  name: Remove
+  href: api/LibGameAI.Util.RingList-1.html#LibGameAI_Util_RingList_1_Remove_
+  commentId: Overload:LibGameAI.Util.RingList`1.Remove
+  isSpec: "True"
+  fullName: LibGameAI.Util.RingList<T>.Remove
+  fullName.vb: LibGameAI.Util.RingList(Of T).Remove
+  nameWithType: RingList<T>.Remove
+  nameWithType.vb: RingList(Of T).Remove
+- uid: LibGameAI.Util.Stats
+  name: Stats
+  href: api/LibGameAI.Util.Stats.html
+  commentId: T:LibGameAI.Util.Stats
+  fullName: LibGameAI.Util.Stats
+  nameWithType: Stats
+- uid: LibGameAI.Util.Stats.NextNormalDouble(System.Func{System.Double})
+  name: NextNormalDouble(Func<double>)
+  href: api/LibGameAI.Util.Stats.html#LibGameAI_Util_Stats_NextNormalDouble_System_Func_System_Double__
+  commentId: M:LibGameAI.Util.Stats.NextNormalDouble(System.Func{System.Double})
+  name.vb: NextNormalDouble(Func(Of Double))
+  fullName: LibGameAI.Util.Stats.NextNormalDouble(System.Func<double>)
+  fullName.vb: LibGameAI.Util.Stats.NextNormalDouble(System.Func(Of Double))
+  nameWithType: Stats.NextNormalDouble(Func<double>)
+  nameWithType.vb: Stats.NextNormalDouble(Func(Of Double))
+- uid: LibGameAI.Util.Stats.NextNormalDouble*
+  name: NextNormalDouble
+  href: api/LibGameAI.Util.Stats.html#LibGameAI_Util_Stats_NextNormalDouble_
+  commentId: Overload:LibGameAI.Util.Stats.NextNormalDouble
+  isSpec: "True"
+  fullName: LibGameAI.Util.Stats.NextNormalDouble
+  nameWithType: Stats.NextNormalDouble
+- uid: LibGameAI.Util.Stats.NormalCDF(System.Double,System.Double,System.Double)
+  name: NormalCDF(double, double, double)
+  href: api/LibGameAI.Util.Stats.html#LibGameAI_Util_Stats_NormalCDF_System_Double_System_Double_System_Double_
+  commentId: M:LibGameAI.Util.Stats.NormalCDF(System.Double,System.Double,System.Double)
+  name.vb: NormalCDF(Double, Double, Double)
+  fullName: LibGameAI.Util.Stats.NormalCDF(double, double, double)
+  fullName.vb: LibGameAI.Util.Stats.NormalCDF(Double, Double, Double)
+  nameWithType: Stats.NormalCDF(double, double, double)
+  nameWithType.vb: Stats.NormalCDF(Double, Double, Double)
+- uid: LibGameAI.Util.Stats.NormalCDF*
+  name: NormalCDF
+  href: api/LibGameAI.Util.Stats.html#LibGameAI_Util_Stats_NormalCDF_
+  commentId: Overload:LibGameAI.Util.Stats.NormalCDF
+  isSpec: "True"
+  fullName: LibGameAI.Util.Stats.NormalCDF
+  nameWithType: Stats.NormalCDF

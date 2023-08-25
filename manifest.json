@@ -1,0 +1,510 @@
+{
+  "homepages": [],
+  "source_base_path": "/home/runner/work/libgameai/libgameai/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.DecisionTrees.ActionNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.DecisionTrees.ActionNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.DecisionTrees.DecisionNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.DecisionTrees.DecisionNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.DecisionTrees.IDecisionTreeNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.DecisionTrees.IDecisionTreeNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.DecisionTrees.RandomDecisionBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.DecisionTrees.RandomDecisionBehaviour.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.DecisionTrees.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.DecisionTrees.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.FSMs.State.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.FSMs.State.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.FSMs.StateMachine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.FSMs.StateMachine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.FSMs.Transition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.FSMs.Transition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.FSMs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.FSMs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.NGrams.ActionFrequency-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.NGrams.ActionFrequency-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.NGrams.HierarchNGram-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.NGrams.HierarchNGram-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.NGrams.INGram-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.NGrams.INGram-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.NGrams.NGram-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.NGrams.NGram-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.NGrams.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.NGrams.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.NaiveBayes.Attrib.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.NaiveBayes.Attrib.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.NaiveBayes.NaiveBayesClassifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.NaiveBayes.NaiveBayesClassifier.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.NaiveBayes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.NaiveBayes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.PCG.Landscape.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.PCG.Landscape.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.PCG.Noise.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.PCG.Noise.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.PCG.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.PCG.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.PRNG.LCG48.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.PRNG.LCG48.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.PRNG.Randu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.PRNG.Randu.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.PRNG.XorShift128.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.PRNG.XorShift128.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.PRNG.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.PRNG.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.PathFinding.AStarPathFinder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.PathFinding.AStarPathFinder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.PathFinding.Connection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.PathFinding.Connection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.PathFinding.DijkstraPathFinder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.PathFinding.DijkstraPathFinder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.PathFinding.Graph.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.PathFinding.Graph.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.PathFinding.IConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.PathFinding.IConnection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.PathFinding.IGraph.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.PathFinding.IGraph.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.PathFinding.IPathFinder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.PathFinding.IPathFinder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.PathFinding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.PathFinding.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.QRNG.Halton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.QRNG.Halton.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.QRNG.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.QRNG.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.Util.ClassManager-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.Util.ClassManager-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.Util.ListPlusOneWrapper-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.Util.ListPlusOneWrapper-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.Util.MMath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.Util.MMath.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.Util.ReadOnlyListSegment-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.Util.ReadOnlyListSegment-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.Util.RingList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.Util.RingList-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.Util.Stats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.Util.Stats.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.Util.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.Util.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "dev.md",
+      "output": {
+        ".html": {
+          "relative_path": "dev.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "examples.md",
+      "output": {
+        ".html": {
+          "relative_path": "examples.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
