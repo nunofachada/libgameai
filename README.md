@@ -2,7 +2,7 @@
 [![codecov](https://codecov.io/gh/nunofachada/libGameAI/graph/badge.svg?token=oPLu1FqD1H)](https://codecov.io/gh/nunofachada/libGameAI)
 [![MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/license/mit/)
 
-# libGameAI
+# LibGameAI <img src="docs/images/logo.svg" align="right" />
 
 A .NET Standard 2.1 library of AI algorithms for video games with a focus on
 education.
@@ -19,6 +19,13 @@ education.
 * [QRNG](lib/QRNG)
 * [Utils](lib/Util)
 
+## Status & Usage
+
+This is very much a work in progress, and should be considered to be at an alpha
+stage of development.
+
+This library is currently used in the educational [Game AI Prototypes].
+
 ## Reference
 
 If you use or mention this software in your work, please cite the following
@@ -31,3 +38,5 @@ reference:
 ## License
 
 [MIT](LICENSE)
+
+[Game AI Prototypes]:https://github.com/nunofachada/game-ai-prototypes
