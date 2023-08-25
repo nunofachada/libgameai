@@ -3,11 +3,11 @@ name: Tests
 on:
   push:
     branches: [ main ]
-    paths: [ 'lib/**', 'tests/**', '.github/workflows/cov.yml' ]
+    paths: [ 'lib/**', 'tests/**', '.github/workflows/test.yml' ]
     tags: '*'
   pull_request:
     branches: [ main ]
-    paths: [ 'lib/**', 'tests/**', '.github/workflows/cov.yml' ]
+    paths: [ 'lib/**', 'tests/**', '.github/workflows/test.yml' ]
 
 jobs:
   build-test:
