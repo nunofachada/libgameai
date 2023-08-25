@@ -41,7 +41,7 @@ namespace LibGameAI.Util
         private readonly T[] items;
 
         /// <summary>
-        /// Create a new ring list with the specified <paramref name="capacity/">.
+        /// Create a new ring list with the specified <paramref name="capacity"/>.
         /// </summary>
         /// <param name="capacity">Maximum capacity of the ring list.</param>
         public RingList(int capacity)
