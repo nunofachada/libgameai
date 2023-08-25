@@ -9,15 +9,15 @@ education.
 
 ## Library components
 
-* [Decision trees](lib/DecisionTrees)
-* [Finite state machines](lib/FSMs)
-* [N-grams](lib/NGrams)
-* [Naive Bayes classifier](lib/NaiveBayes)
-* [Path finding algorithms](lib/PathFinding)
-* [PCG](lib/PCG)
-* [PRNG](lib/PRNG)
-* [QRNG](lib/QRNG)
-* [Utils](lib/Util)
+* [Decision trees](https://nunofachada.github.io/libgameai/api/LibGameAI.DecisionTrees.html)
+* [Finite state machines](https://nunofachada.github.io/libgameai/api/LibGameAI.FSMs.html)
+* [N-grams](https://nunofachada.github.io/libgameai/api/LibGameAI.NGrams.html)
+* [Naive Bayes classifier](https://nunofachada.github.io/libgameai/api/LibGameAI.NaiveBayes.html)
+* [Path finding algorithms](https://nunofachada.github.io/libgameai/api/LibGameAI.PathFinding.html)
+* [PCG](https://nunofachada.github.io/libgameai/api/LibGameAI.PCG.html)
+* [PRNG](https://nunofachada.github.io/libgameai/api/LibGameAI.PRNG.html)
+* [QRNG](https://nunofachada.github.io/libgameai/api/LibGameAI.QRNG.html)
+* [Util](https://nunofachada.github.io/libgameai/api/LibGameAI.Util.html)
 
 ## Status & Usage
 
