@@ -13,7 +13,7 @@
     </Description>
     <PackageTags>artificial intelligence;AI algorithms;game development;games;education;prng;pseudo-random number generators</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/nunofachada/libgameai</PackageProjectUrl>
+    <PackageProjectUrl>https://nunofachada.github.io/libgameai/</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageIcon>logo.png</PackageIcon>
     <RepositoryUrl>https://github.com/nunofachada/libgameai</RepositoryUrl>
