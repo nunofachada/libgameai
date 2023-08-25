@@ -1,19 +1,19 @@
-# LibGameAI <img src="docs/images/logo.svg" align="right" />
+# LibGameAI <img src="images/logo.svg" align="right" />
 
 A .NET Standard 2.1 library of AI algorithms for video games with a focus on
 education.
 
 ## Library components
 
-* [Decision trees](lib/DecisionTrees)
-* [Finite state machines](lib/FSMs)
-* [N-grams](lib/NGrams)
-* [Naive Bayes classifier](lib/NaiveBayes)
-* [Path finding algorithms](lib/PathFinding)
-* [PCG](lib/PCG)
-* [PRNG](lib/PRNG)
-* [QRNG](lib/QRNG)
-* [Utils](lib/Util)
+* [Decision trees](xref:LibGameAI.DecisionTrees)
+* [Finite state machines](xref:LibGameAI.FSMs)
+* [N-grams](xref:LibGameAI.NGrams)
+* [Naive Bayes classifier](xref:LibGameAI.NaiveBayes)
+* [Path finding algorithms](xref:LibGameAI.PathFinding)
+* [PCG](xref:LibGameAI.PCG)
+* [PRNG](xref:LibGameAI.PRNG)
+* [QRNG](xref:LibGameAI.QRNG)
+* [Util](xref:LibGameAI.Util)
 
 ## Status & Usage
 
@@ -33,6 +33,6 @@ reference:
 
 ## License
 
-[MIT](LICENSE)
+[MIT](https://github.com/nunofachada/libgameai/blob/main/LICENSE)
 
 [Game AI Prototypes]:https://github.com/nunofachada/game-ai-prototypes
