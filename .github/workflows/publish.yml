@@ -1,0 +1,21 @@
+name: Publish
+
+on:
+  push:
+    tags: 'v*'
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout package
+      uses: actions/checkout@v3
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '6.x'
+    - name: Perform packaging
+      run: dotnet pack lib --configuration Release
+    - name: Publish to NuGet
+      run: dotnet nuget push  "lib/**/bin/Release/*.nupkg" --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json --skip-duplicate
+
