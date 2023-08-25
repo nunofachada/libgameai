@@ -2,7 +2,7 @@
 [![codecov](https://codecov.io/gh/nunofachada/libGameAI/graph/badge.svg?token=oPLu1FqD1H)](https://codecov.io/gh/nunofachada/libGameAI)
 [![MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/license/mit/)
 
-# LibGameAI
+# ![Logo](https://nunofachada.github.io/libgameai/images/logo.svg) LibGameAI
 
 A .NET Standard 2.1 library of AI algorithms for video games with a focus on
 education.
