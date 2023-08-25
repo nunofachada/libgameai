@@ -24,14 +24,11 @@
     "content": [
       {
         "files": [
-          "api/**.yml",
-          "api/index.md"
+          "api/**.yml"
         ]
       },
       {
         "files": [
-          "articles/**.md",
-          "articles/**/toc.yml",
           "toc.yml",
           "*.md"
         ]
@@ -44,10 +41,15 @@
     ],
     "output": "_site",
     "globalMetadata": {
+      "_appFooter": "<span>Copyright © 2023 Nuno Fachada and contributors. Generated with <a href=\"https://dotnet.github.io/docfx\">DocFX</a> and <a href=\"https://ovasquez.github.io/docfx-material\">DocFX Material</a>.</span>",
       "_appTitle": "LibGameAI",
       "_appLogoPath": "images/logo.svg",
       "_appFaviconPath": "images/logo.svg",
-      "_enableSearch": "true"
+      "_enableSearch": "true",
+      "_gitContribute": {
+        "repo": "https://github.com/nunofachada/libgameai"
+      },
+      "_gitUrlPattern": "github"
     },
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
@@ -56,7 +58,7 @@
       "modern",
       "templates/material"
     ],
-    "postProcessors": [],
+    "postProcessors": ["ExtractSearchIndex"],
     "keepFileLink": false,
     "disableGitFeatures": false
   }
