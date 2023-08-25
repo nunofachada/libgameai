@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <PackageId>LibGameAI.NGrams</PackageId>
-    <Version>0.0.2</Version>
+    <Version>0.0.3</Version>
     <Authors>Nuno Fachada</Authors>
     <Copyright>Copyright (c) 2018-2023 Nuno Fachada and Contributors</Copyright>
     <Description>
