@@ -1,9 +1,12 @@
 # LibGameAI <img src="images/logo.svg" align="right" />
 
-A .NET Standard 2.1 library of AI algorithms for video games with a focus on
-education.
+LibGameAI is .NET Standard 2.1 library of AI algorithms for video games with a
+focus on education.
 
-## Library components
+The library is organized into several components, installable from
+[NuGet] or [downloadable] directly into your project.
+
+## Documentation
 
 * [Decision trees](xref:LibGameAI.DecisionTrees)
 * [Finite state machines](xref:LibGameAI.FSMs)
@@ -36,3 +39,5 @@ reference:
 [MIT](https://github.com/nunofachada/libgameai/blob/main/LICENSE)
 
 [Game AI Prototypes]:https://github.com/nunofachada/game-ai-prototypes
+[NuGet]:https://www.nuget.org/packages?q=LibGameAI
+[downloadable]:https://github.com/nunofachada/libgameai/releases
