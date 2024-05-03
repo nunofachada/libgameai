@@ -144,7 +144,7 @@ namespace LibGameAI.PCG
         // Parse the survival and birth rule string components
         private ISet<int> ParseRuleValues(string ruleValues)
         {
-            HashSet<int> values = new();
+            HashSet<int> values = new HashSet<int>();
             if (string.IsNullOrEmpty(ruleValues)) return values;
 
             foreach (string part in ruleValues.Split(inRuleSep))
