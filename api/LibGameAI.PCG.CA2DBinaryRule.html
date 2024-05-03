@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class CA2DBinaryRule | LibGameAI ">
       
-      
+      <meta name="description" content="A transition rule for discrete binary deterministic 2D cellular automata.">
       <link rel="icon" href="../images/logo.svg">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -97,7 +97,8 @@ Class CA2DBinaryRule  <a class="header-action link-secondary" title="View source
   <dl><dt>Assembly</dt><dd>PCG.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>A transition rule for discrete binary deterministic 2D cellular automata.</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
@@ -152,6 +153,61 @@ Class CA2DBinaryRule  <a class="header-action link-secondary" title="View source
 
 
 
+  <h2 id="LibGameAI_PCG_CA2DBinaryRule_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>A rule is defined as a string as follows:</p>
+<p><code>&lt;N,R/{values-for-survival}/{values-for-birth}&gt;</code></p>
+<p>Where:</p>
+<ul>
+<li><code>N</code> represents the neighborhood type (<code>M</code> for Moore, <code>V</code> for Von
+Neumann, <code>H</code> for Hexagonal).</li>
+<li><code>R</code> indicates the radius of the neighborhood.</li>
+<li><code>{values-for-survival}</code> and <code>{values-for-birth}</code> are comma-separated
+lists where values can be individual numbers or ranges denoted by a
+start and end number separated by a hyphen (<code>-</code>). A hyphen at the
+start or end indicates a range extending from zero or up to the
+maximum possible number of neighbors, respectively.</li>
+</ul>
+<p>Examples:</p>
+<ul>
+<li><code>M,1/2-5/3,6-8</code>
+<ul>
+<li>Neighborhood: Moore</li>
+<li>Radius: 1</li>
+<li>Survival: A cell survives if it has between 2 and 5 live neighbors.</li>
+<li>Birth: A cell is born if it has exactly 3 live neighbors or between
+6 and 8 live neighbors.</li>
+</ul>
+</li>
+<li>`V,2/-/1-4
+<ul>
+<li>Neighborhood: Von Neumann</li>
+<li>Radius: 2</li>
+<li>Survival: No specific survival rules; the hyphen implies all
+possibilities are valid, so live cells will always survive.</li>
+<li>Birth: A cell is born if it has between 1 and 4 live neighbors.</li>
+</ul>
+</li>
+<li><code>H,3/0,2,4-6/10-</code>
+<ul>
+<li>Neighborhood: Hexagonal</li>
+<li>Radius: 3</li>
+<li>Survival: A cell survives if it has 0, 2, or between 4 and 6 live
+neighbors.</li>
+<li>Birth: Cells are born if they have 10 or more live neighbors.</li>
+</ul>
+</li>
+<li><code>M,2/1,10-/-3,7-9</code>
+<ul>
+<li>Neighborhood: Moore</li>
+<li>Radius: 2</li>
+<li>Survival: A cell survives if it has exactly 1 live neighbor or
+more than 10 live neighbors.</li>
+<li>Birth: A cell is born if it has between 0 and 3 live neighbors or
+between live 7 and 9 neighbors.</li>
+</ul>
+</li>
+</ul>
+</div>
 
 
   <h2 class="section" id="constructors">Constructors
