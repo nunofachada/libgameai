@@ -35,7 +35,7 @@ namespace LibGameAI.PCG
     ///   - Survival: A cell survives if it has between 2 and 5 live neighbors.
     ///   - Birth: A cell is born if it has exactly 3 live neighbors or between
     ///     6 and 8 live neighbors.
-    /// - `V,2/-/1-4
+    /// - `V,2/-/1-4`
     ///   - Neighborhood: Von Neumann
     ///   - Radius: 2
     ///   - Survival: No specific survival rules; the hyphen implies all
