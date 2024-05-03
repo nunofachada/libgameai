@@ -14,7 +14,7 @@ namespace LibGameAI.PCG
     /// <remarks>
     /// A rule is defined as a string as follows:
     ///
-    /// `<N,R/{values-for-survival}/{values-for-birth}>`
+    /// `&lt;N,R/{values-for-survival}/{values-for-birth}&gt;`
     ///
     /// Where:
     ///
@@ -54,7 +54,7 @@ namespace LibGameAI.PCG
     ///     more than 10 live neighbors.
     ///   - Birth: A cell is born if it has between 0 and 3 live neighbors or
     ///     between live 7 and 9 neighbors.
-    /// <remarks>
+    /// </remarks>
     public class CA2DBinaryRule : ICA2DRule
     {
         // Constants defining rule string separators
