@@ -829,6 +829,337 @@ references:
   commentId: N:LibGameAI.PCG
   fullName: LibGameAI.PCG
   nameWithType: LibGameAI.PCG
+- uid: LibGameAI.PCG.CA2D
+  name: CA2D
+  href: api/LibGameAI.PCG.CA2D.html
+  commentId: T:LibGameAI.PCG.CA2D
+  fullName: LibGameAI.PCG.CA2D
+  nameWithType: CA2D
+- uid: LibGameAI.PCG.CA2D.#ctor(LibGameAI.PCG.ICA2DRule,System.Int32,System.Int32,System.Boolean,System.Int32)
+  name: CA2D(ICA2DRule, int, int, bool, int)
+  href: api/LibGameAI.PCG.CA2D.html#LibGameAI_PCG_CA2D__ctor_LibGameAI_PCG_ICA2DRule_System_Int32_System_Int32_System_Boolean_System_Int32_
+  commentId: M:LibGameAI.PCG.CA2D.#ctor(LibGameAI.PCG.ICA2DRule,System.Int32,System.Int32,System.Boolean,System.Int32)
+  name.vb: New(ICA2DRule, Integer, Integer, Boolean, Integer)
+  fullName: LibGameAI.PCG.CA2D.CA2D(LibGameAI.PCG.ICA2DRule, int, int, bool, int)
+  fullName.vb: LibGameAI.PCG.CA2D.New(LibGameAI.PCG.ICA2DRule, Integer, Integer, Boolean, Integer)
+  nameWithType: CA2D.CA2D(ICA2DRule, int, int, bool, int)
+  nameWithType.vb: CA2D.New(ICA2DRule, Integer, Integer, Boolean, Integer)
+- uid: LibGameAI.PCG.CA2D.#ctor*
+  name: CA2D
+  href: api/LibGameAI.PCG.CA2D.html#LibGameAI_PCG_CA2D__ctor_
+  commentId: Overload:LibGameAI.PCG.CA2D.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: LibGameAI.PCG.CA2D.CA2D
+  fullName.vb: LibGameAI.PCG.CA2D.New
+  nameWithType: CA2D.CA2D
+  nameWithType.vb: CA2D.New
+- uid: LibGameAI.PCG.CA2D.CountNeighbors(System.Int32,System.Int32,System.Int32,LibGameAI.Util.Neighborhood,System.Int32,System.Boolean)
+  name: CountNeighbors(int, int, int, Neighborhood, int, bool)
+  href: api/LibGameAI.PCG.CA2D.html#LibGameAI_PCG_CA2D_CountNeighbors_System_Int32_System_Int32_System_Int32_LibGameAI_Util_Neighborhood_System_Int32_System_Boolean_
+  commentId: M:LibGameAI.PCG.CA2D.CountNeighbors(System.Int32,System.Int32,System.Int32,LibGameAI.Util.Neighborhood,System.Int32,System.Boolean)
+  name.vb: CountNeighbors(Integer, Integer, Integer, Neighborhood, Integer, Boolean)
+  fullName: LibGameAI.PCG.CA2D.CountNeighbors(int, int, int, LibGameAI.Util.Neighborhood, int, bool)
+  fullName.vb: LibGameAI.PCG.CA2D.CountNeighbors(Integer, Integer, Integer, LibGameAI.Util.Neighborhood, Integer, Boolean)
+  nameWithType: CA2D.CountNeighbors(int, int, int, Neighborhood, int, bool)
+  nameWithType.vb: CA2D.CountNeighbors(Integer, Integer, Integer, Neighborhood, Integer, Boolean)
+- uid: LibGameAI.PCG.CA2D.CountNeighbors(System.Int32[],System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,System.Int32,System.Int32,System.Int32,System.Boolean,LibGameAI.Util.Neighborhood)
+  name: CountNeighbors(int[], int, int, int, int, bool, int, int, int, bool, Neighborhood)
+  href: api/LibGameAI.PCG.CA2D.html#LibGameAI_PCG_CA2D_CountNeighbors_System_Int32___System_Int32_System_Int32_System_Int32_System_Int32_System_Boolean_System_Int32_System_Int32_System_Int32_System_Boolean_LibGameAI_Util_Neighborhood_
+  commentId: M:LibGameAI.PCG.CA2D.CountNeighbors(System.Int32[],System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,System.Int32,System.Int32,System.Int32,System.Boolean,LibGameAI.Util.Neighborhood)
+  name.vb: CountNeighbors(Integer(), Integer, Integer, Integer, Integer, Boolean, Integer, Integer, Integer, Boolean, Neighborhood)
+  fullName: LibGameAI.PCG.CA2D.CountNeighbors(int[], int, int, int, int, bool, int, int, int, bool, LibGameAI.Util.Neighborhood)
+  fullName.vb: LibGameAI.PCG.CA2D.CountNeighbors(Integer(), Integer, Integer, Integer, Integer, Boolean, Integer, Integer, Integer, Boolean, LibGameAI.Util.Neighborhood)
+  nameWithType: CA2D.CountNeighbors(int[], int, int, int, int, bool, int, int, int, bool, Neighborhood)
+  nameWithType.vb: CA2D.CountNeighbors(Integer(), Integer, Integer, Integer, Integer, Boolean, Integer, Integer, Integer, Boolean, Neighborhood)
+- uid: LibGameAI.PCG.CA2D.CountNeighbors*
+  name: CountNeighbors
+  href: api/LibGameAI.PCG.CA2D.html#LibGameAI_PCG_CA2D_CountNeighbors_
+  commentId: Overload:LibGameAI.PCG.CA2D.CountNeighbors
+  isSpec: "True"
+  fullName: LibGameAI.PCG.CA2D.CountNeighbors
+  nameWithType: CA2D.CountNeighbors
+- uid: LibGameAI.PCG.CA2D.DoStep
+  name: DoStep()
+  href: api/LibGameAI.PCG.CA2D.html#LibGameAI_PCG_CA2D_DoStep
+  commentId: M:LibGameAI.PCG.CA2D.DoStep
+  fullName: LibGameAI.PCG.CA2D.DoStep()
+  nameWithType: CA2D.DoStep()
+- uid: LibGameAI.PCG.CA2D.DoStep*
+  name: DoStep
+  href: api/LibGameAI.PCG.CA2D.html#LibGameAI_PCG_CA2D_DoStep_
+  commentId: Overload:LibGameAI.PCG.CA2D.DoStep
+  isSpec: "True"
+  fullName: LibGameAI.PCG.CA2D.DoStep
+  nameWithType: CA2D.DoStep
+- uid: LibGameAI.PCG.CA2D.InitExact(System.Int32[0:,0:])
+  name: InitExact(int[,])
+  href: api/LibGameAI.PCG.CA2D.html#LibGameAI_PCG_CA2D_InitExact_System_Int32_0__0___
+  commentId: M:LibGameAI.PCG.CA2D.InitExact(System.Int32[0:,0:])
+  name.vb: InitExact(Integer(,))
+  fullName: LibGameAI.PCG.CA2D.InitExact(int[,])
+  fullName.vb: LibGameAI.PCG.CA2D.InitExact(Integer(,))
+  nameWithType: CA2D.InitExact(int[,])
+  nameWithType.vb: CA2D.InitExact(Integer(,))
+- uid: LibGameAI.PCG.CA2D.InitExact(System.Int32[])
+  name: InitExact(int[])
+  href: api/LibGameAI.PCG.CA2D.html#LibGameAI_PCG_CA2D_InitExact_System_Int32___
+  commentId: M:LibGameAI.PCG.CA2D.InitExact(System.Int32[])
+  name.vb: InitExact(Integer())
+  fullName: LibGameAI.PCG.CA2D.InitExact(int[])
+  fullName.vb: LibGameAI.PCG.CA2D.InitExact(Integer())
+  nameWithType: CA2D.InitExact(int[])
+  nameWithType.vb: CA2D.InitExact(Integer())
+- uid: LibGameAI.PCG.CA2D.InitExact*
+  name: InitExact
+  href: api/LibGameAI.PCG.CA2D.html#LibGameAI_PCG_CA2D_InitExact_
+  commentId: Overload:LibGameAI.PCG.CA2D.InitExact
+  isSpec: "True"
+  fullName: LibGameAI.PCG.CA2D.InitExact
+  nameWithType: CA2D.InitExact
+- uid: LibGameAI.PCG.CA2D.InitFunc(System.Func{System.Int32,System.Int32,System.Int32})
+  name: InitFunc(Func<int, int, int>)
+  href: api/LibGameAI.PCG.CA2D.html#LibGameAI_PCG_CA2D_InitFunc_System_Func_System_Int32_System_Int32_System_Int32__
+  commentId: M:LibGameAI.PCG.CA2D.InitFunc(System.Func{System.Int32,System.Int32,System.Int32})
+  name.vb: InitFunc(Func(Of Integer, Integer, Integer))
+  fullName: LibGameAI.PCG.CA2D.InitFunc(System.Func<int, int, int>)
+  fullName.vb: LibGameAI.PCG.CA2D.InitFunc(System.Func(Of Integer, Integer, Integer))
+  nameWithType: CA2D.InitFunc(Func<int, int, int>)
+  nameWithType.vb: CA2D.InitFunc(Func(Of Integer, Integer, Integer))
+- uid: LibGameAI.PCG.CA2D.InitFunc*
+  name: InitFunc
+  href: api/LibGameAI.PCG.CA2D.html#LibGameAI_PCG_CA2D_InitFunc_
+  commentId: Overload:LibGameAI.PCG.CA2D.InitFunc
+  isSpec: "True"
+  fullName: LibGameAI.PCG.CA2D.InitFunc
+  nameWithType: CA2D.InitFunc
+- uid: LibGameAI.PCG.CA2D.InitRandom(System.Int32[],System.Single[],System.Func{System.Single})
+  name: InitRandom(int[], float[], Func<float>)
+  href: api/LibGameAI.PCG.CA2D.html#LibGameAI_PCG_CA2D_InitRandom_System_Int32___System_Single___System_Func_System_Single__
+  commentId: M:LibGameAI.PCG.CA2D.InitRandom(System.Int32[],System.Single[],System.Func{System.Single})
+  name.vb: InitRandom(Integer(), Single(), Func(Of Single))
+  fullName: LibGameAI.PCG.CA2D.InitRandom(int[], float[], System.Func<float>)
+  fullName.vb: LibGameAI.PCG.CA2D.InitRandom(Integer(), Single(), System.Func(Of Single))
+  nameWithType: CA2D.InitRandom(int[], float[], Func<float>)
+  nameWithType.vb: CA2D.InitRandom(Integer(), Single(), Func(Of Single))
+- uid: LibGameAI.PCG.CA2D.InitRandom(System.Int32[],System.Single[],System.Nullable{System.Int32})
+  name: InitRandom(int[], float[], int?)
+  href: api/LibGameAI.PCG.CA2D.html#LibGameAI_PCG_CA2D_InitRandom_System_Int32___System_Single___System_Nullable_System_Int32__
+  commentId: M:LibGameAI.PCG.CA2D.InitRandom(System.Int32[],System.Single[],System.Nullable{System.Int32})
+  name.vb: InitRandom(Integer(), Single(), Integer?)
+  fullName: LibGameAI.PCG.CA2D.InitRandom(int[], float[], int?)
+  fullName.vb: LibGameAI.PCG.CA2D.InitRandom(Integer(), Single(), Integer?)
+  nameWithType: CA2D.InitRandom(int[], float[], int?)
+  nameWithType.vb: CA2D.InitRandom(Integer(), Single(), Integer?)
+- uid: LibGameAI.PCG.CA2D.InitRandom*
+  name: InitRandom
+  href: api/LibGameAI.PCG.CA2D.html#LibGameAI_PCG_CA2D_InitRandom_
+  commentId: Overload:LibGameAI.PCG.CA2D.InitRandom
+  isSpec: "True"
+  fullName: LibGameAI.PCG.CA2D.InitRandom
+  nameWithType: CA2D.InitRandom
+- uid: LibGameAI.PCG.CA2D.Item(System.Int32,System.Int32)
+  name: this[int, int]
+  href: api/LibGameAI.PCG.CA2D.html#LibGameAI_PCG_CA2D_Item_System_Int32_System_Int32_
+  commentId: P:LibGameAI.PCG.CA2D.Item(System.Int32,System.Int32)
+  name.vb: this[](Integer, Integer)
+  fullName: LibGameAI.PCG.CA2D.this[int, int]
+  fullName.vb: LibGameAI.PCG.CA2D.this[](Integer, Integer)
+  nameWithType: CA2D.this[int, int]
+  nameWithType.vb: CA2D.this[](Integer, Integer)
+- uid: LibGameAI.PCG.CA2D.Item*
+  name: this
+  href: api/LibGameAI.PCG.CA2D.html#LibGameAI_PCG_CA2D_Item_
+  commentId: Overload:LibGameAI.PCG.CA2D.Item
+  isSpec: "True"
+  name.vb: this[]
+  fullName: LibGameAI.PCG.CA2D.this
+  fullName.vb: LibGameAI.PCG.CA2D.this[]
+  nameWithType: CA2D.this
+  nameWithType.vb: CA2D.this[]
+- uid: LibGameAI.PCG.CA2D.NonToroidalOffGridCells
+  name: NonToroidalOffGridCells
+  href: api/LibGameAI.PCG.CA2D.html#LibGameAI_PCG_CA2D_NonToroidalOffGridCells
+  commentId: P:LibGameAI.PCG.CA2D.NonToroidalOffGridCells
+  fullName: LibGameAI.PCG.CA2D.NonToroidalOffGridCells
+  nameWithType: CA2D.NonToroidalOffGridCells
+- uid: LibGameAI.PCG.CA2D.NonToroidalOffGridCells*
+  name: NonToroidalOffGridCells
+  href: api/LibGameAI.PCG.CA2D.html#LibGameAI_PCG_CA2D_NonToroidalOffGridCells_
+  commentId: Overload:LibGameAI.PCG.CA2D.NonToroidalOffGridCells
+  isSpec: "True"
+  fullName: LibGameAI.PCG.CA2D.NonToroidalOffGridCells
+  nameWithType: CA2D.NonToroidalOffGridCells
+- uid: LibGameAI.PCG.CA2D.RandomFill(System.Int32[],System.Int32[],System.Single[],System.Func{System.Single})
+  name: RandomFill(int[], int[], float[], Func<float>)
+  href: api/LibGameAI.PCG.CA2D.html#LibGameAI_PCG_CA2D_RandomFill_System_Int32___System_Int32___System_Single___System_Func_System_Single__
+  commentId: M:LibGameAI.PCG.CA2D.RandomFill(System.Int32[],System.Int32[],System.Single[],System.Func{System.Single})
+  name.vb: RandomFill(Integer(), Integer(), Single(), Func(Of Single))
+  fullName: LibGameAI.PCG.CA2D.RandomFill(int[], int[], float[], System.Func<float>)
+  fullName.vb: LibGameAI.PCG.CA2D.RandomFill(Integer(), Integer(), Single(), System.Func(Of Single))
+  nameWithType: CA2D.RandomFill(int[], int[], float[], Func<float>)
+  nameWithType.vb: CA2D.RandomFill(Integer(), Integer(), Single(), Func(Of Single))
+- uid: LibGameAI.PCG.CA2D.RandomFill*
+  name: RandomFill
+  href: api/LibGameAI.PCG.CA2D.html#LibGameAI_PCG_CA2D_RandomFill_
+  commentId: Overload:LibGameAI.PCG.CA2D.RandomFill
+  isSpec: "True"
+  fullName: LibGameAI.PCG.CA2D.RandomFill
+  nameWithType: CA2D.RandomFill
+- uid: LibGameAI.PCG.CA2D.Toroidal
+  name: Toroidal
+  href: api/LibGameAI.PCG.CA2D.html#LibGameAI_PCG_CA2D_Toroidal
+  commentId: P:LibGameAI.PCG.CA2D.Toroidal
+  fullName: LibGameAI.PCG.CA2D.Toroidal
+  nameWithType: CA2D.Toroidal
+- uid: LibGameAI.PCG.CA2D.Toroidal*
+  name: Toroidal
+  href: api/LibGameAI.PCG.CA2D.html#LibGameAI_PCG_CA2D_Toroidal_
+  commentId: Overload:LibGameAI.PCG.CA2D.Toroidal
+  isSpec: "True"
+  fullName: LibGameAI.PCG.CA2D.Toroidal
+  nameWithType: CA2D.Toroidal
+- uid: LibGameAI.PCG.CA2D.XDim
+  name: XDim
+  href: api/LibGameAI.PCG.CA2D.html#LibGameAI_PCG_CA2D_XDim
+  commentId: P:LibGameAI.PCG.CA2D.XDim
+  fullName: LibGameAI.PCG.CA2D.XDim
+  nameWithType: CA2D.XDim
+- uid: LibGameAI.PCG.CA2D.XDim*
+  name: XDim
+  href: api/LibGameAI.PCG.CA2D.html#LibGameAI_PCG_CA2D_XDim_
+  commentId: Overload:LibGameAI.PCG.CA2D.XDim
+  isSpec: "True"
+  fullName: LibGameAI.PCG.CA2D.XDim
+  nameWithType: CA2D.XDim
+- uid: LibGameAI.PCG.CA2D.YDim
+  name: YDim
+  href: api/LibGameAI.PCG.CA2D.html#LibGameAI_PCG_CA2D_YDim
+  commentId: P:LibGameAI.PCG.CA2D.YDim
+  fullName: LibGameAI.PCG.CA2D.YDim
+  nameWithType: CA2D.YDim
+- uid: LibGameAI.PCG.CA2D.YDim*
+  name: YDim
+  href: api/LibGameAI.PCG.CA2D.html#LibGameAI_PCG_CA2D_YDim_
+  commentId: Overload:LibGameAI.PCG.CA2D.YDim
+  isSpec: "True"
+  fullName: LibGameAI.PCG.CA2D.YDim
+  nameWithType: CA2D.YDim
+- uid: LibGameAI.PCG.CA2DBinaryRule
+  name: CA2DBinaryRule
+  href: api/LibGameAI.PCG.CA2DBinaryRule.html
+  commentId: T:LibGameAI.PCG.CA2DBinaryRule
+  fullName: LibGameAI.PCG.CA2DBinaryRule
+  nameWithType: CA2DBinaryRule
+- uid: LibGameAI.PCG.CA2DBinaryRule.#ctor(System.String)
+  name: CA2DBinaryRule(string)
+  href: api/LibGameAI.PCG.CA2DBinaryRule.html#LibGameAI_PCG_CA2DBinaryRule__ctor_System_String_
+  commentId: M:LibGameAI.PCG.CA2DBinaryRule.#ctor(System.String)
+  name.vb: New(String)
+  fullName: LibGameAI.PCG.CA2DBinaryRule.CA2DBinaryRule(string)
+  fullName.vb: LibGameAI.PCG.CA2DBinaryRule.New(String)
+  nameWithType: CA2DBinaryRule.CA2DBinaryRule(string)
+  nameWithType.vb: CA2DBinaryRule.New(String)
+- uid: LibGameAI.PCG.CA2DBinaryRule.#ctor*
+  name: CA2DBinaryRule
+  href: api/LibGameAI.PCG.CA2DBinaryRule.html#LibGameAI_PCG_CA2DBinaryRule__ctor_
+  commentId: Overload:LibGameAI.PCG.CA2DBinaryRule.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: LibGameAI.PCG.CA2DBinaryRule.CA2DBinaryRule
+  fullName.vb: LibGameAI.PCG.CA2DBinaryRule.New
+  nameWithType: CA2DBinaryRule.CA2DBinaryRule
+  nameWithType.vb: CA2DBinaryRule.New
+- uid: LibGameAI.PCG.CA2DBinaryRule.BirthRules
+  name: BirthRules
+  href: api/LibGameAI.PCG.CA2DBinaryRule.html#LibGameAI_PCG_CA2DBinaryRule_BirthRules
+  commentId: P:LibGameAI.PCG.CA2DBinaryRule.BirthRules
+  fullName: LibGameAI.PCG.CA2DBinaryRule.BirthRules
+  nameWithType: CA2DBinaryRule.BirthRules
+- uid: LibGameAI.PCG.CA2DBinaryRule.BirthRules*
+  name: BirthRules
+  href: api/LibGameAI.PCG.CA2DBinaryRule.html#LibGameAI_PCG_CA2DBinaryRule_BirthRules_
+  commentId: Overload:LibGameAI.PCG.CA2DBinaryRule.BirthRules
+  isSpec: "True"
+  fullName: LibGameAI.PCG.CA2DBinaryRule.BirthRules
+  nameWithType: CA2DBinaryRule.BirthRules
+- uid: LibGameAI.PCG.CA2DBinaryRule.NeighborhoodType
+  name: NeighborhoodType
+  href: api/LibGameAI.PCG.CA2DBinaryRule.html#LibGameAI_PCG_CA2DBinaryRule_NeighborhoodType
+  commentId: P:LibGameAI.PCG.CA2DBinaryRule.NeighborhoodType
+  fullName: LibGameAI.PCG.CA2DBinaryRule.NeighborhoodType
+  nameWithType: CA2DBinaryRule.NeighborhoodType
+- uid: LibGameAI.PCG.CA2DBinaryRule.NeighborhoodType*
+  name: NeighborhoodType
+  href: api/LibGameAI.PCG.CA2DBinaryRule.html#LibGameAI_PCG_CA2DBinaryRule_NeighborhoodType_
+  commentId: Overload:LibGameAI.PCG.CA2DBinaryRule.NeighborhoodType
+  isSpec: "True"
+  fullName: LibGameAI.PCG.CA2DBinaryRule.NeighborhoodType
+  nameWithType: CA2DBinaryRule.NeighborhoodType
+- uid: LibGameAI.PCG.CA2DBinaryRule.ProcessRule(LibGameAI.PCG.CA2D,System.Int32,System.Int32)
+  name: ProcessRule(CA2D, int, int)
+  href: api/LibGameAI.PCG.CA2DBinaryRule.html#LibGameAI_PCG_CA2DBinaryRule_ProcessRule_LibGameAI_PCG_CA2D_System_Int32_System_Int32_
+  commentId: M:LibGameAI.PCG.CA2DBinaryRule.ProcessRule(LibGameAI.PCG.CA2D,System.Int32,System.Int32)
+  name.vb: ProcessRule(CA2D, Integer, Integer)
+  fullName: LibGameAI.PCG.CA2DBinaryRule.ProcessRule(LibGameAI.PCG.CA2D, int, int)
+  fullName.vb: LibGameAI.PCG.CA2DBinaryRule.ProcessRule(LibGameAI.PCG.CA2D, Integer, Integer)
+  nameWithType: CA2DBinaryRule.ProcessRule(CA2D, int, int)
+  nameWithType.vb: CA2DBinaryRule.ProcessRule(CA2D, Integer, Integer)
+- uid: LibGameAI.PCG.CA2DBinaryRule.ProcessRule*
+  name: ProcessRule
+  href: api/LibGameAI.PCG.CA2DBinaryRule.html#LibGameAI_PCG_CA2DBinaryRule_ProcessRule_
+  commentId: Overload:LibGameAI.PCG.CA2DBinaryRule.ProcessRule
+  isSpec: "True"
+  fullName: LibGameAI.PCG.CA2DBinaryRule.ProcessRule
+  nameWithType: CA2DBinaryRule.ProcessRule
+- uid: LibGameAI.PCG.CA2DBinaryRule.Radius
+  name: Radius
+  href: api/LibGameAI.PCG.CA2DBinaryRule.html#LibGameAI_PCG_CA2DBinaryRule_Radius
+  commentId: P:LibGameAI.PCG.CA2DBinaryRule.Radius
+  fullName: LibGameAI.PCG.CA2DBinaryRule.Radius
+  nameWithType: CA2DBinaryRule.Radius
+- uid: LibGameAI.PCG.CA2DBinaryRule.Radius*
+  name: Radius
+  href: api/LibGameAI.PCG.CA2DBinaryRule.html#LibGameAI_PCG_CA2DBinaryRule_Radius_
+  commentId: Overload:LibGameAI.PCG.CA2DBinaryRule.Radius
+  isSpec: "True"
+  fullName: LibGameAI.PCG.CA2DBinaryRule.Radius
+  nameWithType: CA2DBinaryRule.Radius
+- uid: LibGameAI.PCG.CA2DBinaryRule.SurvivalRules
+  name: SurvivalRules
+  href: api/LibGameAI.PCG.CA2DBinaryRule.html#LibGameAI_PCG_CA2DBinaryRule_SurvivalRules
+  commentId: P:LibGameAI.PCG.CA2DBinaryRule.SurvivalRules
+  fullName: LibGameAI.PCG.CA2DBinaryRule.SurvivalRules
+  nameWithType: CA2DBinaryRule.SurvivalRules
+- uid: LibGameAI.PCG.CA2DBinaryRule.SurvivalRules*
+  name: SurvivalRules
+  href: api/LibGameAI.PCG.CA2DBinaryRule.html#LibGameAI_PCG_CA2DBinaryRule_SurvivalRules_
+  commentId: Overload:LibGameAI.PCG.CA2DBinaryRule.SurvivalRules
+  isSpec: "True"
+  fullName: LibGameAI.PCG.CA2DBinaryRule.SurvivalRules
+  nameWithType: CA2DBinaryRule.SurvivalRules
+- uid: LibGameAI.PCG.ICA2DRule
+  name: ICA2DRule
+  href: api/LibGameAI.PCG.ICA2DRule.html
+  commentId: T:LibGameAI.PCG.ICA2DRule
+  fullName: LibGameAI.PCG.ICA2DRule
+  nameWithType: ICA2DRule
+- uid: LibGameAI.PCG.ICA2DRule.ProcessRule(LibGameAI.PCG.CA2D,System.Int32,System.Int32)
+  name: ProcessRule(CA2D, int, int)
+  href: api/LibGameAI.PCG.ICA2DRule.html#LibGameAI_PCG_ICA2DRule_ProcessRule_LibGameAI_PCG_CA2D_System_Int32_System_Int32_
+  commentId: M:LibGameAI.PCG.ICA2DRule.ProcessRule(LibGameAI.PCG.CA2D,System.Int32,System.Int32)
+  name.vb: ProcessRule(CA2D, Integer, Integer)
+  fullName: LibGameAI.PCG.ICA2DRule.ProcessRule(LibGameAI.PCG.CA2D, int, int)
+  fullName.vb: LibGameAI.PCG.ICA2DRule.ProcessRule(LibGameAI.PCG.CA2D, Integer, Integer)
+  nameWithType: ICA2DRule.ProcessRule(CA2D, int, int)
+  nameWithType.vb: ICA2DRule.ProcessRule(CA2D, Integer, Integer)
+- uid: LibGameAI.PCG.ICA2DRule.ProcessRule*
+  name: ProcessRule
+  href: api/LibGameAI.PCG.ICA2DRule.html#LibGameAI_PCG_ICA2DRule_ProcessRule_
+  commentId: Overload:LibGameAI.PCG.ICA2DRule.ProcessRule
+  isSpec: "True"
+  fullName: LibGameAI.PCG.ICA2DRule.ProcessRule
+  nameWithType: ICA2DRule.ProcessRule
 - uid: LibGameAI.PCG.Landscape
   name: Landscape
   href: api/LibGameAI.PCG.Landscape.html
@@ -1874,6 +2205,22 @@ references:
   commentId: T:LibGameAI.Util.MMath
   fullName: LibGameAI.Util.MMath
   nameWithType: MMath
+- uid: LibGameAI.Util.MMath.CumSum(System.Single[])
+  name: CumSum(float[])
+  href: api/LibGameAI.Util.MMath.html#LibGameAI_Util_MMath_CumSum_System_Single___
+  commentId: M:LibGameAI.Util.MMath.CumSum(System.Single[])
+  name.vb: CumSum(Single())
+  fullName: LibGameAI.Util.MMath.CumSum(float[])
+  fullName.vb: LibGameAI.Util.MMath.CumSum(Single())
+  nameWithType: MMath.CumSum(float[])
+  nameWithType.vb: MMath.CumSum(Single())
+- uid: LibGameAI.Util.MMath.CumSum*
+  name: CumSum
+  href: api/LibGameAI.Util.MMath.html#LibGameAI_Util_MMath_CumSum_
+  commentId: Overload:LibGameAI.Util.MMath.CumSum
+  isSpec: "True"
+  fullName: LibGameAI.Util.MMath.CumSum
+  nameWithType: MMath.CumSum
 - uid: LibGameAI.Util.MMath.IsPrime(System.Int32)
   name: IsPrime(int)
   href: api/LibGameAI.Util.MMath.html#LibGameAI_Util_MMath_IsPrime_System_Int32_
@@ -1906,6 +2253,116 @@ references:
   isSpec: "True"
   fullName: LibGameAI.Util.MMath.Normalize
   nameWithType: MMath.Normalize
+- uid: LibGameAI.Util.Neighborhood
+  name: Neighborhood
+  href: api/LibGameAI.Util.Neighborhood.html
+  commentId: T:LibGameAI.Util.Neighborhood
+  fullName: LibGameAI.Util.Neighborhood
+  nameWithType: Neighborhood
+- uid: LibGameAI.Util.Neighborhood.Hexagonal
+  name: Hexagonal
+  href: api/LibGameAI.Util.Neighborhood.html#LibGameAI_Util_Neighborhood_Hexagonal
+  commentId: F:LibGameAI.Util.Neighborhood.Hexagonal
+  fullName: LibGameAI.Util.Neighborhood.Hexagonal
+  nameWithType: Neighborhood.Hexagonal
+- uid: LibGameAI.Util.Neighborhood.Moore
+  name: Moore
+  href: api/LibGameAI.Util.Neighborhood.html#LibGameAI_Util_Neighborhood_Moore
+  commentId: F:LibGameAI.Util.Neighborhood.Moore
+  fullName: LibGameAI.Util.Neighborhood.Moore
+  nameWithType: Neighborhood.Moore
+- uid: LibGameAI.Util.Neighborhood.VonNeumann
+  name: VonNeumann
+  href: api/LibGameAI.Util.Neighborhood.html#LibGameAI_Util_Neighborhood_VonNeumann
+  commentId: F:LibGameAI.Util.Neighborhood.VonNeumann
+  fullName: LibGameAI.Util.Neighborhood.VonNeumann
+  nameWithType: Neighborhood.VonNeumann
+- uid: LibGameAI.Util.NeighborhoodExtensions
+  name: NeighborhoodExtensions
+  href: api/LibGameAI.Util.NeighborhoodExtensions.html
+  commentId: T:LibGameAI.Util.NeighborhoodExtensions
+  fullName: LibGameAI.Util.NeighborhoodExtensions
+  nameWithType: NeighborhoodExtensions
+- uid: LibGameAI.Util.NeighborhoodExtensions.GetNeighborhood(LibGameAI.Util.Neighborhood,System.Int32)
+  name: GetNeighborhood(Neighborhood, int)
+  href: api/LibGameAI.Util.NeighborhoodExtensions.html#LibGameAI_Util_NeighborhoodExtensions_GetNeighborhood_LibGameAI_Util_Neighborhood_System_Int32_
+  commentId: M:LibGameAI.Util.NeighborhoodExtensions.GetNeighborhood(LibGameAI.Util.Neighborhood,System.Int32)
+  name.vb: GetNeighborhood(Neighborhood, Integer)
+  fullName: LibGameAI.Util.NeighborhoodExtensions.GetNeighborhood(LibGameAI.Util.Neighborhood, int)
+  fullName.vb: LibGameAI.Util.NeighborhoodExtensions.GetNeighborhood(LibGameAI.Util.Neighborhood, Integer)
+  nameWithType: NeighborhoodExtensions.GetNeighborhood(Neighborhood, int)
+  nameWithType.vb: NeighborhoodExtensions.GetNeighborhood(Neighborhood, Integer)
+- uid: LibGameAI.Util.NeighborhoodExtensions.GetNeighborhood*
+  name: GetNeighborhood
+  href: api/LibGameAI.Util.NeighborhoodExtensions.html#LibGameAI_Util_NeighborhoodExtensions_GetNeighborhood_
+  commentId: Overload:LibGameAI.Util.NeighborhoodExtensions.GetNeighborhood
+  isSpec: "True"
+  fullName: LibGameAI.Util.NeighborhoodExtensions.GetNeighborhood
+  nameWithType: NeighborhoodExtensions.GetNeighborhood
+- uid: LibGameAI.Util.NeighborhoodExtensions.HexNeighbors(System.Int32)
+  name: HexNeighbors(int)
+  href: api/LibGameAI.Util.NeighborhoodExtensions.html#LibGameAI_Util_NeighborhoodExtensions_HexNeighbors_System_Int32_
+  commentId: M:LibGameAI.Util.NeighborhoodExtensions.HexNeighbors(System.Int32)
+  name.vb: HexNeighbors(Integer)
+  fullName: LibGameAI.Util.NeighborhoodExtensions.HexNeighbors(int)
+  fullName.vb: LibGameAI.Util.NeighborhoodExtensions.HexNeighbors(Integer)
+  nameWithType: NeighborhoodExtensions.HexNeighbors(int)
+  nameWithType.vb: NeighborhoodExtensions.HexNeighbors(Integer)
+- uid: LibGameAI.Util.NeighborhoodExtensions.HexNeighbors*
+  name: HexNeighbors
+  href: api/LibGameAI.Util.NeighborhoodExtensions.html#LibGameAI_Util_NeighborhoodExtensions_HexNeighbors_
+  commentId: Overload:LibGameAI.Util.NeighborhoodExtensions.HexNeighbors
+  isSpec: "True"
+  fullName: LibGameAI.Util.NeighborhoodExtensions.HexNeighbors
+  nameWithType: NeighborhoodExtensions.HexNeighbors
+- uid: LibGameAI.Util.NeighborhoodExtensions.MaxNeighbors(LibGameAI.Util.Neighborhood,System.Int32)
+  name: MaxNeighbors(Neighborhood, int)
+  href: api/LibGameAI.Util.NeighborhoodExtensions.html#LibGameAI_Util_NeighborhoodExtensions_MaxNeighbors_LibGameAI_Util_Neighborhood_System_Int32_
+  commentId: M:LibGameAI.Util.NeighborhoodExtensions.MaxNeighbors(LibGameAI.Util.Neighborhood,System.Int32)
+  name.vb: MaxNeighbors(Neighborhood, Integer)
+  fullName: LibGameAI.Util.NeighborhoodExtensions.MaxNeighbors(LibGameAI.Util.Neighborhood, int)
+  fullName.vb: LibGameAI.Util.NeighborhoodExtensions.MaxNeighbors(LibGameAI.Util.Neighborhood, Integer)
+  nameWithType: NeighborhoodExtensions.MaxNeighbors(Neighborhood, int)
+  nameWithType.vb: NeighborhoodExtensions.MaxNeighbors(Neighborhood, Integer)
+- uid: LibGameAI.Util.NeighborhoodExtensions.MaxNeighbors*
+  name: MaxNeighbors
+  href: api/LibGameAI.Util.NeighborhoodExtensions.html#LibGameAI_Util_NeighborhoodExtensions_MaxNeighbors_
+  commentId: Overload:LibGameAI.Util.NeighborhoodExtensions.MaxNeighbors
+  isSpec: "True"
+  fullName: LibGameAI.Util.NeighborhoodExtensions.MaxNeighbors
+  nameWithType: NeighborhoodExtensions.MaxNeighbors
+- uid: LibGameAI.Util.NeighborhoodExtensions.MooreNeighbors(System.Int32)
+  name: MooreNeighbors(int)
+  href: api/LibGameAI.Util.NeighborhoodExtensions.html#LibGameAI_Util_NeighborhoodExtensions_MooreNeighbors_System_Int32_
+  commentId: M:LibGameAI.Util.NeighborhoodExtensions.MooreNeighbors(System.Int32)
+  name.vb: MooreNeighbors(Integer)
+  fullName: LibGameAI.Util.NeighborhoodExtensions.MooreNeighbors(int)
+  fullName.vb: LibGameAI.Util.NeighborhoodExtensions.MooreNeighbors(Integer)
+  nameWithType: NeighborhoodExtensions.MooreNeighbors(int)
+  nameWithType.vb: NeighborhoodExtensions.MooreNeighbors(Integer)
+- uid: LibGameAI.Util.NeighborhoodExtensions.MooreNeighbors*
+  name: MooreNeighbors
+  href: api/LibGameAI.Util.NeighborhoodExtensions.html#LibGameAI_Util_NeighborhoodExtensions_MooreNeighbors_
+  commentId: Overload:LibGameAI.Util.NeighborhoodExtensions.MooreNeighbors
+  isSpec: "True"
+  fullName: LibGameAI.Util.NeighborhoodExtensions.MooreNeighbors
+  nameWithType: NeighborhoodExtensions.MooreNeighbors
+- uid: LibGameAI.Util.NeighborhoodExtensions.VonNeumannNeighbors(System.Int32)
+  name: VonNeumannNeighbors(int)
+  href: api/LibGameAI.Util.NeighborhoodExtensions.html#LibGameAI_Util_NeighborhoodExtensions_VonNeumannNeighbors_System_Int32_
+  commentId: M:LibGameAI.Util.NeighborhoodExtensions.VonNeumannNeighbors(System.Int32)
+  name.vb: VonNeumannNeighbors(Integer)
+  fullName: LibGameAI.Util.NeighborhoodExtensions.VonNeumannNeighbors(int)
+  fullName.vb: LibGameAI.Util.NeighborhoodExtensions.VonNeumannNeighbors(Integer)
+  nameWithType: NeighborhoodExtensions.VonNeumannNeighbors(int)
+  nameWithType.vb: NeighborhoodExtensions.VonNeumannNeighbors(Integer)
+- uid: LibGameAI.Util.NeighborhoodExtensions.VonNeumannNeighbors*
+  name: VonNeumannNeighbors
+  href: api/LibGameAI.Util.NeighborhoodExtensions.html#LibGameAI_Util_NeighborhoodExtensions_VonNeumannNeighbors_
+  commentId: Overload:LibGameAI.Util.NeighborhoodExtensions.VonNeumannNeighbors
+  isSpec: "True"
+  fullName: LibGameAI.Util.NeighborhoodExtensions.VonNeumannNeighbors
+  nameWithType: NeighborhoodExtensions.VonNeumannNeighbors
 - uid: LibGameAI.Util.ReadOnlyListSegment`1
   name: ReadOnlyListSegment<T>
   href: api/LibGameAI.Util.ReadOnlyListSegment-1.html

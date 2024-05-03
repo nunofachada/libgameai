@@ -2,12 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class RingList&lt;T&gt;
- | LibGameAI </title>
+      <title>Class RingList&lt;T&gt; | LibGameAI </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class RingList&lt;T&gt;
- | LibGameAI ">
+      <meta name="title" content="Class RingList&lt;T&gt; | LibGameAI ">
       
+      <meta name="description" content="A ring list with a specified size. Adding more elements to the list over its size will silently drop older elements.">
       <link rel="icon" href="../images/logo.svg">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -17,20 +16,28 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/nunofachada/libgameai/new/v0.0.3/apiSpec/new?filename=LibGameAI_Util_RingList_1.md&amp;value=---%0Auid%3A%20LibGameAI.Util.RingList%601%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/nunofachada/libgameai/new/main/apiSpec/new?filename=LibGameAI_Util_RingList_1.md&amp;value=---%0Auid%3A%20LibGameAI.Util.RingList%601%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module">
-    import options from './../public/main.js'
-    import { init } from './../public/docfx.min.js'
-    init(options)
-  </script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -82,8 +89,7 @@
 
 
   <h1 id="LibGameAI_Util_RingList_1" data-uid="LibGameAI.Util.RingList`1" class="text-break">
-    Class RingList&lt;T&gt;
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nunofachada/libgameai/blob/v0.0.3/lib/Util/RingList.cs/#L17"><i class="bi bi-code-slash"></i></a>
+Class RingList&lt;T&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/nunofachada/libgameai/blob/main/lib/Util/RingList.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -129,7 +135,7 @@ its size will silently drop older elements.</p>
   </dl>
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
@@ -168,7 +174,7 @@ its size will silently drop older elements.</p>
 
   <h3 id="LibGameAI_Util_RingList_1__ctor_System_Int32_" data-uid="LibGameAI.Util.RingList`1.#ctor(System.Int32)">
   RingList(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nunofachada/libgameai/blob/v0.0.3/lib/Util/RingList.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nunofachada/libgameai/blob/main/lib/Util/RingList.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Create a new ring list with the specified <code class="paramref">capacity</code>.</p>
@@ -205,7 +211,7 @@ its size will silently drop older elements.</p>
 
   <h3 id="LibGameAI_Util_RingList_1_Capacity" data-uid="LibGameAI.Util.RingList`1.Capacity">
   Capacity
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nunofachada/libgameai/blob/v0.0.3/lib/Util/RingList.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nunofachada/libgameai/blob/main/lib/Util/RingList.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Maximum number of element the list can contain at the same time.</p>
@@ -237,7 +243,7 @@ its size will silently drop older elements.</p>
 
   <h3 id="LibGameAI_Util_RingList_1_Count" data-uid="LibGameAI.Util.RingList`1.Count">
   Count
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nunofachada/libgameai/blob/v0.0.3/lib/Util/RingList.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nunofachada/libgameai/blob/main/lib/Util/RingList.cs/#L22"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Number of elements in the list.</p>
@@ -269,7 +275,7 @@ its size will silently drop older elements.</p>
 
   <h3 id="LibGameAI_Util_RingList_1_IsReadOnly" data-uid="LibGameAI.Util.RingList`1.IsReadOnly">
   IsReadOnly
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nunofachada/libgameai/blob/v0.0.3/lib/Util/RingList.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nunofachada/libgameai/blob/main/lib/Util/RingList.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Is the list read-only (no, it's not).</p>
@@ -301,7 +307,7 @@ its size will silently drop older elements.</p>
 
   <h3 id="LibGameAI_Util_RingList_1_Item_System_Int32_" data-uid="LibGameAI.Util.RingList`1.Item(System.Int32)">
   this[int]
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nunofachada/libgameai/blob/v0.0.3/lib/Util/RingList.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nunofachada/libgameai/blob/main/lib/Util/RingList.cs/#L65"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets or sets the element at the specified index.</p>
@@ -350,7 +356,7 @@ its size will silently drop older elements.</p>
 
   <h3 id="LibGameAI_Util_RingList_1_Add__0_" data-uid="LibGameAI.Util.RingList`1.Add(`0)">
   Add(T)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nunofachada/libgameai/blob/v0.0.3/lib/Util/RingList.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nunofachada/libgameai/blob/main/lib/Util/RingList.cs/#L98"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Add an item to the end of the list. If list is already at maximum
@@ -384,7 +390,7 @@ capacity, the first element will be silently removed.</p>
 
   <h3 id="LibGameAI_Util_RingList_1_Clear" data-uid="LibGameAI.Util.RingList`1.Clear">
   Clear()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nunofachada/libgameai/blob/v0.0.3/lib/Util/RingList.cs/#L116"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nunofachada/libgameai/blob/main/lib/Util/RingList.cs/#L116"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Clear list contents.</p>
@@ -411,7 +417,7 @@ capacity, the first element will be silently removed.</p>
 
   <h3 id="LibGameAI_Util_RingList_1_Contains__0_" data-uid="LibGameAI.Util.RingList`1.Contains(`0)">
   Contains(T)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nunofachada/libgameai/blob/v0.0.3/lib/Util/RingList.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nunofachada/libgameai/blob/main/lib/Util/RingList.cs/#L130"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Determines whether the list contains a specific value.</p>
@@ -450,7 +456,7 @@ capacity, the first element will be silently removed.</p>
 
   <h3 id="LibGameAI_Util_RingList_1_CopyTo__0___System_Int32_" data-uid="LibGameAI.Util.RingList`1.CopyTo(`0[],System.Int32)">
   CopyTo(T[], int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nunofachada/libgameai/blob/v0.0.3/lib/Util/RingList.cs/#L148"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nunofachada/libgameai/blob/main/lib/Util/RingList.cs/#L148"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Copies the elements of the list to an array, starting at a
@@ -490,7 +496,7 @@ begins.</p>
 
   <h3 id="LibGameAI_Util_RingList_1_GetEnumerator" data-uid="LibGameAI.Util.RingList`1.GetEnumerator">
   GetEnumerator()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nunofachada/libgameai/blob/v0.0.3/lib/Util/RingList.cs/#L179"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nunofachada/libgameai/blob/main/lib/Util/RingList.cs/#L179"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns an enumerator that iterates through the list elements.</p>
@@ -523,7 +529,7 @@ begins.</p>
 
   <h3 id="LibGameAI_Util_RingList_1_Remove__0_" data-uid="LibGameAI.Util.RingList`1.Remove(`0)">
   Remove(T)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nunofachada/libgameai/blob/v0.0.3/lib/Util/RingList.cs/#L167"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nunofachada/libgameai/blob/main/lib/Util/RingList.cs/#L167"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Unsupported operation.</p>
@@ -569,10 +575,10 @@ supported.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/nunofachada/libgameai/blob/v0.0.3/lib/Util/RingList.cs/#L17" class="edit-link">Edit this page</a>
+          <a href="https://github.com/nunofachada/libgameai/blob/main/lib/Util/RingList.cs/#L17" class="edit-link">Edit this page</a>
         </div>
 
-        
+
       </div>
 
       <div class="affix">
@@ -582,7 +588,7 @@ supported.</p>
 
     <div class="container-xxl search-results" id="search-results"></div>
 
-    <footer class="border-top">
+    <footer class="border-top text-secondary">
       <div class="container-xxl">
         <div class="flex-fill">
           <span>Copyright © 2023 Nuno Fachada and contributors. Generated with <a href="https://dotnet.github.io/docfx">DocFX</a> and <a href="https://ovasquez.github.io/docfx-material">DocFX Material</a>.</span>

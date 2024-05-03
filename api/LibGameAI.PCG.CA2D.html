@@ -1,0 +1,813 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CA2D | LibGameAI </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CA2D | LibGameAI ">
+      
+      <meta name="description" content="A 2D discrete cellular automaton (CA).">
+      <link rel="icon" href="../images/logo.svg">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/nunofachada/libgameai/new/main/apiSpec/new?filename=LibGameAI_PCG_CA2D.md&amp;value=---%0Auid%3A%20LibGameAI.PCG.CA2D%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="LibGameAI.PCG.CA2D">
+
+
+
+  <h1 id="LibGameAI_PCG_CA2D" data-uid="LibGameAI.PCG.CA2D" class="text-break">
+Class CA2D  <a class="header-action link-secondary" title="View source" href="https://github.com/nunofachada/libgameai/blob/main/lib/PCG/CA2D.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="LibGameAI.html">LibGameAI</a>.<a class="xref" href="LibGameAI.PCG.html">PCG</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>PCG.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>A 2D discrete cellular automaton (CA).</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class CA2D</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CA2D</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+  <h2 id="LibGameAI_PCG_CA2D_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>Instances of this class represent a cellular automaton, but the class
+also provides CA-related functionality via static methods for those
+interested in directly handling the CA state.</p>
+</div>
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="LibGameAI_PCG_CA2D__ctor_" data-uid="LibGameAI.PCG.CA2D.#ctor*"></a>
+
+  <h3 id="LibGameAI_PCG_CA2D__ctor_LibGameAI_PCG_ICA2DRule_System_Int32_System_Int32_System_Boolean_System_Int32_" data-uid="LibGameAI.PCG.CA2D.#ctor(LibGameAI.PCG.ICA2DRule,System.Int32,System.Int32,System.Boolean,System.Int32)">
+  CA2D(ICA2DRule, int, int, bool, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nunofachada/libgameai/blob/main/lib/PCG/CA2D.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Create a new 2D discrete cellular automaton.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CA2D(ICA2DRule rule, int xDim, int yDim, bool toroidal, int nonToroidalBorderCells = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rule</code> <a class="xref" href="LibGameAI.PCG.ICA2DRule.html">ICA2DRule</a></dt>
+    <dd><p>Transition rule governing the CA.</p>
+</dd>
+    <dt><code>xDim</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Width of the CA.</p>
+</dd>
+    <dt><code>yDim</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Height of the CA.</p>
+</dd>
+    <dt><code>toroidal</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Is the CA toroidal?</p>
+</dd>
+    <dt><code>nonToroidalBorderCells</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The value of off-grid cells in case the CA is not toroidal.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="LibGameAI_PCG_CA2D_Item_" data-uid="LibGameAI.PCG.CA2D.Item*"></a>
+
+  <h3 id="LibGameAI_PCG_CA2D_Item_System_Int32_System_Int32_" data-uid="LibGameAI.PCG.CA2D.Item(System.Int32,System.Int32)">
+  this[int, int]
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nunofachada/libgameai/blob/main/lib/PCG/CA2D.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>A read-only indexer returning the value of the CA cell at the
+specified indexes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int this[int x, int y] { get; }</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Horizontal position of the cell.</p>
+</dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Vertical position of the cell.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Value of the CA cell at the specified indexes.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LibGameAI_PCG_CA2D_NonToroidalOffGridCells_" data-uid="LibGameAI.PCG.CA2D.NonToroidalOffGridCells*"></a>
+
+  <h3 id="LibGameAI_PCG_CA2D_NonToroidalOffGridCells" data-uid="LibGameAI.PCG.CA2D.NonToroidalOffGridCells">
+  NonToroidalOffGridCells
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nunofachada/libgameai/blob/main/lib/PCG/CA2D.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>What is the value of off-grid cells in case the CA is not toroidal?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int NonToroidalOffGridCells { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LibGameAI_PCG_CA2D_Toroidal_" data-uid="LibGameAI.PCG.CA2D.Toroidal*"></a>
+
+  <h3 id="LibGameAI_PCG_CA2D_Toroidal" data-uid="LibGameAI.PCG.CA2D.Toroidal">
+  Toroidal
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nunofachada/libgameai/blob/main/lib/PCG/CA2D.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Is the CA toroidal?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Toroidal { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LibGameAI_PCG_CA2D_XDim_" data-uid="LibGameAI.PCG.CA2D.XDim*"></a>
+
+  <h3 id="LibGameAI_PCG_CA2D_XDim" data-uid="LibGameAI.PCG.CA2D.XDim">
+  XDim
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nunofachada/libgameai/blob/main/lib/PCG/CA2D.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Width of the CA.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int XDim { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LibGameAI_PCG_CA2D_YDim_" data-uid="LibGameAI.PCG.CA2D.YDim*"></a>
+
+  <h3 id="LibGameAI_PCG_CA2D_YDim" data-uid="LibGameAI.PCG.CA2D.YDim">
+  YDim
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nunofachada/libgameai/blob/main/lib/PCG/CA2D.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Height of the CA.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int YDim { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="LibGameAI_PCG_CA2D_CountNeighbors_" data-uid="LibGameAI.PCG.CA2D.CountNeighbors*"></a>
+
+  <h3 id="LibGameAI_PCG_CA2D_CountNeighbors_System_Int32_System_Int32_System_Int32_LibGameAI_Util_Neighborhood_System_Int32_System_Boolean_" data-uid="LibGameAI.PCG.CA2D.CountNeighbors(System.Int32,System.Int32,System.Int32,LibGameAI.Util.Neighborhood,System.Int32,System.Boolean)">
+  CountNeighbors(int, int, int, Neighborhood, int, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nunofachada/libgameai/blob/main/lib/PCG/CA2D.cs/#L119"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Count neighbors with a specific value around a given cell.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CountNeighbors(int x, int y, int radius, Neighborhood neighType = Neighborhood.Moore, int neighValue = 1, bool countSelf = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Horizontal position of the cell.</p>
+</dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Vertical position of the cell.</p>
+</dd>
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Neighborhood radius to search.</p>
+</dd>
+    <dt><code>neighType</code> <a class="xref" href="LibGameAI.Util.Neighborhood.html">Neighborhood</a></dt>
+    <dd><p>Neighborhood type.</p>
+</dd>
+    <dt><code>neighValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Count neighbors with this value.</p>
+</dd>
+    <dt><code>countSelf</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Count self?</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Number of neighbors with a specific value around a given cell.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LibGameAI_PCG_CA2D_CountNeighbors_" data-uid="LibGameAI.PCG.CA2D.CountNeighbors*"></a>
+
+  <h3 id="LibGameAI_PCG_CA2D_CountNeighbors_System_Int32___System_Int32_System_Int32_System_Int32_System_Int32_System_Boolean_System_Int32_System_Int32_System_Int32_System_Boolean_LibGameAI_Util_Neighborhood_" data-uid="LibGameAI.PCG.CA2D.CountNeighbors(System.Int32[],System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,System.Int32,System.Int32,System.Int32,System.Boolean,LibGameAI.Util.Neighborhood)">
+  CountNeighbors(int[], int, int, int, int, bool, int, int, int, bool, Neighborhood)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nunofachada/libgameai/blob/main/lib/PCG/CA2D.cs/#L304"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Count neighbors with a specific value around a given cell.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int CountNeighbors(int[] map, int xDim, int yDim, int xCell, int yCell, bool toroidal = true, int nonToroidalOffGridCells = 0, int radius = 1, int neighValue = 1, bool countSelf = false, Neighborhood neighType = Neighborhood.Moore)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>map</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>[]</dt>
+    <dd><p>An integer array representing a grid in row-major format.</p>
+</dd>
+    <dt><code>xDim</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Grid width.</p>
+</dd>
+    <dt><code>yDim</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Grid height.</p>
+</dd>
+    <dt><code>xCell</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Horizontal cell position.</p>
+</dd>
+    <dt><code>yCell</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Vertical cell position.</p>
+</dd>
+    <dt><code>toroidal</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Consider the grid toroidal?</p>
+</dd>
+    <dt><code>nonToroidalOffGridCells</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Value of the off-grid cells in case the grid is not toroidal.</p>
+</dd>
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Neighborhood radius.</p>
+</dd>
+    <dt><code>neighValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Value of neighbors to count.</p>
+</dd>
+    <dt><code>countSelf</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Count central cell?</p>
+</dd>
+    <dt><code>neighType</code> <a class="xref" href="LibGameAI.Util.Neighborhood.html">Neighborhood</a></dt>
+    <dd><p>Neighborhood type.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The number of neighbors with a specific value around a given cell.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LibGameAI_PCG_CA2D_DoStep_" data-uid="LibGameAI.PCG.CA2D.DoStep*"></a>
+
+  <h3 id="LibGameAI_PCG_CA2D_DoStep" data-uid="LibGameAI.PCG.CA2D.DoStep">
+  DoStep()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nunofachada/libgameai/blob/main/lib/PCG/CA2D.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Perform a step in the CA evolution.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DoStep()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>Exception thrown if the CA is not initialized.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="LibGameAI_PCG_CA2D_InitExact_" data-uid="LibGameAI.PCG.CA2D.InitExact*"></a>
+
+  <h3 id="LibGameAI_PCG_CA2D_InitExact_System_Int32_0__0___" data-uid="LibGameAI.PCG.CA2D.InitExact(System.Int32[0:,0:])">
+  InitExact(int[,])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nunofachada/libgameai/blob/main/lib/PCG/CA2D.cs/#L181"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initialize the CA with the exact state given.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void InitExact(int[,] initialState)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>initialState</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>[,]</dt>
+    <dd><p>The state with which to initialize the CA.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></dt>
+    <dd><p>Exception thrown if the size of the given initial state is different
+from the size of the CA grid.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="LibGameAI_PCG_CA2D_InitExact_" data-uid="LibGameAI.PCG.CA2D.InitExact*"></a>
+
+  <h3 id="LibGameAI_PCG_CA2D_InitExact_System_Int32___" data-uid="LibGameAI.PCG.CA2D.InitExact(System.Int32[])">
+  InitExact(int[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nunofachada/libgameai/blob/main/lib/PCG/CA2D.cs/#L209"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initialize the CA with the exact state given.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void InitExact(int[] initialState)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>initialState</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>[]</dt>
+    <dd><p>The state with which to initialize the CA in row-major order.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></dt>
+    <dd><p>Exception thrown if the size of given initial state is different
+from the size of the CA grid.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="LibGameAI_PCG_CA2D_InitFunc_" data-uid="LibGameAI.PCG.CA2D.InitFunc*"></a>
+
+  <h3 id="LibGameAI_PCG_CA2D_InitFunc_System_Func_System_Int32_System_Int32_System_Int32__" data-uid="LibGameAI.PCG.CA2D.InitFunc(System.Func{System.Int32,System.Int32,System.Int32})">
+  InitFunc(Func&lt;int, int, int&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nunofachada/libgameai/blob/main/lib/PCG/CA2D.cs/#L228"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initialize the CA using a delegate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void InitFunc(Func&lt;int, int, int&gt; initializer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>initializer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd><p>Delegate used to initialize the CA, which should accept the <code>x</code> and
+<code>y</code> cell position and return its value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LibGameAI_PCG_CA2D_InitRandom_" data-uid="LibGameAI.PCG.CA2D.InitRandom*"></a>
+
+  <h3 id="LibGameAI_PCG_CA2D_InitRandom_System_Int32___System_Single___System_Func_System_Single__" data-uid="LibGameAI.PCG.CA2D.InitRandom(System.Int32[],System.Single[],System.Func{System.Single})">
+  InitRandom(int[], float[], Func&lt;float&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nunofachada/libgameai/blob/main/lib/PCG/CA2D.cs/#L165"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Randomly initialize the CA with an external random number generator.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void InitRandom(int[] values, float[] probabilities, Func&lt;float&gt; nextFloat)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>values</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>[]</dt>
+    <dd><p>Possible values with which to initialize the cells.</p>
+</dd>
+    <dt><code>probabilities</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>[]</dt>
+    <dd><p>Probabilities of each value being assigned. If not given, each value
+will be assigned with equal probability.</p>
+</dd>
+    <dt><code>nextFloat</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
+    <dd><p>Delegate which will return a random float between 0 and 1.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LibGameAI_PCG_CA2D_InitRandom_" data-uid="LibGameAI.PCG.CA2D.InitRandom*"></a>
+
+  <h3 id="LibGameAI_PCG_CA2D_InitRandom_System_Int32___System_Single___System_Nullable_System_Int32__" data-uid="LibGameAI.PCG.CA2D.InitRandom(System.Int32[],System.Single[],System.Nullable{System.Int32})">
+  InitRandom(int[], float[], int?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nunofachada/libgameai/blob/main/lib/PCG/CA2D.cs/#L141"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Randomly initialize the CA using the system's random number generator.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void InitRandom(int[] values, float[] probabilities = null, int? seed = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>values</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>[]</dt>
+    <dd><p>Possible values with which to initialize the cells.</p>
+</dd>
+    <dt><code>probabilities</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>[]</dt>
+    <dd><p>Probabilities of each value being assigned. If not given, each value
+will be assigned with equal probability.</p>
+</dd>
+    <dt><code>seed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd><p>Seed for the random number generator. If not given, generator will be
+randomly initialized.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LibGameAI_PCG_CA2D_RandomFill_" data-uid="LibGameAI.PCG.CA2D.RandomFill*"></a>
+
+  <h3 id="LibGameAI_PCG_CA2D_RandomFill_System_Int32___System_Int32___System_Single___System_Func_System_Single__" data-uid="LibGameAI.PCG.CA2D.RandomFill(System.Int32[],System.Int32[],System.Single[],System.Func{System.Single})">
+  RandomFill(int[], int[], float[], Func&lt;float&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nunofachada/libgameai/blob/main/lib/PCG/CA2D.cs/#L258"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Randomly fill the <code class="paramref">map</code> with the given
+<code class="paramref">values</code> with the specified
+<code class="paramref">probabilities</code> using a delegate method for
+random number generation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RandomFill(int[] map, int[] values, float[] probabilities, Func&lt;float&gt; nextFloat)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>map</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>[]</dt>
+    <dd><p>Integer array to fill.</p>
+</dd>
+    <dt><code>values</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>[]</dt>
+    <dd><p>Values with which to fill the array.</p>
+</dd>
+    <dt><code>probabilities</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>[]</dt>
+    <dd><p>Probabilities associated with each value.</p>
+</dd>
+    <dt><code>nextFloat</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
+    <dd><p>Delegate which will return a random float between 0 and 1.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>Thrown if <code class="paramref">values</code> and <code class="paramref">probabilities</code>
+have different lengths.</p>
+</dd>
+  </dl>
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/nunofachada/libgameai/blob/main/lib/PCG/CA2D.cs/#L18" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Copyright © 2023 Nuno Fachada and contributors. Generated with <a href="https://dotnet.github.io/docfx">DocFX</a> and <a href="https://ovasquez.github.io/docfx-material">DocFX Material</a>.</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

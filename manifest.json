@@ -1,5 +1,4 @@
 {
-  "homepages": [],
   "source_base_path": "/home/runner/work/libgameai/libgameai/docs",
   "xrefmap": "xrefmap.yml",
   "files": [
@@ -177,6 +176,36 @@
       "output": {
         ".html": {
           "relative_path": "api/LibGameAI.NaiveBayes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.PCG.CA2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.PCG.CA2D.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.PCG.CA2DBinaryRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.PCG.CA2DBinaryRule.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.PCG.ICA2DRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.PCG.ICA2DRule.html"
         }
       },
       "version": ""
@@ -383,6 +412,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.Util.Neighborhood.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.Util.Neighborhood.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibGameAI.Util.NeighborhoodExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibGameAI.Util.NeighborhoodExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/LibGameAI.Util.ReadOnlyListSegment-1.yml",
       "output": {
         ".html": {
@@ -425,11 +474,11 @@
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "api/toc.html"
-        },
         ".json": {
           "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
         }
       },
       "version": ""
@@ -488,17 +537,16 @@
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "toc.html"
-        },
         ".json": {
           "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
         }
       },
       "version": ""
     }
   ],
-  "version_info": {},
   "groups": [
     {
       "xrefmap": "xrefmap.yml"
