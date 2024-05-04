@@ -1,4 +1,4 @@
-﻿/* Copyright (c) 2018-2023 Nuno Fachada and contributors
+﻿/* Copyright (c) 2018-2024 Nuno Fachada and contributors
  * Distributed under the MIT License (See accompanying file LICENSE or copy
  * at http://opensource.org/licenses/MIT) */
 
@@ -17,8 +17,12 @@ namespace LibGameAI.Samples.TestFSMs
         private static bool bigEnemyVisible;
         private static bool smallEnemyVisible;
 
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
+            Console.WriteLine("-> Press B to toggle big enemy visibility.");
+            Console.WriteLine("-> Press S to toggle small enemy visibility.");
+            Console.WriteLine("-> Press Esc to exit.");
+
             queue = new ConcurrentQueue<ConsoleKeyInfo>();
             bigEnemyVisible = false;
             smallEnemyVisible = false;
@@ -64,10 +68,10 @@ namespace LibGameAI.Samples.TestFSMs
                 stateRA));
 
             StateMachine sm = new StateMachine(stateOG);
+            ConsoleKeyInfo cki;
 
-            while (true)
+            do
             {
-                ConsoleKeyInfo cki;
                 if (queue.TryDequeue(out cki))
                 {
                     switch (cki.Key)
@@ -82,16 +86,17 @@ namespace LibGameAI.Samples.TestFSMs
                 }
                 Action actions = sm.Update();
                 actions?.Invoke();
-            }
+            } while (cki.Key != ConsoleKey.Escape);
         }
 
-        static void KeyReader()
+        private static void KeyReader()
         {
-            while (true)
+            ConsoleKeyInfo cki;
+            do
             {
-                ConsoleKeyInfo cki = Console.ReadKey(true);
+                cki = Console.ReadKey(true);
                 queue.Enqueue(cki);
-            }
+            } while (cki.Key != ConsoleKey.Escape);
         }
     }
 }
