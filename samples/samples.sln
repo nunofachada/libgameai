@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFSMs", "TestFSMs\TestFS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PRNGs", "PRNGs\PRNGs.csproj", "{9ABEF1D9-29DD-4CCB-A405-EE23A5463FCB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfLife", "GameOfLife\GameOfLife.csproj", "{AA2631D3-FF4C-4CE2-BFEF-2F433F59E577}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -114,5 +116,17 @@ Global
 		{9ABEF1D9-29DD-4CCB-A405-EE23A5463FCB}.Release|x64.Build.0 = Release|Any CPU
 		{9ABEF1D9-29DD-4CCB-A405-EE23A5463FCB}.Release|x86.ActiveCfg = Release|Any CPU
 		{9ABEF1D9-29DD-4CCB-A405-EE23A5463FCB}.Release|x86.Build.0 = Release|Any CPU
+		{AA2631D3-FF4C-4CE2-BFEF-2F433F59E577}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA2631D3-FF4C-4CE2-BFEF-2F433F59E577}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA2631D3-FF4C-4CE2-BFEF-2F433F59E577}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AA2631D3-FF4C-4CE2-BFEF-2F433F59E577}.Debug|x64.Build.0 = Debug|Any CPU
+		{AA2631D3-FF4C-4CE2-BFEF-2F433F59E577}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AA2631D3-FF4C-4CE2-BFEF-2F433F59E577}.Debug|x86.Build.0 = Debug|Any CPU
+		{AA2631D3-FF4C-4CE2-BFEF-2F433F59E577}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA2631D3-FF4C-4CE2-BFEF-2F433F59E577}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA2631D3-FF4C-4CE2-BFEF-2F433F59E577}.Release|x64.ActiveCfg = Release|Any CPU
+		{AA2631D3-FF4C-4CE2-BFEF-2F433F59E577}.Release|x64.Build.0 = Release|Any CPU
+		{AA2631D3-FF4C-4CE2-BFEF-2F433F59E577}.Release|x86.ActiveCfg = Release|Any CPU
+		{AA2631D3-FF4C-4CE2-BFEF-2F433F59E577}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
